@@ -1,11 +1,11 @@
-<?php
-require_once __DIR__ . '/includes/app.php';
+﻿<?php
+require_once __DIR__ . '/../../includes/app.php';
 
 $owner = app_current_user() ?: 'Sistema';
 $user = isset($_SESSION['user']) ? (string) $_SESSION['user'] : 'Sistema';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !isset($_POST['plant_num'], $_POST['accion'])) {
-    app_json_response(['error' => 'Solicitud inválida.'], 400);
+    app_json_response(['error' => 'Solicitud invÃ¡lida.'], 400);
 }
 
 try {

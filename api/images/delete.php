@@ -1,10 +1,10 @@
-<?php
-require_once __DIR__ . '/includes/app.php';
+﻿<?php
+require_once __DIR__ . '/../../includes/app.php';
 
 $user = app_require_user_json();
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !isset($_POST['plant_num'], $_POST['imagen'])) {
-    app_json_response(['error' => 'Solicitud inválida.'], 400);
+    app_json_response(['error' => 'Solicitud invÃ¡lida.'], 400);
 }
 
 try {
@@ -15,8 +15,9 @@ try {
         app_json_response(['error' => 'Imagen o planta no encontrada.'], 404);
     }
 
-    if (file_exists($imageToDelete)) {
-        unlink($imageToDelete);
+    $absolutePath = app_root() . '/' . ltrim($imageToDelete, '/\\');
+    if (file_exists($absolutePath)) {
+        unlink($absolutePath);
     }
 
     app_json_response(['success' => 'Imagen eliminada.']);

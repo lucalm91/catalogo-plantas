@@ -1,5 +1,5 @@
-<?php
-require_once __DIR__ . '/includes/app.php';
+﻿<?php
+require_once __DIR__ . '/../../includes/app.php';
 
 $user = app_require_user_json();
 

@@ -1,4 +1,4 @@
-// Simple notification fallback if not defined elsewhere
+﻿// Simple notification fallback if not defined elsewhere
 function showNotification(message, type = 'info') {
   // Puedes personalizar esto para mostrar un toast, snackbar, etc.
   // Por ahora, solo un alert amigable
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initFullscreenViewer(); // Added for fullscreen functionality
   
   // Initialize mobile viewer with slight delay to ensure DOM is ready
-  // setTimeout(initMobileImageViewer, 500); // <-- Elimina o comenta esta línea si no tienes la función
+  // setTimeout(initMobileImageViewer, 500); // <-- Elimina o comenta esta lÃ­nea si no tienes la funciÃ³n
 });
 
 // User interface initialization
@@ -178,7 +178,7 @@ function analyzeImageWithAI(imagePath, plantNum) {
     }
     }
 
-    fetch('analyze_image.php', {
+    fetch('api/ai/analyze-image.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams({ image_path: imagePath, plant_num: plantNum })
@@ -191,7 +191,7 @@ function analyzeImageWithAI(imagePath, plantNum) {
                 data = JSON.parse(text);
             } catch (e) {
                 console.error("Non-JSON response received:", text);
-                throw new Error("Respuesta inválida del servidor (posible error PHP). revisa la consola.");
+                throw new Error("Respuesta invÃ¡lida del servidor (posible error PHP). revisa la consola.");
             }
             
             if (!response.ok) {
@@ -213,7 +213,7 @@ function analyzeImageWithAI(imagePath, plantNum) {
         if (data.success && data.results) {
             showAISuggestionsDialog(data.results, plantNum);
         } else {
-            alert('Error en el análisis IA: ' + (data.error || 'Respuesta desconocida del servidor.'));
+            alert('Error en el anÃ¡lisis IA: ' + (data.error || 'Respuesta desconocida del servidor.'));
         }
     })
     .catch(error => {
@@ -225,7 +225,7 @@ function analyzeImageWithAI(imagePath, plantNum) {
         }
         }
         console.error('Error fetching AI analysis:', error);
-        alert('Error de conexión al analizar con IA: ' + error.message);
+        alert('Error de conexiÃ³n al analizar con IA: ' + error.message);
     });
 }
 
@@ -261,7 +261,7 @@ function ensureAIAnalyzeButton() {
 
     btn.onclick = function() {
         if (!currentPlantNum || !currentGallery || currentGallery.length === 0) {
-            alert("No hay imagen actual para analizar o la planta no está seleccionada.");
+            alert("No hay imagen actual para analizar o la planta no estÃ¡ seleccionada.");
             this.disabled = false; // Re-enable button if it was disabled by mistake
           const label = this.querySelector('.icon-label');
           if (label) label.textContent = 'Analizar';
@@ -269,7 +269,7 @@ function ensureAIAnalyzeButton() {
         }
         const imageToAnalyze = currentGallery[currentIndex];
         if (!imageToAnalyze) {
-            alert("La imagen seleccionada no es válida.");
+            alert("La imagen seleccionada no es vÃ¡lida.");
             this.disabled = false;
           const label = this.querySelector('.icon-label');
           if (label) label.textContent = 'Analizar';
@@ -308,7 +308,7 @@ function openDirectAIChat(plantNum) {
       </div>
     </div>
     <div id="ai-direct-chat-messages" class="ai-chat-messages" style="flex:1 1 auto;max-height:320px;min-height:120px;overflow-y:auto;padding:18px 12px 12px 12px;background:#f7faf7;scrollbar-width:thin;">
-      <div class="ai-chat-bubble ai"><span>¡Hola! Soy tu asistente IA. ¿En qué puedo ayudarte con <strong>${escapeHTML(plantName)}</strong>?</span></div>
+      <div class="ai-chat-bubble ai"><span>Â¡Hola! Soy tu asistente IA. Â¿En quÃ© puedo ayudarte con <strong>${escapeHTML(plantName)}</strong>?</span></div>
     </div>
     <form id="ai-direct-chat-form" style="display:flex;border-top:1px solid #e0e8e0;background:#f7faf7;">
       <input type="text" id="ai-direct-chat-input" placeholder="Pregunta a la IA..." autocomplete="off" style="flex:1;padding:12px 14px;font-size:15px;border:none;background:#f7faf7;">
@@ -373,7 +373,7 @@ function openDirectAIChat(plantNum) {
       content: entry.content
     }));
 
-    fetch('ai_chat.php', {
+    fetch('api/ai/chat.php', {
       method: 'POST',
       headers: {'Content-Type': 'application/x-www-form-urlencoded'},
       body: new URLSearchParams({
@@ -406,7 +406,7 @@ function openDirectAIChat(plantNum) {
       thinkingBubble.remove();
       const errBubble = document.createElement('div');
       errBubble.classList.add('ai-chat-bubble', 'ai', 'error');
-      errBubble.innerHTML = '<span>Error de conexión: ' + escapeHTML(error.toString()) + '</span>';
+      errBubble.innerHTML = '<span>Error de conexiÃ³n: ' + escapeHTML(error.toString()) + '</span>';
       messagesDiv.appendChild(errBubble);
       messagesDiv.scrollTop = messagesDiv.scrollHeight;
     });
@@ -454,7 +454,7 @@ function processPlantTitles() {
     const originalText = title.textContent.trim();
     const [nombreComun, nombreCientifico] = originalText.split('\n');
     if (nombreCientifico) {
-      // Usar span en vez de <br> para evitar salto de línea real en cards
+      // Usar span en vez de <br> para evitar salto de lÃ­nea real en cards
       title.innerHTML = `<span class="nombre-comun">${nombreComun}</span><span class="nombre-cientifico" style="font-style:italic;color:#3a6b3a;font-size:13px;display:block;">${nombreCientifico}</span>`;
     } else {
       title.innerHTML = `<span class="nombre-comun">${nombreComun}</span>`;
@@ -509,7 +509,7 @@ function initModalHandlers() {
       const plantNum = card.getAttribute('data-plant-num');
       if (plantNum) {
         // Fetch plant data and open modal
-        fetch('get_plants.php?' + new Date().getTime())
+        fetch('api/plants/get.php?' + new Date().getTime())
           .then(response => response.json())
           .then(data => {
             const plantData = Array.isArray(data)
@@ -648,7 +648,7 @@ function navigateToPlant(direction) {
 
     const currentZone = originalFieldValues.zona;
 
-    fetch('get_plants.php?' + new Date().getTime())
+    fetch('api/plants/get.php?' + new Date().getTime())
         .then(response => {
             if (!response.ok) throw new Error('Network response was not ok.');
             return response.json();
@@ -703,9 +703,9 @@ function navigateToPlant(direction) {
 
 // Open modal function
 function openModal(plantData) {
-  // Si se pasa un número, busca en JSON (retrocompatibilidad)
+  // Si se pasa un número, busca los datos actualizados en la API.
   if (typeof plantData === 'number' || (typeof plantData === 'string' && !plantData.identificacion)) {
-    fetch('get_plants.php?' + new Date().getTime())
+    fetch('api/plants/get.php?' + new Date().getTime())
       .then(response => response.json())
       .then(data => {
         const plant = data.find(p => p.num == plantData);
@@ -796,7 +796,7 @@ function updateModalNavButtonsState(currentPlantZone) {
     const nextBtn = document.getElementById('next-plant');
     if (!prevBtn || !nextBtn) return;
 
-    fetch('get_plants.php?' + new Date().getTime())
+    fetch('api/plants/get.php?' + new Date().getTime())
         .then(response => response.json())
         .then(allPlants => {
             const plantsInCurrentZone = allPlants.filter(p => p.zona === currentPlantZone);
@@ -928,7 +928,7 @@ function updateField(plantNum, field, value, force = false) {
   if (!force && originalFieldValues[field] === value) return;
   const previousValue = originalFieldValues[field];
 
-  fetch('update_field.php', {
+  fetch('api/plants/update-field.php', {
     method: 'POST',
     headers: {'Content-Type': 'application/x-www-form-urlencoded'},
     body: new URLSearchParams({ plant_num: plantNum, field: field, value: value })
@@ -987,9 +987,9 @@ function updateField(plantNum, field, value, force = false) {
 
 // --- START MOVED AI CHAT FUNCTIONS ---
 // --- Chat con IA ---
-let aiChatHistory = []; // Global para mantener el historial de la sesión actual del chat
+let aiChatHistory = []; // Global para mantener el historial de la sesiÃ³n actual del chat
 
-// --- Añadir mensaje al chat ---
+// --- AÃ±adir mensaje al chat ---
 function addMessageToAIChat(role, message, dialogBox) {
     const messagesDiv = dialogBox.querySelector('#ai-chat-messages');
     if (!messagesDiv) return;
@@ -1007,14 +1007,14 @@ function addMessageToAIChat(role, message, dialogBox) {
     messagesDiv.scrollTop = messagesDiv.scrollHeight;
 }
 
-// --- Enviar mensaje a ai_chat.php ---
+// --- Enviar mensaje a api/ai/chat.php ---
 function sendAIChatMessage(message, plantNum, dialogBox) {
     const messagesDiv = dialogBox.querySelector('#ai-chat-messages');
     if (!messagesDiv) return;
 
     addMessageToAIChat('user', message, dialogBox);
 
-    // Añadir "pensando..."
+    // AÃ±adir "pensando..."
     const thinkingBubble = document.createElement('div');
     thinkingBubble.classList.add('ai-chat-bubble', 'ai');
     const thinkingSpan = document.createElement('span');
@@ -1031,7 +1031,7 @@ function sendAIChatMessage(message, plantNum, dialogBox) {
     }));
 
 
-    fetch('ai_chat.php', {
+    fetch('api/ai/chat.php', {
         method: 'POST',
         headers: {'Content-Type': 'application/x-www-form-urlencoded'},
         body: new URLSearchParams({
@@ -1049,7 +1049,7 @@ function sendAIChatMessage(message, plantNum, dialogBox) {
             // Actualizar historial global
             aiChatHistory.push({role: 'user', content: message});
             aiChatHistory.push({role: 'assistant', content: data.reply});
-            // Limitar historial a N mensajes (ej. últimos 20)
+            // Limitar historial a N mensajes (ej. Ãºltimos 20)
             const maxHistoryLength = 20;
             if (aiChatHistory.length > maxHistoryLength) {
                 aiChatHistory = aiChatHistory.slice(-maxHistoryLength);
@@ -1057,12 +1057,12 @@ function sendAIChatMessage(message, plantNum, dialogBox) {
         }
     })
     .catch(error => {
-        addMessageToAIChat('ai error', `Error de conexión: ${error}`, dialogBox);
+        addMessageToAIChat('ai error', `Error de conexiÃ³n: ${error}`, dialogBox);
     });
 }
 
-// --- Inicializar diálogo de chat IA ---
-// Esta función se llama desde showAISuggestionsDialog
+// --- Inicializar diÃ¡logo de chat IA ---
+// Esta funciÃ³n se llama desde showAISuggestionsDialog
 function initAIChatDialog(dialogBox, plantNum) {
     const chatContainer = dialogBox.querySelector('#ai-chat-container');
     const chatForm = dialogBox.querySelector('#ai-chat-form');
@@ -1072,11 +1072,11 @@ function initAIChatDialog(dialogBox, plantNum) {
     const chatExpandBtn = dialogBox.querySelector('#ai-chat-expand');
 
     if (!chatContainer || !chatForm || !chatInput || !messagesDiv || !chatCloseBtn || !chatExpandBtn) {
-        console.error("Elementos del chat IA no encontrados en el diálogo.");
+        console.error("Elementos del chat IA no encontrados en el diÃ¡logo.");
         return;
     }
     
-    // Limpiar historial y mensajes al iniciar un nuevo diálogo de sugerencias
+    // Limpiar historial y mensajes al iniciar un nuevo diÃ¡logo de sugerencias
     aiChatHistory = [];
     messagesDiv.innerHTML = ''; // Limpiar mensajes previos
 
@@ -1100,20 +1100,20 @@ function initAIChatDialog(dialogBox, plantNum) {
         chatContainer.classList.toggle('ai-chat-expanded', isChatExpanded);
         chatExpandBtn.innerHTML = isChatExpanded ? '&#x2923;' : '&#x2922;'; // Cambiar icono
         chatExpandBtn.title = isChatExpanded ? 'Minimizar chat' : 'Expandir chat';
-        // Forzar reflow para que el scroll funcione bien tras cambio de tamaño
+        // Forzar reflow para que el scroll funcione bien tras cambio de tamaÃ±o
         setTimeout(() => {
             if (messagesDiv) messagesDiv.scrollTop = messagesDiv.scrollHeight;
         }, 50);
     };
     
-    // Añadir mensaje inicial de la IA si es necesario o deseado
-    // addMessageToAIChat('ai', 'Hola, ¿cómo puedo ayudarte con esta planta?', dialogBox);
+    // AÃ±adir mensaje inicial de la IA si es necesario o deseado
+    // addMessageToAIChat('ai', 'Hola, Â¿cÃ³mo puedo ayudarte con esta planta?', dialogBox);
 }
 // --- END MOVED AI CHAT FUNCTIONS ---
 
-// --- Diálogo resumen de sugerencias IA ---
+// --- DiÃ¡logo resumen de sugerencias IA ---
 function showAISuggestionsDialog(ai, plantNum) {
-  // Eliminar cualquier diálogo previo
+  // Eliminar cualquier diÃ¡logo previo
   let existing = document.getElementById('ai-suggestions-dialog');
   if (existing) existing.remove();
 
@@ -1124,7 +1124,7 @@ function showAISuggestionsDialog(ai, plantNum) {
   }
 
   let html = `<h3 style="margin-top:0;">Sugerencias de la IA</h3>`;
-  // --- Thumbnail justo debajo del título ---
+  // --- Thumbnail justo debajo del tÃ­tulo ---
   if (analyzedImage) {
     html += `
       <div id="ai-analyzed-thumb" style="width:100%;display:flex;justify-content:center;margin-bottom:14px;">
@@ -1142,7 +1142,7 @@ function showAISuggestionsDialog(ai, plantNum) {
     html += `</label>`;
   }
   if (ai.descripcion) {
-    html += `<label style="display:block;margin-bottom:7px;"><input type="checkbox" name="descripcion" checked> <strong>Descripción sugerida:</strong> <span style="color:#58a45c">${ai.descripcion}</span></label>`;
+    html += `<label style="display:block;margin-bottom:7px;"><input type="checkbox" name="descripcion" checked> <strong>DescripciÃ³n sugerida:</strong> <span style="color:#58a45c">${ai.descripcion}</span></label>`;
   }
   if (ai.estado) {
     html += `<label style="display:block;margin-bottom:7px;"><input type="checkbox" name="estado" checked> <strong>Estado sugerido:</strong> <span style="color:#58a45c">${ai.estado}</span></label>`;
@@ -1176,7 +1176,7 @@ function showAISuggestionsDialog(ai, plantNum) {
     </div>
   `;
 
-  // Crear el diálogo
+  // Crear el diÃ¡logo
   const dialog = document.createElement('div');
   dialog.id = 'ai-suggestions-dialog';
   dialog.style.position = 'fixed';
@@ -1205,7 +1205,7 @@ function showAISuggestionsDialog(ai, plantNum) {
   document.body.appendChild(dialog);
 
   // --- FUNCIONES DE APLICAR CAMBIOS ---
-  // Reemplaza la función applyAISuggestions dentro de showAISuggestionsDialog por esta versión robusta:
+  // Reemplaza la funciÃ³n applyAISuggestions dentro de showAISuggestionsDialog por esta versiÃ³n robusta:
   function applyAISuggestions(selected) {
     // Aplica los cambios uno a uno y espera a que cada uno termine antes de continuar (para evitar solapamientos de escritura)
     const updates = [];
@@ -1264,10 +1264,10 @@ function showAISuggestionsDialog(ai, plantNum) {
     updates.reduce((p, fn) => p.then(fn), Promise.resolve());
   }
 
-  // Helper: versión Promise de updateField para asegurar escritura secuencial
+  // Helper: versiÃ³n Promise de updateField para asegurar escritura secuencial
   function updateFieldPromise(plantNum, field, value, force = false) {
     return new Promise((resolve, reject) => {
-      fetch('update_field.php', {
+      fetch('api/plants/update-field.php', {
         method: 'POST',
         headers: {'Content-Type': 'application/x-www-form-urlencoded'},
         body: new URLSearchParams({ plant_num: plantNum, field: field, value: value })
@@ -1295,7 +1295,7 @@ function showAISuggestionsDialog(ai, plantNum) {
     });
   }
 
-  // Botón aplicar (form submit)
+  // BotÃ³n aplicar (form submit)
   box.querySelector('#ai-apply-form').onsubmit = function(e) {
     e.preventDefault();
     const form = e.target;
@@ -1323,7 +1323,7 @@ function showAISuggestionsDialog(ai, plantNum) {
       if (chatContainer.style.display === 'flex') {
         const chatMessages = chatContainer.querySelector('#ai-chat-messages');
         if (chatMessages && chatMessages.children.length === 0) {
-          let saludo = "¡Hola! Soy tu asistente IA. ";
+          let saludo = "Â¡Hola! Soy tu asistente IA. ";
           if (ai.identificacion) {
             const [nombreComun, nombreCientifico] = ai.identificacion.split('\n');
             saludo += `Esta planta parece ser <strong>${escapeHTML(nombreComun)}</strong>`;
@@ -1333,7 +1333,7 @@ function showAISuggestionsDialog(ai, plantNum) {
           if (ai.descripcion) {
             saludo += escapeHTML(ai.descripcion) + ". ";
           }
-          saludo += "¿En qué puedo ayudarte con esta planta?";
+          saludo += "Â¿En quÃ© puedo ayudarte con esta planta?";
           chatMessages.innerHTML = `<div class="ai-chat-bubble ai"><span>${saludo}</span></div>`;
         }
         setTimeout(() => {
@@ -1381,7 +1381,7 @@ function showAISuggestionsDialog(ai, plantNum) {
       };
     }
   }
-  // Inicializar chat IA SIEMPRE después de crear el HTML
+  // Inicializar chat IA SIEMPRE despuÃ©s de crear el HTML
   initAIChatDialog(box, plantNum);
 }
 
@@ -1397,7 +1397,7 @@ function handleImageUpload(event) {
   formData.append("nueva_imagen", file);
   formData.append("plant_num", currentPlantNum);
 
-  fetch('upload.php', { method: 'POST', body: formData })
+  fetch('api/images/upload.php', { method: 'POST', body: formData })
     .then(response => response.json())
     .then(data => {
       if (data.error) {
@@ -1415,9 +1415,9 @@ function handleImageUpload(event) {
       updateGalleryState();
       displayCurrentImage();
       updateCardImage(currentPlantNum, data.imagen);
-      logPlantChange(currentPlantNum, "subida_imagen", "Nueva imagen añadida: " + file.name);
+      logPlantChange(currentPlantNum, "subida_imagen", "Nueva imagen aÃ±adida: " + file.name);
 
-      // --- Guardar automáticamente la planta tras añadir la imagen ---
+      // --- Guardar automÃ¡ticamente la planta tras aÃ±adir la imagen ---
       if (modalDetails && typeof updateField === "function") {
         if (modalTitle && modalTitle.innerText && modalTitle.innerText !== originalFieldValues.identificacion) {
           updateField(currentPlantNum, "identificacion", modalTitle.innerText, true);
@@ -1457,13 +1457,13 @@ function handleImageDelete() {
     alert("No hay imagen para eliminar.");
     return;
   }
-  if (!confirm("¿Estás seguro de que deseas eliminar esta imagen?")) return;
+  if (!confirm("Â¿EstÃ¡s seguro de que deseas eliminar esta imagen?")) return;
 
   var formData = new FormData();
   formData.append('plant_num', currentPlantNum);
   formData.append('imagen', currentGallery[currentIndex]);
 
-  fetch('delete_image.php', {
+  fetch('api/images/delete.php', {
     method: 'POST',
     body: formData
   })
@@ -1489,7 +1489,7 @@ function handleImageDelete() {
     }
   })
   .catch(error => {
-    alert('Error de conexión al eliminar la imagen: ' + error.message);
+    alert('Error de conexiÃ³n al eliminar la imagen: ' + error.message);
   });
 }
 
@@ -1556,7 +1556,7 @@ function initHorizontalScrolling() {
 // Add this function to avoid the ReferenceError
 function fetchPlantHistory(plantNum) {
   // Fetch and render plant history in the modal
-  fetch('get_history.php?plant_num=' + encodeURIComponent(plantNum))
+  fetch('api/history/get.php?plant_num=' + encodeURIComponent(plantNum))
     .then(response => response.json())
     .then(history => {
       const tbody = document.getElementById('history-tbody');
@@ -1573,7 +1573,7 @@ function fetchPlantHistory(plantNum) {
           ${isLoggedIn ? `<td>${entry.usuario || 'N/A'}</td>` : ''}
           <td>${entry.accion || 'N/A'}</td>
           <td>${entry.detalles || 'N/A'}</td>
-          ${isLoggedIn ? `<td><button class="btn-delete-log" onclick="deleteLogEntry(${plantNum}, '${entry.fecha || ''}')" title="Eliminar entrada">🗑️</button></td>` : ''}
+          ${isLoggedIn ? `<td><button class="btn-delete-log" onclick="deleteLogEntry(${plantNum}, '${entry.fecha || ''}')" title="Eliminar entrada">ðŸ—‘ï¸</button></td>` : ''}
         `;
         tbody.appendChild(row);
       });
@@ -1586,7 +1586,7 @@ function fetchPlantHistory(plantNum) {
     });
 }
 
-// Añade esta función global para registrar cambios en el historial (logPlantChange)
+// AÃ±ade esta funciÃ³n global para registrar cambios en el historial (logPlantChange)
 function logPlantChange(plantNum, accion, detalles = "", old_value = null, new_value = null) {
   const params = new URLSearchParams({
     plant_num: plantNum,
@@ -1596,14 +1596,14 @@ function logPlantChange(plantNum, accion, detalles = "", old_value = null, new_v
   if (old_value !== null && old_value !== undefined) params.append('old_value', old_value);
   if (new_value !== null && new_value !== undefined) params.append('new_value', new_value);
 
-  fetch('log_change.php', {
+  fetch('api/history/log.php', {
     method: 'POST',
     headers: {'Content-Type': 'application/x-www-form-urlencoded'},
     body: params
   })
   .then(r => r.json())
   .then(data => {
-    // Opcional: puedes refrescar el historial aquí si quieres
+    // Opcional: puedes refrescar el historial aquÃ­ si quieres
     // fetchPlantHistory(plantNum);
   })
   .catch(() => {
@@ -1614,9 +1614,9 @@ function logPlantChange(plantNum, accion, detalles = "", old_value = null, new_v
 // Eliminar entrada de historial
 function deleteLogEntry(plantNum, fecha) {
   if (!plantNum || !fecha) return;
-  if (!confirm('¿Eliminar esta entrada del historial?')) return;
+  if (!confirm('Â¿Eliminar esta entrada del historial?')) return;
 
-  fetch('delete_log.php', {
+  fetch('api/history/delete.php', {
     method: 'POST',
     headers: {'Content-Type': 'application/x-www-form-urlencoded'},
     body: new URLSearchParams({ plant_num: plantNum, fecha: fecha })
@@ -1786,11 +1786,11 @@ function deleteCurrentImage() {
     
     var imageToDelete = plantImages[currentImageIndex];
     if (!imageToDelete) {
-        showNotification('Imagen no válida', 'error');
+        showNotification('Imagen no vÃ¡lida', 'error');
         return;
     }
     
-    if (!confirm('¿Estás seguro de que quieres eliminar esta imagen?')) {
+    if (!confirm('Â¿EstÃ¡s seguro de que quieres eliminar esta imagen?')) {
         return;
     }
     
@@ -1809,7 +1809,7 @@ function deleteCurrentImage() {
     formData.append('plant_num', currentPlantNum);
     formData.append('imagen', imageToDelete);
     
-    fetch('delete_image.php', {
+    fetch('api/images/delete.php', {
         method: 'POST',
         body: formData
     })

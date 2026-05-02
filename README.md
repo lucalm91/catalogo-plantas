@@ -1,6 +1,6 @@
-# Catálogo de Plantas
+# Catalogo de Plantas
 
-Aplicación PHP para gestionar un catálogo visual de plantas por usuario.
+Aplicacion PHP para gestionar un catalogo visual de plantas por usuario.
 
 ## Requisitos
 
@@ -8,7 +8,7 @@ Aplicación PHP para gestionar un catálogo visual de plantas por usuario.
 - Extensiones PHP: `pdo_mysql`, `gd`, `curl`, `openssl`, `exif`, `mbstring`, `json`
 - MySQL o MariaDB
 
-## Configuración
+## Configuracion
 
 1. Copia `.env.example` a `.env`.
 2. Rellena las credenciales de base de datos y `OPENAI_API_KEY` si vas a usar IA.
@@ -32,6 +32,16 @@ Abre:
 http://127.0.0.1:8000
 ```
 
+## Estructura
+
+- `index.php`, `login.php`, `logout.php`: paginas publicas.
+- `api/`: endpoints agrupados por dominio (`plants`, `zones`, `images`, `history`, `ai`).
+- `assets/`: JavaScript y CSS del frontend.
+- `includes/`: configuracion compartida y acceso a datos.
+- `database/`: esquema MySQL.
+- `images/`: imagenes subidas y optimizadas.
+- `tools/`: scripts de mantenimiento para CLI.
+
 ## Persistencia
 
-La aplicación usa MySQL como fuente de datos. No hay persistencia en JSON..
+La aplicacion usa MySQL como fuente de datos. No hay persistencia en JSON.

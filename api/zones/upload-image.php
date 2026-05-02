@@ -1,18 +1,14 @@
-<?php
+﻿<?php
 ini_set('display_errors', 0);
 error_reporting(E_ALL);
-session_start();
+require_once __DIR__ . '/../../includes/app.php';
 header('Content-Type: application/json');
 
-if (!isset($_SESSION['user'])) {
-    http_response_code(403);
-    echo json_encode(['success' => false, 'error' => 'No autorizado']);
-    exit;
-}
+app_require_user_json();
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !isset($_FILES['zone_image']) || !isset($_POST['zona'])) {
     http_response_code(400);
-    echo json_encode(['success' => false, 'error' => 'Solicitud inválida']);
+    echo json_encode(['success' => false, 'error' => 'Solicitud invÃ¡lida']);
     exit;
 }
 
@@ -39,10 +35,10 @@ if ($uploadedFile['size'] > 10 * 1024 * 1024) { // 10MB limit
 }
 
 try {
-    $imagesDir = __DIR__ . '/images';
+    $imagesDir = app_root() . '/images';
     if (!is_dir($imagesDir)) {
         if (!mkdir($imagesDir, 0755, true)) {
-            throw new Exception('No se pudo crear el directorio de imágenes');
+            throw new Exception('No se pudo crear el directorio de imÃ¡genes');
         }
     }
     

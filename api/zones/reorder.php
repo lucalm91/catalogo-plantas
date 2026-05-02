@@ -1,17 +1,17 @@
-<?php
-require_once __DIR__ . '/includes/app.php';
+﻿<?php
+require_once __DIR__ . '/../../includes/app.php';
 
 $user = app_require_user_json();
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !isset($_POST['zona'], $_POST['direction'])) {
-    app_json_response(['success' => false, 'error' => 'Parámetros faltantes o método incorrecto.'], 400);
+    app_json_response(['success' => false, 'error' => 'ParÃ¡metros faltantes o mÃ©todo incorrecto.'], 400);
 }
 
 try {
     $targetZone = (string) $_POST['zona'];
     $direction = (string) $_POST['direction'];
     if (!in_array($direction, ['up', 'down'], true)) {
-        throw new InvalidArgumentException('Dirección inválida');
+        throw new InvalidArgumentException('DirecciÃ³n invÃ¡lida');
     }
 
     $zones = [];
@@ -29,7 +29,7 @@ try {
     }
     $swapIdx = $direction === 'up' ? $idx - 1 : $idx + 1;
     if ($swapIdx < 0 || $swapIdx >= count($ordered)) {
-        app_json_response(['success' => false, 'error' => 'No se puede mover más la zona.'], 400);
+        app_json_response(['success' => false, 'error' => 'No se puede mover mÃ¡s la zona.'], 400);
     }
     [$ordered[$idx], $ordered[$swapIdx]] = [$ordered[$swapIdx], $ordered[$idx]];
     app_update_zone_order($user, $ordered);

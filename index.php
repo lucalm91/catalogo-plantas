@@ -1,25 +1,25 @@
-<?php
+﻿<?php
 session_start();
 header("Cache-Control: no-store, must-revalidate");
 header("Pragma: no-cache");
 header("Expires: 0");
 require_once __DIR__ . '/includes/app.php';
 
-// --- NUEVO: función para obtener el archivo de plantas del usuario ---
+// --- NUEVO: funciÃ³n para obtener el archivo de plantas del usuario ---
 // Add missing getImageUrl function
 function getImageUrl($imagePath) {
     return $imagePath . "?t=" . time();
 }
 
-// --- NUEVO: mostrar home de bienvenida si no está logueado ---
+// --- NUEVO: mostrar home de bienvenida si no estÃ¡ logueado ---
 if (!isset($_SESSION['user'])): ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Bienvenido - Catálogo de Plantas</title>
+  <title>Bienvenido - CatÃ¡logo de Plantas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/styles.css">
   <style>
     .welcome-home {
       max-width: 500px;
@@ -65,19 +65,19 @@ if (!isset($_SESSION['user'])): ?>
 </head>
 <body>
   <div class="welcome-home">
-    <span class="logo-plant">🌱</span>
-    <h1>Bienvenido al Catálogo de Plantas</h1>
+    <span class="logo-plant">ðŸŒ±</span>
+    <h1>Bienvenido al CatÃ¡logo de Plantas</h1>
     <p>
-      Gestiona y explora tu colección de plantas.<br>
-      Inicia sesión para acceder a tu catálogo personalizado, añadir fotos, registrar cambios y mucho más.
+      Gestiona y explora tu colecciÃ³n de plantas.<br>
+      Inicia sesiÃ³n para acceder a tu catÃ¡logo personalizado, aÃ±adir fotos, registrar cambios y mucho mÃ¡s.
     </p>
-    <a href="login.php" class="btn-login">Iniciar sesión</a>
+    <a href="login.php" class="btn-login">Iniciar sesiÃ³n</a>
   </div>
 </body>
 </html>
 <?php exit; endif;
 
-// --- SOLO SI ESTÁ LOGUEADO SE MUESTRA EL CATÁLOGO ---
+// --- SOLO SI ESTÃ LOGUEADO SE MUESTRA EL CATÃLOGO ---
 try {
     $plantas = app_fetch_plants(app_current_user());
 } catch (Throwable $e) {
@@ -86,8 +86,8 @@ try {
     exit;
 }
 
-// --- NUEVO: obtener zonas dinámicamente según usuario ---
-// Restaurar la lógica para Luca: mostrar siempre todas las zonas presentes en el JSON, incluyendo "Huerta" si hay plantas ahí.
+// --- NUEVO: obtener zonas dinÃ¡micamente segÃºn usuario ---
+// Restaurar la lÃ³gica para Luca: mostrar siempre todas las zonas presentes en el JSON, incluyendo "Huerta" si hay plantas ahÃ­.
 $zonas = [];
 foreach ($plantas as $planta) {
     $zona = $planta['zona'];
@@ -95,7 +95,7 @@ foreach ($plantas as $planta) {
     $zonas[$zona][] = $planta;
 }
 
-// --- ORDENAR zonas por orden_zona si existe, si no por aparición ---
+// --- ORDENAR zonas por orden_zona si existe, si no por apariciÃ³n ---
 $zonas_ordenadas = $zonas;
 if (count($zonas) > 1) {
     $ordenes = [];
@@ -111,15 +111,15 @@ if (count($zonas) > 1) {
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Catálogo de Plantas</title>
+  <title>CatÃ¡logo de Plantas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="preload" href="images/placeholder.jpg" as="image">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header>
-    <div class="site-title">Catálogo de Plantas</div>
+    <div class="site-title">CatÃ¡logo de Plantas</div>
     <div class="login-info">
       <?php if(isset($_SESSION['user'])): ?>
         <div class="dropdown">
@@ -131,17 +131,17 @@ if (count($zonas) > 1) {
           </div>
           <div class="dropdown-menu" id="userDropdownMenu">
             <a href="#"><?php echo $_SESSION['user']; ?></a>
-            <a href="logout.php" class="logout">Cerrar sesión</a>
+            <a href="logout.php" class="logout">Cerrar sesiÃ³n</a>
           </div>
         </div>
-        <a href="logout.php" class="btn btn-logout">Cerrar sesión</a>
+        <a href="logout.php" class="btn btn-logout">Cerrar sesiÃ³n</a>
       <?php else: ?>
-        <a href="login.php" id="login-button" class="btn btn-login" aria-label="Iniciar sesión">
+        <a href="login.php" id="login-button" class="btn btn-login" aria-label="Iniciar sesiÃ³n">
           <svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" role="img" aria-hidden="true">
             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
             <circle cx="12" cy="7" r="4"></circle>
           </svg>
-          <span class="login-text">Iniciar sesión</span>
+          <span class="login-text">Iniciar sesiÃ³n</span>
         </a>
       <?php endif; ?>
     </div>
@@ -149,7 +149,7 @@ if (count($zonas) > 1) {
 
   <div id="page-wrapper">
     <?php
-    // --- SOLO PARA ALE: mostrar solo zonas Interior/Exterior, pero mostrar también la zona recién creada si existe al menos una planta en ella
+    // --- SOLO PARA ALE: mostrar solo zonas Interior/Exterior, pero mostrar tambiÃ©n la zona reciÃ©n creada si existe al menos una planta en ella
     $zonas_a_mostrar = $zonas_ordenadas;
     if (isset($_SESSION['user']) && $_SESSION['user'] === 'Ale') {
         $zonas_a_mostrar = [];
@@ -164,7 +164,7 @@ if (count($zonas) > 1) {
     $zonas_keys = array_keys($zonas_a_mostrar);
     foreach ($zonas_keys as $i => $zona):
         $listaPlantas = $zonas_a_mostrar[$zona];
-        // --- ORDENAR plantas por campo 'orden' si existe, si no por aparición ---
+        // --- ORDENAR plantas por campo 'orden' si existe, si no por apariciÃ³n ---
         usort($listaPlantas, function($a, $b) {
             $oa = isset($a['orden']) ? intval($a['orden']) : 9999;
             $ob = isset($b['orden']) ? intval($b['orden']) : 9999;
@@ -197,14 +197,14 @@ if (count($zonas) > 1) {
         
         <?php if(isset($_SESSION['user'])): ?>
         <div class="zone-banner-controls">
-          <button class="zone-control-btn rename-zone-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Renombrar zona">✏️</button>
-          <button class="zone-control-btn delete-zone-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Eliminar zona">🗑️</button>
-          <button class="zone-control-btn move-zone-up-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Mover zona arriba" <?php if($i === 0) echo 'disabled'; ?>>⬆️</button>
-          <button class="zone-control-btn move-zone-down-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Mover zona abajo" <?php if($i === count($zonas_keys)-1) echo 'disabled'; ?>>⬇️</button>
+          <button class="zone-control-btn rename-zone-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Renombrar zona">âœï¸</button>
+          <button class="zone-control-btn delete-zone-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Eliminar zona">ðŸ—‘ï¸</button>
+          <button class="zone-control-btn move-zone-up-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Mover zona arriba" <?php if($i === 0) echo 'disabled'; ?>>â¬†ï¸</button>
+          <button class="zone-control-btn move-zone-down-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Mover zona abajo" <?php if($i === count($zonas_keys)-1) echo 'disabled'; ?>>â¬‡ï¸</button>
           <form class="zone-upload-form" method="post" enctype="multipart/form-data" data-zone="<?php echo htmlspecialchars($zona); ?>" style="display:inline;">
             <label class="zone-control-btn zone-upload-btn" title="Cambiar imagen de la zona" style="margin:0;">
               <input type="file" name="zone_image" accept="image/*" style="display:none;">
-              <span>🖼️</span>
+              <span>ðŸ–¼ï¸</span>
             </label>
           </form>
         </div>
@@ -242,7 +242,7 @@ if (count($zonas) > 1) {
             <div class="plant-item-column"> <!-- New wrapper for add-plant-card -->
               <div class="plant-card add-plant-card" style="display:flex;align-items:center;justify-content:center;flex-direction:column;cursor:pointer;background:#eaf7ea;border:2px dashed #58a45c;color:#58a45c;font-size:22px;font-weight:bold;min-height:180px;" data-zone="<?php echo htmlspecialchars($zona); ?>">
                 <span style="font-size:38px;line-height:1;">+</span>
-                <span style="font-size:15px;margin-top:8px;">Añadir planta</span>
+                <span style="font-size:15px;margin-top:8px;">AÃ±adir planta</span>
               </div>
             </div> <!-- End plant-item-column for add-plant-card -->
           <?php endif; ?>
@@ -251,14 +251,14 @@ if (count($zonas) > 1) {
       
       <div class="scroll-indicator">
         <img src="images/swipe.png" alt="Deslizar horizontalmente">
-        <span>Desliza para ver más plantas</span>
+        <span>Desliza para ver mÃ¡s plantas</span>
       </div>
     </div> <!-- End zone-section -->
     <?php endforeach; ?>
     <!-- Move the add zone button here, centered -->
     <?php if(isset($_SESSION['user'])): ?>
       <div style="margin: 30px 0 20px 0; text-align: center;">
-        <button id="add-zone-btn" style="background:#58a45c;color:#fff;border:none;padding:12px 28px;border-radius:7px;font-size:17px;cursor:pointer;font-weight:600;">+ Añadir zona</button>
+        <button id="add-zone-btn" style="background:#58a45c;color:#fff;border:none;padding:12px 28px;border-radius:7px;font-size:17px;cursor:pointer;font-weight:600;">+ AÃ±adir zona</button>
       </div>
     <?php endif; ?>
   </div> <!-- End page-wrapper -->
@@ -281,7 +281,7 @@ if (count($zonas) > 1) {
       <div class="gallery">
         <!-- Replace arrow spans with empty divs that will be styled with ::after pseudo-elements -->
         <div class="arrow left" aria-label="Imagen anterior"></div>
-        <img id="modal-image" src="images/placeholder.jpg" alt="Galería">
+        <img id="modal-image" src="images/placeholder.jpg" alt="GalerÃ­a">
         <div class="arrow right" aria-label="Imagen siguiente"></div>
         <div class="zoom-instruction desktop-only">
           <span>Pasa el cursor para hacer zoom</span>
@@ -289,10 +289,10 @@ if (count($zonas) > 1) {
       </div>
       <?php if(isset($_SESSION['user'])): ?>
       <div class="modal-image-controls-icons">
-        <label class="icon-btn minimal-btn" title="Añadir imagen">
+        <label class="icon-btn minimal-btn" title="AÃ±adir imagen">
           <input type="file" id="modal-upload" class="hidden-input" accept="image/*">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#58a45c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21,15 16,10 5,21"/></svg>
-          <span class="icon-label">Añadir</span>
+          <span class="icon-label">AÃ±adir</span>
         </label>
         <button class="icon-btn minimal-btn" id="btn-delete" title="Eliminar imagen">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#d9534f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,6 5,6 21,6"/><path d="m 19,6 v 14 a 2,2 0 0 1 -2,2 H 7 a 2,2 0 0 1 -2,-2 V 6 m 3,0 V 4 a 2,2 0 0 1 2,-2 h 4 a 2,2 0 0 1 2,2 v 2"/></svg>
@@ -303,7 +303,7 @@ if (count($zonas) > 1) {
       
       <div id="modal-details">
         <p><strong>Estado:</strong> <span contenteditable="<?php echo isset($_SESSION['user']) ? 'true' : 'false'; ?>" data-field="estado"></span></p>
-        <p><strong>Descripción:</strong> <span contenteditable="<?php echo isset($_SESSION['user']) ? 'true' : 'false'; ?>" data-field="descripcion"></span></p>
+        <p><strong>DescripciÃ³n:</strong> <span contenteditable="<?php echo isset($_SESSION['user']) ? 'true' : 'false'; ?>" data-field="descripcion"></span></p>
         <div class="modal-zona-riego-row">
           <span><strong>Zona:</strong> <span contenteditable="<?php echo isset($_SESSION['user']) ? 'true' : 'false'; ?>" data-field="zona"></span></span>
           <span class="separator">|</span>
@@ -340,7 +340,7 @@ if (count($zonas) > 1) {
                 <?php if(isset($_SESSION['user'])): ?>
                   <th>User</th>
                 <?php endif; ?>
-                <th>Acción</th>
+                <th>AcciÃ³n</th>
                 <th>Detalles</th>
                 <?php if(isset($_SESSION['user'])): ?>
                   <th class="delete-column"><span aria-hidden="true"></span></th>
@@ -355,7 +355,7 @@ if (count($zonas) > 1) {
       </div>
       
       <div class="modal-buttons">
-        <button id="btn-back">Volver al Catálogo</button>
+        <button id="btn-back">Volver al CatÃ¡logo</button>
       </div>
     </div>
   </div>
@@ -391,7 +391,7 @@ if (count($zonas) > 1) {
         const fd = new FormData();
         fd.append('zone_image', this.files[0]);
         fd.append('zona', zona);
-        fetch('upload_zone_image.php', { method: 'POST', body: fd })
+        fetch('api/zones/upload-image.php', { method: 'POST', body: fd })
           .then(r => r.json())
           .then(data => {
             if (data.success && data.image) {
@@ -433,9 +433,9 @@ if (count($zonas) > 1) {
                 if (!actionButton.disabled) reorderPlantUI(plantNum, zona, 'right');
               } else if (actionButton.classList.contains('delete-plant-btn')) {
                 if (!plantNum) return;
-                if (!confirm('¿Seguro que deseas eliminar esta planta?')) return;
+                if (!confirm('Â¿Seguro que deseas eliminar esta planta?')) return;
                 
-                fetch('delete_plant.php', {
+                fetch('api/plants/delete.php', {
                   method: 'POST',
                   headers: {'Content-Type': 'application/x-www-form-urlencoded'},
                   body: new URLSearchParams({ num: plantNum })
@@ -460,13 +460,13 @@ if (count($zonas) > 1) {
             if (addPlantCardButton) {
               e.stopPropagation(); 
               const zona = addPlantCardButton.getAttribute('data-zone') || '';
-              fetch('add_plant.php', {
+              fetch('api/plants/add.php', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'},
                 body: new URLSearchParams({
                   zona: zona,
                   identificacion: 'Nueva planta',
-                  descripcion: 'Descripción pendiente',
+                  descripcion: 'DescripciÃ³n pendiente',
                   estado: 'Estado pendiente',
                   riego: '',
                   sistema_riego: ''
@@ -515,7 +515,7 @@ if (count($zonas) > 1) {
                     location.reload(); 
                   }
                 } else {
-                  alert(data.error || 'Error al añadir la planta.');
+                  alert(data.error || 'Error al aÃ±adir la planta.');
                 }
               });
               return; 
@@ -576,7 +576,7 @@ if (count($zonas) > 1) {
               }
             });
             
-            fetch('update_order.php', {
+            fetch('api/plants/update-order.php', {
               method: 'POST',
               headers: {'Content-Type': 'application/x-www-form-urlencoded'},
               body: new URLSearchParams({ order: JSON.stringify(newOrderPayload) })
@@ -621,7 +621,7 @@ if (count($zonas) > 1) {
           addZoneBtn.addEventListener('click', function() {
             const newZoneName = prompt("Nombre para la nueva zona:");
             if (newZoneName && newZoneName.trim() !== "") {
-                fetch('add_zone.php', {
+                fetch('api/zones/add.php', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/x-www-form-urlencoded'},
                     body: new URLSearchParams({ zona: newZoneName.trim() })
@@ -629,7 +629,7 @@ if (count($zonas) > 1) {
                 .then(r => r.json())
                 .then(data => {
                     if (data.success) location.reload();
-                    else alert(data.error || 'Error al añadir zona.');
+                    else alert(data.error || 'Error al aÃ±adir zona.');
                 });
             }
           });
@@ -642,7 +642,7 @@ if (count($zonas) > 1) {
                 let newZona = prompt('Nuevo nombre para la zona:', oldZona);
                 if (newZona && newZona.trim() !== "" && newZona.trim() !== oldZona) {
                     newZona = newZona.trim();
-                    fetch('rename_zone.php', { 
+                    fetch('api/zones/rename.php', { 
                         method: 'POST',
                         headers: {'Content-Type': 'application/x-www-form-urlencoded'},
                         body: new URLSearchParams({ old_zona: oldZona, new_zona: newZona })
@@ -660,8 +660,8 @@ if (count($zonas) > 1) {
             btn.addEventListener('click', function(e) {
                 e.stopPropagation();
                 const zonaToDelete = btn.getAttribute('data-zone');
-                if (confirm(`¿Seguro que deseas eliminar la zona "${zonaToDelete}" y todas sus plantas?`)) {
-                    fetch('delete_zone.php', {
+                if (confirm(`Â¿Seguro que deseas eliminar la zona "${zonaToDelete}" y todas sus plantas?`)) {
+                    fetch('api/zones/delete.php', {
                         method: 'POST',
                         headers: {'Content-Type': 'application/x-www-form-urlencoded'},
                         body: new URLSearchParams({ zona: zonaToDelete })
@@ -719,7 +719,7 @@ if (count($zonas) > 1) {
 
             document.querySelectorAll('.move-zone-up-btn, .move-zone-down-btn').forEach(b => b.disabled = true);
 
-            fetch('update_zone_order.php', {
+            fetch('api/zones/update-order.php', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'},
                 body: new URLSearchParams({ ordered_zones: JSON.stringify(orderedZoneNames) })
@@ -743,7 +743,7 @@ if (count($zonas) > 1) {
             })
             .catch(err => {
                 console.error('Error en fetch update_zone_order:', err);
-                alert('Error de conexión al actualizar el orden de las zonas.');
+                alert('Error de conexiÃ³n al actualizar el orden de las zonas.');
             });
         }
 
@@ -767,6 +767,6 @@ if (count($zonas) > 1) {
       <?php endif; ?>
     }); 
   </script>
-  <script src="scripts.js" defer="defer"></script>
+  <script src="assets/scripts.js" defer="defer"></script>
 </body>
 </html>

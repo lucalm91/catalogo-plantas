@@ -1,10 +1,10 @@
-<?php
-require_once __DIR__ . '/includes/app.php';
+﻿<?php
+require_once __DIR__ . '/../../includes/app.php';
 
 $owner = app_require_user_json();
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !isset($_POST['plant_num'], $_POST['fecha'])) {
-    app_json_response(['error' => 'Solicitud inválida.'], 400);
+    app_json_response(['error' => 'Solicitud invÃ¡lida.'], 400);
 }
 
 try {

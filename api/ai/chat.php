@@ -1,5 +1,5 @@
-<?php
-require_once __DIR__ . '/includes/app.php';
+﻿<?php
+require_once __DIR__ . '/../../includes/app.php';
 header('Content-Type: application/json');
 
 if (!isset($_SESSION['user'])) {
@@ -25,8 +25,9 @@ if ($plant_num) {
     $owner = app_current_user();
     $p = $owner ? app_fetch_plant($owner, (int) $plant_num) : null;
     if ($p) {
-        if (!empty($p['imagenes']) && file_exists($p['imagenes'][0])) {
-            $image_path = $p['imagenes'][0];
+        $firstImagePath = !empty($p['imagenes']) ? app_root() . '/' . ltrim($p['imagenes'][0], '/\\') : '';
+        if ($firstImagePath && file_exists($firstImagePath)) {
+            $image_path = $firstImagePath;
         }
         if (!empty($p['identificacion'])) {
             $plant_name = explode("\n", $p['identificacion'])[0];
@@ -35,11 +36,11 @@ if ($plant_num) {
 }
 
 if (!$msg) {
-    echo json_encode(['error' => 'Mensaje vacío']);
+    echo json_encode(['error' => 'Mensaje vacÃ­o']);
     exit;
 }
 
-// Si hay imagen, preparar imagen cuadrada para IA (como en analyze_image.php)
+// Si hay imagen, preparar una versión cuadrada para IA.
 $aiImagePath = '';
 if ($image_path && file_exists($image_path)) {
     // Si NO hay GD, usar la imagen original directamente
@@ -47,7 +48,7 @@ if ($image_path && file_exists($image_path)) {
          $aiImagePath = $image_path; 
     } else {
         // Si hay GD, redimensionar para ahorrar tokens
-        $aiImageDir = __DIR__ . '/images';
+        $aiImageDir = app_root() . '/images';
         if (!is_dir($aiImageDir)) {
             @mkdir($aiImageDir, 0755, true);
         }
@@ -64,7 +65,7 @@ if ($image_path && file_exists($image_path)) {
 
 // Llamar a OpenAI con el mensaje y la imagen (si hay)
 try {
-    // Si usó una imagen temporal (redimensionada), recordarla para borrarla
+    // Si usÃ³ una imagen temporal (redimensionada), recordarla para borrarla
     $isTempImage = ($aiImagePath !== $image_path); 
 
     $reply = sendToOpenAI($msg, $aiImagePath, $plant_name, $history);
@@ -137,7 +138,7 @@ function sendToOpenAI($userMessage, $imagePath = null, $plantName = 'esta planta
     // But usually 'user' is the safest fallback if 'system' is rejected.
     $messages[] = [
         "role" => "user", 
-        "content" => "Instrucción de sistema: Eres un asistente experto en plantas y jardinería. La planta actual se llama '$plantName'. Estás en Barcelona, España (clima mediterráneo). Proporciona respuestas concisas y útiles. Si te piden identificar una planta en una imagen, hazlo lo mejor posible."
+        "content" => "InstrucciÃ³n de sistema: Eres un asistente experto en plantas y jardinerÃ­a. La planta actual se llama '$plantName'. EstÃ¡s en Barcelona, EspaÃ±a (clima mediterrÃ¡neo). Proporciona respuestas concisas y Ãºtiles. Si te piden identificar una planta en una imagen, hazlo lo mejor posible."
     ];
 
     // Add existing chat history
