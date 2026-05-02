@@ -69,7 +69,25 @@ function app_current_user(): ?string
     if (!isset($_SESSION['user'])) {
         return null;
     }
-    return preg_replace('/[^a-zA-Z0-9_\-]/', '', (string) $_SESSION['user']);
+
+    $sessionUser = $_SESSION['user'];
+    if (is_array($sessionUser)) {
+        $sessionUser = $sessionUser['username'] ?? $sessionUser['display_name'] ?? null;
+    }
+
+    if (!is_string($sessionUser) || trim($sessionUser) === '') {
+        unset($_SESSION['user']);
+        return null;
+    }
+
+    $user = preg_replace('/[^a-zA-Z0-9_\-]/', '', $sessionUser);
+    if (!is_string($user) || $user === '') {
+        unset($_SESSION['user']);
+        return null;
+    }
+
+    $_SESSION['user'] = $user;
+    return $user;
 }
 
 function app_require_user_json(): string
@@ -170,7 +188,10 @@ function app_fetch_plants(string $owner): array
     $imgStmt->execute($plantIds);
     $imagesByPlant = [];
     foreach ($imgStmt->fetchAll() as $imageRow) {
-        $imagesByPlant[(int) $imageRow['plant_id']][] = $imageRow['image_path'];
+        $imagePath = (string) $imageRow['image_path'];
+        if ($imagePath !== '' && is_file(app_root() . '/' . ltrim($imagePath, '/\\'))) {
+            $imagesByPlant[(int) $imageRow['plant_id']][] = $imagePath;
+        }
     }
 
     return array_map(function (array $row) use ($imagesByPlant): array {
@@ -188,7 +209,14 @@ function app_fetch_plant(string $owner, int $plantNum): ?array
     }
     $imgStmt = app_db()->prepare('SELECT image_path FROM plant_images WHERE plant_id = ? ORDER BY sort_order ASC, id ASC');
     $imgStmt->execute([(int) $row['id']]);
-    return app_normalize_plant($row, array_column($imgStmt->fetchAll(), 'image_path'));
+    $images = [];
+    foreach ($imgStmt->fetchAll() as $imageRow) {
+        $imagePath = (string) $imageRow['image_path'];
+        if ($imagePath !== '' && is_file(app_root() . '/' . ltrim($imagePath, '/\\'))) {
+            $images[] = $imagePath;
+        }
+    }
+    return app_normalize_plant($row, $images);
 }
 
 function app_fetch_plant_row(string $owner, int $plantNum): ?array

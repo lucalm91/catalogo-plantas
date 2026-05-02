@@ -5,6 +5,9 @@ header("Pragma: no-cache");
 header("Expires: 0");
 require_once __DIR__ . '/includes/app.php';
 
+$currentUser = app_current_user();
+$isLoggedIn = $currentUser !== null;
+
 // --- NUEVO: función para obtener el archivo de plantas del usuario ---
 // Add missing getImageUrl function
 function getImageUrl($imagePath) {
@@ -12,7 +15,7 @@ function getImageUrl($imagePath) {
 }
 
 // --- NUEVO: mostrar home de bienvenida si no está logueado ---
-if (!isset($_SESSION['user'])): ?>
+if (!$isLoggedIn): ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -79,7 +82,7 @@ if (!isset($_SESSION['user'])): ?>
 
 // --- SOLO SI ESTÁ LOGUEADO SE MUESTRA EL CATÁLOGO ---
 try {
-    $plantas = app_fetch_plants(app_current_user());
+    $plantas = app_fetch_plants($currentUser);
 } catch (Throwable $e) {
     http_response_code(500);
     echo "<h1>Error de base de datos</h1><p>" . htmlspecialchars($e->getMessage()) . "</p>";
@@ -121,16 +124,16 @@ if (count($zonas) > 1) {
   <header>
     <div class="site-title">Catálogo de Plantas</div>
     <div class="login-info">
-      <?php if(isset($_SESSION['user'])): ?>
+      <?php if($isLoggedIn): ?>
         <div class="dropdown">
           <div class="user-avatar" id="userDropdownToggle">
-            <?php echo substr($_SESSION['user'], 0, 1); ?>
+            <?php echo htmlspecialchars(substr($currentUser, 0, 1), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'); ?>
           </div>
           <div class="user-name">
-            <?php echo $_SESSION['user']; ?>
+            <?php echo htmlspecialchars($currentUser, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'); ?>
           </div>
           <div class="dropdown-menu" id="userDropdownMenu">
-            <a href="#"><?php echo $_SESSION['user']; ?></a>
+            <a href="#"><?php echo htmlspecialchars($currentUser, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'); ?></a>
             <a href="logout.php" class="logout">Cerrar sesión</a>
           </div>
         </div>
@@ -151,7 +154,7 @@ if (count($zonas) > 1) {
     <?php
     // --- SOLO PARA ALE: mostrar solo zonas Interior/Exterior, pero mostrar también la zona recién creada si existe al menos una planta en ella
     $zonas_a_mostrar = $zonas_ordenadas;
-    if (isset($_SESSION['user']) && $_SESSION['user'] === 'Ale') {
+    if ($isLoggedIn && $currentUser === 'Ale') {
         $zonas_a_mostrar = [];
         foreach ($zonas_ordenadas as $zona => $lista) {
             if ($zona === 'Interior' || $zona === 'Exterior' || count($lista) > 0) {

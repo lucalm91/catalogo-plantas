@@ -2,7 +2,8 @@
 require_once __DIR__ . '/../../includes/app.php';
 header('Content-Type: application/json');
 
-if (!isset($_SESSION['user'])) {
+$currentUser = app_current_user();
+if ($currentUser === null) {
     http_response_code(403);
     echo json_encode(['error' => 'No autorizado']);
     exit;
@@ -22,7 +23,7 @@ $image_path = '';
 $plant_name = 'esta planta';
 
 if ($plant_num) {
-    $owner = app_current_user();
+    $owner = $currentUser;
     $p = $owner ? app_fetch_plant($owner, (int) $plant_num) : null;
     if ($p) {
         $firstImagePath = !empty($p['imagenes']) ? app_root() . '/' . ltrim($p['imagenes'][0], '/\\') : '';

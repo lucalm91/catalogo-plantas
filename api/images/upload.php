@@ -49,26 +49,39 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["nueva_imagen"]) && i
     $timestamp = time();
     $imageFileType = strtolower(pathinfo($_FILES["nueva_imagen"]["name"], PATHINFO_EXTENSION));
     $hasGD = extension_loaded('gd');
+    $allowedTypes = ["jpg", "jpeg", "png", "webp", "gif"];
+    if (!in_array($imageFileType, $allowedTypes, true)) {
+        http_response_code(400);
+        echo json_encode(["error" => "Tipo de imagen no soportado: " . $imageFileType]);
+        exit;
+    }
+
+    $check = getimagesize($_FILES["nueva_imagen"]["tmp_name"]);
+    if ($check === false) {
+        http_response_code(400);
+        echo json_encode(["error" => "El archivo no es una imagen."]);
+        exit;
+    }
+
+    $originalName = "plant_{$plant_num}_{$timestamp}." . $imageFileType;
+    $originalPath = $originalsDir . $originalName;
+    if (!move_uploaded_file($_FILES["nueva_imagen"]["tmp_name"], $originalPath)) {
+        http_response_code(500);
+        echo json_encode(["error" => "Error al guardar la imagen original."]);
+        exit;
+    }
 
     if ($hasGD) {
         // --- Con GD: redimensionar y convertir a WebP ---
         $webpName = "plant_{$plant_num}_{$timestamp}.webp";
         $targetFile = $targetDir . $webpName;
         $storedPath = "images/" . $webpName;
-        $originalName = "plant_{$plant_num}_{$timestamp}." . $imageFileType;
-
-        $check = getimagesize($_FILES["nueva_imagen"]["tmp_name"]);
-        if ($check === false) {
-            http_response_code(400);
-            echo json_encode(["error" => "El archivo no es una imagen."]);
-            exit;
-        }
 
         $srcImage = null;
         if (in_array($imageFileType, ["jpg", "jpeg"])) {
-            $srcImage = imagecreatefromjpeg($_FILES["nueva_imagen"]["tmp_name"]);
+            $srcImage = imagecreatefromjpeg($originalPath);
             if (function_exists('exif_read_data')) {
-                $exif = @exif_read_data($_FILES["nueva_imagen"]["tmp_name"]);
+                $exif = @exif_read_data($originalPath);
                 if ($exif && isset($exif['Orientation'])) {
                     switch ($exif['Orientation']) {
                         case 3: $srcImage = imagerotate($srcImage, 180, 0); break;
@@ -78,9 +91,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["nueva_imagen"]) && i
                 }
             }
         } elseif ($imageFileType == "png") {
-            $srcImage = imagecreatefrompng($_FILES["nueva_imagen"]["tmp_name"]);
+            $srcImage = imagecreatefrompng($originalPath);
         } elseif ($imageFileType == "webp") {
-            $srcImage = imagecreatefromwebp($_FILES["nueva_imagen"]["tmp_name"]);
+            $srcImage = imagecreatefromwebp($originalPath);
+        } elseif ($imageFileType == "gif") {
+            $srcImage = imagecreatefromgif($originalPath);
         }
         if (!$srcImage) {
             http_response_code(500);
@@ -110,16 +125,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["nueva_imagen"]) && i
         }
     } else {
         // --- Sin GD: guardar la imagen original tal cual ---
-        $allowedTypes = ["jpg", "jpeg", "png", "webp", "gif"];
-        if (!in_array($imageFileType, $allowedTypes)) {
-            http_response_code(400);
-            echo json_encode(["error" => "Tipo de imagen no soportado: " . $imageFileType]);
-            exit;
-        }
         $savedName = "plant_{$plant_num}_{$timestamp}." . $imageFileType;
         $targetFile = $targetDir . $savedName;
         $storedPath = "images/" . $savedName;
-        if (!move_uploaded_file($_FILES["nueva_imagen"]["tmp_name"], $targetFile)) {
+        if (!copy($originalPath, $targetFile)) {
             http_response_code(500);
             echo json_encode(["error" => "Error al guardar la imagen."]);
             exit;
@@ -127,17 +136,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["nueva_imagen"]) && i
     }
 
     if (app_add_plant_image($user, $plant_num, $storedPath)) {
-        // Solo mover original si GD procesó la imagen (si no, ya se movió antes)
-        if ($hasGD) {
-            $originalName = "plant_{$plant_num}_{$timestamp}." . $imageFileType;
-            move_uploaded_file($_FILES["nueva_imagen"]["tmp_name"], $originalsDir . $originalName);
-        }
         echo json_encode([
             "success" => "Imagen agregada.",
             "imagen"  => $storedPath
         ]);
     } else {
         unlink($targetFile);
+        @unlink($originalPath);
         http_response_code(404);
         echo json_encode(["error" => "Planta no encontrada."]);
     }

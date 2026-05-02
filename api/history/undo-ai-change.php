@@ -42,7 +42,7 @@ try {
     app_add_history(
         $owner,
         $plantNum,
-        (string) $_SESSION['user'],
+        $owner,
         'Deshacer ' . $log['accion'],
         "Restaurado a: '" . app_summary((string) $log['old_value']) . "'",
         isset($log['new_value']) ? (string) $log['new_value'] : null,

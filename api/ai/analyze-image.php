@@ -19,7 +19,8 @@ register_shutdown_function(function () {
 });
 
 // Authentication Check
-if (!isset($_SESSION['user'])) {
+$currentUser = app_current_user();
+if ($currentUser === null) {
     http_response_code(403);
     header('Content-Type: application/json'); 
     echo json_encode(["success" => false, "error" => "Acceso denegado. Se requiere inicio de sesión."]);
