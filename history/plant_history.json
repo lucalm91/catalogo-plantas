@@ -1,0 +1,3850 @@
+[
+    {
+        "plant_num": 1,
+        "fecha": "2025-04-04 08:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 49,
+        "fecha": "2025-04-04 08:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 50,
+        "fecha": "2025-04-04 08:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 2,
+        "fecha": "2025-04-04 08:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 3,
+        "fecha": "2025-04-04 08:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 51,
+        "fecha": "2025-04-04 08:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-04 08:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 52,
+        "fecha": "2025-04-04 08:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-04-04 09:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 53,
+        "fecha": "2025-04-04 09:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025-04-04 09:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 54,
+        "fecha": "2025-04-04 09:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-04-04 09:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 55,
+        "fecha": "2025-04-04 09:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 8,
+        "fecha": "2025-04-04 09:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 56,
+        "fecha": "2025-04-04 09:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 9,
+        "fecha": "2025-04-04 10:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 57,
+        "fecha": "2025-04-04 10:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 10,
+        "fecha": "2025-04-04 10:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 58,
+        "fecha": "2025-04-04 10:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 11,
+        "fecha": "2025-04-04 10:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 12,
+        "fecha": "2025-04-04 10:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 13,
+        "fecha": "2025-04-04 11:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025-04-04 11:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 15,
+        "fecha": "2025-04-04 11:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 16,
+        "fecha": "2025-04-04 11:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 17,
+        "fecha": "2025-04-04 12:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 18,
+        "fecha": "2025-04-04 12:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 19,
+        "fecha": "2025-04-04 12:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 20,
+        "fecha": "2025-04-04 12:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 21,
+        "fecha": "2025-04-04 13:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-04-04 13:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 23,
+        "fecha": "2025-04-04 13:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 24,
+        "fecha": "2025-04-04 13:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-04-04 14:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 26,
+        "fecha": "2025-04-04 14:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 27,
+        "fecha": "2025-04-04 14:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 28,
+        "fecha": "2025-04-04 14:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 29,
+        "fecha": "2025-04-04 15:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 30,
+        "fecha": "2025-04-04 15:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 31,
+        "fecha": "2025-04-04 15:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 32,
+        "fecha": "2025-04-04 15:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 33,
+        "fecha": "2025-04-04 16:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 34,
+        "fecha": "2025-04-04 16:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 35,
+        "fecha": "2025-04-04 16:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 36,
+        "fecha": "2025-04-04 16:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 37,
+        "fecha": "2025-04-04 17:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 38,
+        "fecha": "2025-04-04 17:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 39,
+        "fecha": "2025-04-04 17:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 40,
+        "fecha": "2025-04-04 17:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 41,
+        "fecha": "2025-04-04 18:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 42,
+        "fecha": "2025-04-04 18:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 43,
+        "fecha": "2025-04-04 18:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 44,
+        "fecha": "2025-04-04 18:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 45,
+        "fecha": "2025-04-04 19:00:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 46,
+        "fecha": "2025-04-04 19:15:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 47,
+        "fecha": "2025-04-04 19:30:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 48,
+        "fecha": "2025-04-04 19:45:00",
+        "usuario": "Luca",
+        "accion": "Planta añadida al catálogo",
+        "detalles": "Registro inicial de la planta"
+    },
+    {
+        "plant_num": 21,
+        "fecha": "2025-04-05 10:20:00",
+        "usuario": "Luca",
+        "accion": "Cambio de sistema de riego",
+        "detalles": "Actualizado a Riego 2"
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-04-05 11:20:00",
+        "usuario": "Luca",
+        "accion": "Cambio de sistema de riego",
+        "detalles": "Actualizado a Riego 2"
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-04-05 14:15:00",
+        "usuario": "Luca",
+        "accion": "Cambio de sistema de riego",
+        "detalles": "Actualizado a Riego 2"
+    },
+    {
+        "plant_num": 23,
+        "fecha": "2025-04-05 16:45:00",
+        "usuario": "Luca",
+        "accion": "Cambio de sistema de riego",
+        "detalles": "Actualizado a Riego 2"
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025:04:03 18:44:53",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_1.webp"
+    },
+    {
+        "plant_num": 2,
+        "fecha": "2025:04:03 18:45:49",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_2.webp"
+    },
+    {
+        "plant_num": 3,
+        "fecha": "2025:04:03 18:45:55",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_3.webp"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025:04:03 18:46:09",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_4.webp"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025:04:03 18:46:30",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_5.webp"
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025:04:03 18:46:39",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_6.webp"
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025:04:03 18:46:50",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_7.webp"
+    },
+    {
+        "plant_num": 8,
+        "fecha": "2025:04:03 18:47:02",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_8.webp"
+    },
+    {
+        "plant_num": 9,
+        "fecha": "2025:04:03 18:47:31",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_9.webp"
+    },
+    {
+        "plant_num": 10,
+        "fecha": "2025:04:03 18:51:10",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_10.webp"
+    },
+    {
+        "plant_num": 11,
+        "fecha": "2025:04:03 18:51:28",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_11.webp"
+    },
+    {
+        "plant_num": 12,
+        "fecha": "2025:04:03 18:51:36",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_12.webp"
+    },
+    {
+        "plant_num": 13,
+        "fecha": "2025:04:03 18:51:51",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_13.webp"
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025:04:03 18:52:00",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_14.webp"
+    },
+    {
+        "plant_num": 15,
+        "fecha": "2025:04:03 18:53:03",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_15.webp"
+    },
+    {
+        "plant_num": 16,
+        "fecha": "2025:04:03 18:53:29",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_16.webp"
+    },
+    {
+        "plant_num": 17,
+        "fecha": "2025:04:03 18:56:53",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_17_1743779230.webp"
+    },
+    {
+        "plant_num": 19,
+        "fecha": "2025:04:03 18:57:28",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_19.webp"
+    },
+    {
+        "plant_num": 20,
+        "fecha": "2025:04:03 18:57:43",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_20.webp"
+    },
+    {
+        "plant_num": 18,
+        "fecha": "2025:04:03 18:59:38",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_18_1743779313.webp"
+    },
+    {
+        "plant_num": 21,
+        "fecha": "2025:04:03 19:00:54",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_21_1743776534.webp"
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025:04:03 19:01:10",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_22_1743777969.webp"
+    },
+    {
+        "plant_num": 23,
+        "fecha": "2025:04:03 19:01:17",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_23.webp"
+    },
+    {
+        "plant_num": 24,
+        "fecha": "2025:04:03 19:01:26",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_24_1743777995.webp"
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025:04:03 19:01:32",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_25_1743778880.webp"
+    },
+    {
+        "plant_num": 26,
+        "fecha": "2025:04:03 19:11:15",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_26_1743778940.webp"
+    },
+    {
+        "plant_num": 27,
+        "fecha": "2025:04:03 19:11:22",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_27_1743778953.webp"
+    },
+    {
+        "plant_num": 28,
+        "fecha": "2025:04:03 19:11:27",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_28.webp"
+    },
+    {
+        "plant_num": 29,
+        "fecha": "2025:04:03 19:11:34",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_29.webp"
+    },
+    {
+        "plant_num": 30,
+        "fecha": "2025:04:03 19:11:46",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_30.webp"
+    },
+    {
+        "plant_num": 31,
+        "fecha": "2025:04:03 19:13:56",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_31.webp"
+    },
+    {
+        "plant_num": 32,
+        "fecha": "2025:04:03 19:14:05",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_32.webp"
+    },
+    {
+        "plant_num": 33,
+        "fecha": "2025:04:03 19:14:13",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_33.webp"
+    },
+    {
+        "plant_num": 34,
+        "fecha": "2025:04:03 19:14:21",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_34.webp"
+    },
+    {
+        "plant_num": 35,
+        "fecha": "2025:04:03 19:14:29",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_35.webp"
+    },
+    {
+        "plant_num": 36,
+        "fecha": "2025:04:03 19:15:45",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_36_1743779056.webp"
+    },
+    {
+        "plant_num": 37,
+        "fecha": "2025:04:03 19:15:58",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_37.webp"
+    },
+    {
+        "plant_num": 38,
+        "fecha": "2025:04:03 19:16:24",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_38_1743779079.webp"
+    },
+    {
+        "plant_num": 39,
+        "fecha": "2025:04:03 19:16:34",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_39_1743779012.webp"
+    },
+    {
+        "plant_num": 40,
+        "fecha": "2025:04:03 19:17:00",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_40_1743779172.webp"
+    },
+    {
+        "plant_num": 41,
+        "fecha": "2025:04:03 19:17:14",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_41_1743779154.webp"
+    },
+    {
+        "plant_num": 42,
+        "fecha": "2025:04:03 19:25:55",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_42.webp"
+    },
+    {
+        "plant_num": 43,
+        "fecha": "2025:04:03 19:26:00",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_43.webp"
+    },
+    {
+        "plant_num": 44,
+        "fecha": "2025:04:03 19:26:08",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_44.webp"
+    },
+    {
+        "plant_num": 45,
+        "fecha": "2025:04:03 19:26:14",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_45.webp"
+    },
+    {
+        "plant_num": 46,
+        "fecha": "2025:04:03 19:26:21",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_46.webp"
+    },
+    {
+        "plant_num": 47,
+        "fecha": "2025:04:03 19:26:25",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_47.webp"
+    },
+    {
+        "plant_num": 48,
+        "fecha": "2025:04:03 19:26:31",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_48.webp"
+    },
+    {
+        "plant_num": 49,
+        "fecha": "2025:04:03 19:26:35",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_49.webp"
+    },
+    {
+        "plant_num": 50,
+        "fecha": "2025:04:03 19:26:46",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_50.webp"
+    },
+    {
+        "plant_num": 51,
+        "fecha": "2025:04:03 19:27:00",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_51.webp"
+    },
+    {
+        "plant_num": 52,
+        "fecha": "2025:04:03 19:28:14",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_52.webp"
+    },
+    {
+        "plant_num": 53,
+        "fecha": "2025:04:03 19:28:20",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_53.webp"
+    },
+    {
+        "plant_num": 54,
+        "fecha": "2025:04:03 19:28:28",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_54.webp"
+    },
+    {
+        "plant_num": 55,
+        "fecha": "2025:04:03 19:28:34",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_55.webp"
+    },
+    {
+        "plant_num": 56,
+        "fecha": "2025:04:03 19:28:40",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_56.webp"
+    },
+    {
+        "plant_num": 57,
+        "fecha": "2025:04:03 19:28:54",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_57.webp"
+    },
+    {
+        "plant_num": 58,
+        "fecha": "2025:04:03 19:29:07",
+        "usuario": "Sistema",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Imagen: plant_58.webp"
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-04-06 20:08:29",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 3,
+        "fecha": "2025-04-06 20:10:00",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-06 20:10:27",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-06 20:10:31",
+        "usuario": "Luca",
+        "accion": "Imagen eliminada",
+        "detalles": "Imagen eliminada: plant_4_1743963026.webp"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-06 20:10:49",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-04-06 20:11:18",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 9,
+        "fecha": "2025-04-06 20:11:59",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 46,
+        "fecha": "2025-04-06 20:13:06",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 20,
+        "fecha": "2025-04-06 20:14:12",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 34,
+        "fecha": "2025-04-06 20:15:05",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 35,
+        "fecha": "2025-04-06 20:15:32",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 33,
+        "fecha": "2025-04-06 20:17:26",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-04-06 20:18:24",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 23,
+        "fecha": "2025-04-06 20:19:08",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-04-06 22:32:28",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "Suculenta colgante icon pequeñas hojas carnosas."
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-04-09 18:27:39",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-04-23 14:45:15",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: filming.00_00_09_05.Still002.jpg"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-04-23 14:45:32",
+        "usuario": "Luca",
+        "accion": "Imagen eliminada",
+        "detalles": "Imagen eliminada: plant_5_1745412311.webp"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-04-23 14:46:00",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: Snipaste_2025-04-23_14-45-42.jpg"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-04-23 14:46:57",
+        "usuario": "Luca",
+        "accion": "Imagen eliminada",
+        "detalles": "Imagen eliminada: plant_5_1745412356.webp"
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-04-23 15:51:15",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: Snipaste_2025-04-23_15-50-54.jpg"
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-04-23 15:51:40",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "Crassula colgante (Crassula marginalis)"
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-04-23 15:51:48",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "Suculenta colgante icon pequeñas hojas carnosas."
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-04-23 15:53:23",
+        "usuario": "Luca",
+        "accion": "Imagen eliminada",
+        "detalles": "Imagen eliminada: plant_22_1745416260.webp"
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-04-23 15:53:32",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: Snipaste_2025-04-23_15-50-54.jpg"
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-04-23 15:54:29",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "Suculenta colgante y con pequeñas hojas carnosas."
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-04-23 15:54:34",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "Crassula colgante (Crassula marginalis)"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-04-23 16:23:28",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "La planta se ve sana, con hojas verdes y sin signos visibles de plagas o enfermedades."
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-04-23 16:23:28",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "Planta arbustiva de hojas grandes, de color verde intenso, bordes dentados y brotes compactos, cultivada en maceta de tamaño mediano."
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-04-23 16:23:28",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "Hortensia (Hydrangea macrophylla)"
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025-04-23 16:24:07",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "La planta se ve mayormente sana, con hojas verdes aunque algunas presentan un leve amarillamiento en las puntas."
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025-04-23 16:24:07",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "Níspero (Eriobotrya japonica)"
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025-04-23 16:24:07",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "Árbol pequeño de follaje perenne, con hojas grandes, alargadas y de textura coriácea; el color de las hojas varía de verde claro a oscuro y la planta presenta un porte arbustivo."
+    },
+    {
+        "plant_num": 3,
+        "fecha": "2025-04-23 16:25:08",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "La planta se ve sana, con hojas verdes y firmes, sin signos evidentes de plagas o enfermedades."
+    },
+    {
+        "plant_num": 3,
+        "fecha": "2025-04-23 16:25:08",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "Planta suculenta de tallos gruesos y leñosos, hojas alargadas de color verde brillante, con forma tubular característica; tamaño mediano y porte arbustivo."
+    },
+    {
+        "plant_num": 3,
+        "fecha": "2025-04-23 16:25:08",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "Crassula ovata 'Gollum'"
+    },
+    {
+        "plant_num": 23,
+        "fecha": "2025-04-23 16:25:37",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "Planta herbácea de tallos erguidos y hojas opuestas, de forma ovalada a lanceolada y color verde brillante, bordes dentados y textura rugosa; tamaño mediano, crecimiento denso y frondoso."
+    },
+    {
+        "plant_num": 24,
+        "fecha": "2025-04-23 16:27:05",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "Planta perenne de hojas largas, delgadas y arqueadas con franjas verdes y crema; comúnmente cultivada en macetas por su porte colgante y facilidad de mantenimiento."
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-04-23 16:27:53",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "Nephrolepis exaltata"
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-04-23 16:27:53",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "Presenta hojas amarillas y algunas secas, lo que indica posible deficiencia de nutrientes o estrés ambiental."
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-04-23 16:27:53",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "Helecho de fronda larga y delgada, con hojas pinnadas de color verde claro a amarillento, formando una mata densa y arqueada."
+    },
+    {
+        "plant_num": 26,
+        "fecha": "2025-04-23 16:30:10",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "La planta se ve sana, con hojas verdes y ligeramente rojizas en los bordes, sin signos evidentes de plagas o enfermedades."
+    },
+    {
+        "plant_num": 26,
+        "fecha": "2025-04-23 16:30:10",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "Cotyledon tomentosa (‘Garras de oso’)"
+    },
+    {
+        "plant_num": 26,
+        "fecha": "2025-04-23 16:30:10",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "Suculenta de hojas carnosas, ovaladas y cubiertas por una densa vellosidad, con puntas rojizas que se asemejan a garras, de tamaño pequeño a mediano y porte compacto."
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-23 16:39:17",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta se ve sana, con hojas verdes y sin signos evidentes de plagas o enfermedades.' a 'La planta se ve sana, con hojas verdes y sin signos evidentes de plagas o enfermedades.'"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-23 16:39:17",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Crassula ovata 'Gollum' grande' a 'Crassula ovata 'Gollum' grande'"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-23 16:39:17",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta suculenta de porte arbustivo, con tronco grueso y ramificado, hojas cilíndricas de extremo redondeado y color verde brillante. Cultivada en maceta decorativa, de tamaño grande.' a 'Planta suculenta de porte arbustivo, con tronco grueso y ramificado, hojas cilíndricas de extremo redondeado y color verde brillante. Cultivada en maceta decorativa, de tamaño grande.'"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-23 16:39:26",
+        "usuario": "Luca",
+        "accion": "Deshacer AI",
+        "detalles": "Se restauró 'identificacion' a 'Cr' tras deshacer cambio AI"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-23 16:39:54",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta se ve sana, con hojas verdes y crecimiento compacto, sin signos visibles de plagas o enfermedades.' a 'La planta se ve sana, con hojas verdes y crecimiento compacto, sin signos visibles de plagas o enfermedades.'"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-23 16:39:54",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta suculenta de porte arbustivo, con tallos gruesos y robustos, hojas carnosas de color verde brillante y forma ovalada. Suele cultivarse en maceta y puede llegar a alcanzar un tamaño considerable.' a 'Planta suculenta de porte arbustivo, con tallos gruesos y robustos, hojas carnosas de color verde brillante y forma ovalada. Suele cultivarse en maceta y puede llegar a alcanzar un tamaño considerable.'"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-23 16:39:54",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Crassula ovata' a 'Crassula ovata'"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-23 16:40:05",
+        "usuario": "Luca",
+        "accion": "Deshacer AI",
+        "detalles": "Se restauró 'identificacion' a 'Cr' tras deshacer cambio AI"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-23 16:40:14",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta se ve sana, con hojas verdes y sin signos evidentes de plagas o enfermedades.' a 'La planta se ve sana, con hojas verdes y sin signos evidentes de plagas o enfermedades.'"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-23 16:40:14",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Crassula ovata' a 'Crassula ovata'"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-23 16:40:14",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta suculenta de tallos gruesos y ramificados, con hojas carnosas de color verde brillante y forma ovalada, cultivada en maceta decorativa.' a 'Planta suculenta de tallos gruesos y ramificados, con hojas carnosas de color verde brillante y forma ovalada, cultivada en maceta decorativa.'"
+    },
+    {
+        "plant_num": 23,
+        "fecha": "2025-04-24 11:20:43",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 23,
+        "fecha": "2025-04-24 11:21:01",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta herbácea de hojas opuestas, lanceoladas, de color verde brillante y bordes dentados; crece en matas densas y es de tamaño pequeño a mediano.' a 'Planta herbácea de hojas opuestas, lanceoladas, de color verde brillante y bordes dentados; crece en matas densas y es de tamaño pequeño a mediano.'"
+    },
+    {
+        "plant_num": 23,
+        "fecha": "2025-04-24 11:21:01",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Menta (Mentha sp.)' a 'Menta (Mentha sp.)'"
+    },
+    {
+        "plant_num": 23,
+        "fecha": "2025-04-24 11:21:01",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta se ve sana, con hojas verdes y sin signos de plagas.' a 'La planta se ve sana, con hojas verdes y sin signos de plagas.'"
+    },
+    {
+        "plant_num": 10,
+        "fecha": "2025-04-24 11:34:12",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 11,
+        "fecha": "2025-04-24 11:34:57",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 11,
+        "fecha": "2025-04-24 11:35:15",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Arbusto de tallos leñosos con hojas compuestas de bordes aserrados, de color verde y tamaño mediano. Carece de flores visibles en este momento.' a 'Arbusto de tallos leñosos con hojas compuestas de bordes aserrados, de color verde y tamaño mediano. Carece de flores visibles en este momento.'"
+    },
+    {
+        "plant_num": 11,
+        "fecha": "2025-04-24 11:35:15",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta se ve sana, con hojas verdes y sin signos de plagas.' a 'La planta se ve sana, con hojas verdes y sin signos de plagas.'"
+    },
+    {
+        "plant_num": 11,
+        "fecha": "2025-04-24 11:35:15",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Rosa sp.' a 'Rosa sp.'"
+    },
+    {
+        "plant_num": 13,
+        "fecha": "2025-04-24 11:36:19",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta se ve mayormente sana, con hojas verdes aunque algunas presentan cierto enrojecimiento en las puntas.' a 'La planta se ve mayormente sana, con hojas verdes aunque algunas presentan cierto enrojecimiento en las puntas.'"
+    },
+    {
+        "plant_num": 13,
+        "fecha": "2025-04-24 11:36:19",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Rosa sp.' a 'Rosa sp.'"
+    },
+    {
+        "plant_num": 13,
+        "fecha": "2025-04-24 11:36:19",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Arbusto de tallos erguidos con espinas, hojas compuestas de color verde, forma característica de rosal; de tamaño medio y sin flores visibles en la imagen.' a 'Arbusto de tallos erguidos con espinas, hojas compuestas de color verde, forma característica de rosal; de tamaño medio y sin flores visibles en la imagen.'"
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025-04-24 11:36:43",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025-04-24 11:37:11",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta se ve mayormente sana, con hojas verdes y algunos botones florales en desarrollo; hay pocas hojas con bordes secos.' a 'La planta se ve mayormente sana, con hojas verdes y algunos botones florales en desarrollo; hay pocas hojas con bordes secos.'"
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025-04-24 11:37:11",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta arbustiva de tallos leñosos y ramificados, hojas compuestas de borde aserrado y color verde intenso, con brotes de capullos en los extremos.' a 'Planta arbustiva de tallos leñosos y ramificados, hojas compuestas de borde aserrado y color verde intenso, con brotes de capullos en los extremos.'"
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025-04-24 11:37:11",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Rosa sp.' a 'Rosa sp.'"
+    },
+    {
+        "plant_num": 15,
+        "fecha": "2025-04-24 11:37:57",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 15,
+        "fecha": "2025-04-24 11:38:20",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra hojas verdes en su mayoría, aunque algunas parecen algo pálidas, sin signos claros de plagas.' a 'La planta muestra hojas verdes en su mayoría, aunque algunas parecen algo pálidas, sin signos claros de plagas.'"
+    },
+    {
+        "plant_num": 15,
+        "fecha": "2025-04-24 11:38:20",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Arbusto pequeño de hojas verdes, brillantes y pequeñas, con tallos finos y ramificados; típicamente cultivado como bonsái.' a 'Arbusto pequeño de hojas verdes, brillantes y pequeñas, con tallos finos y ramificados; típicamente cultivado como bonsái.'"
+    },
+    {
+        "plant_num": 15,
+        "fecha": "2025-04-24 11:38:20",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Serissa foetida' a 'Serissa foetida'"
+    },
+    {
+        "plant_num": 2,
+        "fecha": "2025-04-24 11:39:06",
+        "usuario": "Luca",
+        "accion": "Nueva imagen añadida",
+        "detalles": "Nueva imagen añadida: image.jpg"
+    },
+    {
+        "plant_num": 2,
+        "fecha": "2025-04-24 11:39:24",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta se ve sana, con hojas verdes y bordes rojizos, sin signos visibles de plagas o enfermedad.' a 'La planta se ve sana, con hojas verdes y bordes rojizos, sin signos visibles de plagas o enfermedad.'"
+    },
+    {
+        "plant_num": 2,
+        "fecha": "2025-04-24 11:39:24",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta suculenta de tallos gruesos y hojas ovaladas, carnosas, de color verde con bordes rojizos, dispuestas en rosetas compactas. De tamaño medio, ramificada y de aspecto arbustivo.' a 'Planta suculenta de tallos gruesos y hojas ovaladas, carnosas, de color verde con bordes rojizos, dispuestas en rosetas compactas. De tamaño medio, ramificada y de aspecto arbustivo.'"
+    },
+    {
+        "plant_num": 2,
+        "fecha": "2025-04-24 11:39:24",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Crassula ovata' a 'Crassula ovata'"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-04-24 11:58:49",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Hortensia\nHydrangea macrophylla' a 'Hortensia\nHydrangea macrophylla'"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-04-24 11:58:55",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Hortensia\nHydrangea macrophylla' a 'Hortensia\nHydrangea macrophylla'"
+    },
+    {
+        "plant_num": 10,
+        "fecha": "2025-04-24 16:32:57",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Rosa\nRosa sp.' a 'Rosa\nRosa sp.'"
+    },
+    {
+        "plant_num": 10,
+        "fecha": "2025-04-24 16:32:57",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta arbustiva de tallos leñosos y espinosos, hojas compuestas de borde aserrado, de color verde con brotes jóvenes rojizos. Tamaño mediano y porte erecto.' a 'Planta arbustiva de tallos leñosos y espinosos, hojas compuestas de borde aserrado, de color verde con brotes jóvenes rojizos. Tamaño mediano y porte erecto.'"
+    },
+    {
+        "plant_num": 10,
+        "fecha": "2025-04-24 16:32:57",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta se ve mayormente saludable, pero algunas hojas tienen bordes secos y señales de estrés.' a 'La planta se ve mayormente saludable, pero algunas hojas tienen bordes secos y señales de estrés.'"
+    },
+    {
+        "plant_num": 20,
+        "fecha": "2025-04-24 16:33:42",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra hojas verdes y sanas, con un crecimiento vigoroso. No se observan signos evidentes de plagas o enfermedades.' a 'La planta muestra hojas verdes y sanas, con un crecimiento vigoroso. No se observan signos evidentes de plagas o enfermedades.'"
+    },
+    {
+        "plant_num": 20,
+        "fecha": "2025-04-24 16:33:42",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta trepadora leñosa de hojas grandes, lobuladas y de color verde claro. Tiene tallos largos y flexibles que suelen crecer en estructuras de soporte. Es comúnmente cultivada en jardines y terrazas urbanas.' a 'Planta trepadora leñosa de hojas grandes, lobuladas y de color verde claro. Tiene tallos largos y flexibles que suelen crecer en estructuras de soporte. Es comúnmente cultivada en jardines y terrazas urbanas.'"
+    },
+    {
+        "plant_num": 20,
+        "fecha": "2025-04-24 16:33:42",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Vid\nVitis vinifera' a 'Vid\nVitis vinifera'"
+    },
+    {
+        "plant_num": 24,
+        "fecha": "2025-04-24 16:34:32",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta herbácea de hojas alargadas, arqueadas y variegadas con franjas verdes y blancas; crece en matas densas y es comúnmente utilizada como ornamental en interiores o exteriores.' a 'Planta herbácea de hojas alargadas, arqueadas y variegadas con franjas verdes y blancas; crece en matas densas y es comúnmente utilizada como ornamental en interiores o exteriores.'"
+    },
+    {
+        "plant_num": 24,
+        "fecha": "2025-04-24 16:34:32",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Cinta o Lazo de amor\nChlorophytum comosum' a 'Cinta o Lazo de amor\nChlorophytum comosum'"
+    },
+    {
+        "plant_num": 24,
+        "fecha": "2025-04-24 16:34:32",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra signos de daño en las hojas, con manchas marrones y algunas puntas secas, lo que indica posibles problemas de riego, plagas o enfermedades.' a 'La planta muestra signos de daño en las hojas, con manchas marrones y algunas puntas secas, lo que indica posibles problemas de riego, plagas o enfermedades.'"
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-04-24 16:34:55",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta herbácea de hojas largas, delgadas y lanceoladas, dispuestas en forma de roseta; el color usualmente es verde, aunque aquí predomina un tono amarillento. Tamaño mediano, con frondas arqueadas y numerosos foliolos pequeños.' a 'Planta herbácea de hojas largas, delgadas y lanceoladas, dispuestas en forma de roseta; el color usualmente es verde, aunque aquí predomina un tono amarillento. Tamaño mediano, con frondas arqueadas y numerosos foliolos pequeños.'"
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-04-24 16:34:55",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra signos de amarillamiento en las hojas, lo que podría indicar deficiencia de nutrientes o exceso de riego.' a 'La planta muestra signos de amarillamiento en las hojas, lo que podría indicar deficiencia de nutrientes o exceso de riego.'"
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-04-24 16:34:55",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Helecho espada\nNephrolepis exaltata' a 'Helecho espada\nNephrolepis exaltata'"
+    },
+    {
+        "plant_num": 26,
+        "fecha": "2025-04-24 16:35:15",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta parece estar en buen estado de salud, con hojas carnosas y sin signos visibles de plagas o enfermedades.' a 'La planta parece estar en buen estado de salud, con hojas carnosas y sin signos visibles de plagas o enfermedades.'"
+    },
+    {
+        "plant_num": 26,
+        "fecha": "2025-04-24 16:35:15",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Garras de oso\nCotyledon tomentosa' a 'Garras de oso\nCotyledon tomentosa'"
+    },
+    {
+        "plant_num": 26,
+        "fecha": "2025-04-24 16:35:15",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta suculenta de tamaño pequeño, hojas carnosas, gruesas y cubiertas de vellosidad, de color verde con puntas rojizas. Suele crecer en macetas y su forma es compacta y redondeada.' a 'Planta suculenta de tamaño pequeño, hojas carnosas, gruesas y cubiertas de vellosidad, de color verde con puntas rojizas. Suele crecer en macetas y su forma es compacta y redondeada.'"
+    },
+    {
+        "plant_num": 28,
+        "fecha": "2025-04-24 16:36:06",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta parece sana en su mayoría, aunque se observan algunas hojas secas en las orillas.' a 'La planta parece sana en su mayoría, aunque se observan algunas hojas secas en las orillas.'"
+    },
+    {
+        "plant_num": 28,
+        "fecha": "2025-04-24 16:36:06",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta herbácea de hojas alargadas y puntiagudas de color morado intenso, de porte rastrero o colgante y tallos gruesos. Apropiada para macetas o jardines de bajo mantenimiento.' a 'Planta herbácea de hojas alargadas y puntiagudas de color morado intenso, de porte rastrero o colgante y tallos gruesos. Apropiada para macetas o jardines de bajo mantenimiento.'"
+    },
+    {
+        "plant_num": 28,
+        "fecha": "2025-04-24 16:36:06",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Planta purpura, Tradescantia morada\nTradescantia pallida' a 'Planta purpura, Tradescantia morada\nTradescantia pallida'"
+    },
+    {
+        "plant_num": 29,
+        "fecha": "2025-04-24 16:36:30",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Lengua de suegra\nSansevieria trifasciata' a 'Lengua de suegra\nSansevieria trifasciata'"
+    },
+    {
+        "plant_num": 29,
+        "fecha": "2025-04-24 16:36:30",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra algunas puntas secas y hojas dañadas, lo que indica posible falta de riego adecuado o exposición excesiva al sol.' a 'La planta muestra algunas puntas secas y hojas dañadas, lo que indica posible falta de riego adecuado o exposición excesiva al sol.'"
+    },
+    {
+        "plant_num": 29,
+        "fecha": "2025-04-24 16:36:30",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta suculenta de hojas largas, erguidas y rígidas, con bandas verdes claras y oscuras, de forma lanceolada y bordes amarillos o marrones.' a 'Planta suculenta de hojas largas, erguidas y rígidas, con bandas verdes claras y oscuras, de forma lanceolada y bordes amarillos o marrones.'"
+    },
+    {
+        "plant_num": 28,
+        "fecha": "2025-04-24 16:37:10",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Tradescantia morada\nTradescantia pallida' a 'Tradescantia morada\nTradescantia pallida'"
+    },
+    {
+        "plant_num": 31,
+        "fecha": "2025-04-24 16:37:35",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta de tipo ornamental, de tallo grueso y leñoso con hojas largas, puntiagudas y verdes, dispuestas en forma de roseta en la punta del tallo.' a 'Planta de tipo ornamental, de tallo grueso y leñoso con hojas largas, puntiagudas y verdes, dispuestas en forma de roseta en la punta del tallo.'"
+    },
+    {
+        "plant_num": 31,
+        "fecha": "2025-04-24 16:37:35",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta parece sana, aunque muestra algo de crecimiento leñoso en el tallo y hojas agrupadas solo en la parte superior.' a 'La planta parece sana, aunque muestra algo de crecimiento leñoso en el tallo y hojas agrupadas solo en la parte superior.'"
+    },
+    {
+        "plant_num": 31,
+        "fecha": "2025-04-24 16:37:35",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Yuca pie de elefante\nYucca elephantipes' a 'Yuca pie de elefante\nYucca elephantipes'"
+    },
+    {
+        "plant_num": 31,
+        "fecha": "2025-04-24 16:37:41",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Yuca\nYucca elephantipes' a 'Yuca\nYucca elephantipes'"
+    },
+    {
+        "plant_num": 32,
+        "fecha": "2025-04-24 16:37:56",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra un aspecto saludable, con hojas verdes y erectas sin signos evidentes de daño o enfermedad.' a 'La planta muestra un aspecto saludable, con hojas verdes y erectas sin signos evidentes de daño o enfermedad.'"
+    },
+    {
+        "plant_num": 32,
+        "fecha": "2025-04-24 16:37:56",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta perenne de porte arbustivo, con hojas largas, lanceoladas y puntiagudas de color verde claro, agrupadas en rosetas; tallos gruesos y verticales que pueden alcanzar varios metros de altura.' a 'Planta perenne de porte arbustivo, con hojas largas, lanceoladas y puntiagudas de color verde claro, agrupadas en rosetas; tallos gruesos y verticales que pueden alcanzar varios metros de altura.'"
+    },
+    {
+        "plant_num": 32,
+        "fecha": "2025-04-24 16:37:56",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Yuca pie de elefante\nYucca elephantipes' a 'Yuca pie de elefante\nYucca elephantipes'"
+    },
+    {
+        "plant_num": 32,
+        "fecha": "2025-04-24 16:37:59",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Yuca\nYucca elephantipes' a 'Yuca\nYucca elephantipes'"
+    },
+    {
+        "plant_num": 34,
+        "fecha": "2025-04-24 16:39:53",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta parece saludable, con hojas firmes y colores vivos. No se observan signos evidentes de plagas o enfermedades.' a 'La planta parece saludable, con hojas firmes y colores vivos. No se observan signos evidentes de plagas o enfermedades.'"
+    },
+    {
+        "plant_num": 34,
+        "fecha": "2025-04-24 16:39:53",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta arbustiva de hojas grandes, ovaladas y coriáceas; las hojas presentan un distintivo borde crema o amarillo en contraste con el centro verde intenso. Crece erguida y puede alcanzar gran tamaño si se cuida adecuadamente.' a 'Planta arbustiva de hojas grandes, ovaladas y coriáceas; las hojas presentan un distintivo borde crema o amarillo en contraste con el centro verde intenso. Crece erguida y puede alcanzar gran tamaño si se cuida adecuadamente.'"
+    },
+    {
+        "plant_num": 34,
+        "fecha": "2025-04-24 16:39:53",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Ficus elástico variegado\nFicus elastica 'Variegata'' a 'Ficus elástico variegado\nFicus elastica 'Variegata''"
+    },
+    {
+        "plant_num": 35,
+        "fecha": "2025-04-24 16:40:09",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Ficus elástico\nFicus elastica' a 'Ficus elástico\nFicus elastica'"
+    },
+    {
+        "plant_num": 35,
+        "fecha": "2025-04-24 16:40:09",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta parece estar en estado saludable, aunque algunas hojas muestran ligeros signos de amarillamiento.' a 'La planta parece estar en estado saludable, aunque algunas hojas muestran ligeros signos de amarillamiento.'"
+    },
+    {
+        "plant_num": 35,
+        "fecha": "2025-04-24 16:40:09",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta de hojas grandes, ovaladas y gruesas, de color verde brillante con tonos rojizos en los tallos jóvenes. Crece verticalmente como arbusto y suele emplearse como planta ornamental en maceta.' a 'Planta de hojas grandes, ovaladas y gruesas, de color verde brillante con tonos rojizos en los tallos jóvenes. Crece verticalmente como arbusto y suele emplearse como planta ornamental en maceta.'"
+    },
+    {
+        "plant_num": 48,
+        "fecha": "2025-04-24 16:41:30",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra un color amarillento en las hojas, lo que indica una posible deficiencia de nutrientes o exceso de riego. No se observan plagas obvias.' a 'La planta muestra un color amarillento en las hojas, lo que indica una posible deficiencia de nutrientes o exceso de riego. No se observan plagas obvias.'"
+    },
+    {
+        "plant_num": 48,
+        "fecha": "2025-04-24 16:41:30",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta perenne tropical de gran tamaño con hojas grandes, acorazonadas y de bordes ondulados. El color predominante es verde claro y presenta un porte vertical llamativo.' a 'Planta perenne tropical de gran tamaño con hojas grandes, acorazonadas y de bordes ondulados. El color predominante es verde claro y presenta un porte vertical llamativo.'"
+    },
+    {
+        "plant_num": 48,
+        "fecha": "2025-04-24 16:41:30",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Oreja de elefante\nAlocasia macrorrhizos' a 'Oreja de elefante\nAlocasia macrorrhizos'"
+    },
+    {
+        "plant_num": 47,
+        "fecha": "2025-04-24 16:42:18",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Es una planta suculenta de tallo grueso y ramificado, con hojas carnosas de borde crema y tonos verdes. De tamaño mediano, ideal para macetas y ambientes decorativos.' a 'Es una planta suculenta de tallo grueso y ramificado, con hojas carnosas de borde crema y tonos verdes. De tamaño mediano, ideal para macetas y ambientes decorativos.'"
+    },
+    {
+        "plant_num": 47,
+        "fecha": "2025-04-24 16:42:19",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Planta Jade Variegada\nCrassula ovata 'Variegata'' a 'Planta Jade Variegada\nCrassula ovata 'Variegata''"
+    },
+    {
+        "plant_num": 47,
+        "fecha": "2025-04-24 16:42:19",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta parece estar sana, con hojas firmes y colores vivos; sin embargo, la tierra parece seca y podría necesitar riego.' a 'La planta parece estar sana, con hojas firmes y colores vivos; sin embargo, la tierra parece seca y podría necesitar riego.'"
+    },
+    {
+        "plant_num": 47,
+        "fecha": "2025-04-24 16:42:24",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Jade Variegada\nCrassula ovata 'Variegata'' a 'Jade Variegada\nCrassula ovata 'Variegata''"
+    },
+    {
+        "plant_num": 45,
+        "fecha": "2025-04-24 16:42:41",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra signos de clorosis, con hojas amarillas que podrían indicar deficiencia de nutrientes o exceso de riego. Sin embargo, la mayor parte del follaje sigue siendo denso.' a 'La planta muestra signos de clorosis, con hojas amarillas que podrían indicar deficiencia de nutrientes o exceso de riego. Sin embargo, la mayor parte del follaje sigue siendo denso.'"
+    },
+    {
+        "plant_num": 45,
+        "fecha": "2025-04-24 16:42:41",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta arbustiva de hojas compuestas, dispuestas en forma de paraguas, de color verde claro a amarillo. Puede alcanzar un tamaño mediano y se cultiva comúnmente como ornamental en macetas o jardines.' a 'Planta arbustiva de hojas compuestas, dispuestas en forma de paraguas, de color verde claro a amarillo. Puede alcanzar un tamaño mediano y se cultiva comúnmente como ornamental en macetas o jardines.'"
+    },
+    {
+        "plant_num": 45,
+        "fecha": "2025-04-24 16:42:41",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Árbol paraguas enano\nSchefflera arboricola' a 'Árbol paraguas enano\nSchefflera arboricola'"
+    },
+    {
+        "plant_num": 45,
+        "fecha": "2025-04-24 16:42:49",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Árbol paraguas\nSchefflera arboricola' a 'Árbol paraguas\nSchefflera arboricola'"
+    },
+    {
+        "plant_num": 51,
+        "fecha": "2025-04-24 16:43:05",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta tropical de hojas grandes y recortadas, de color verde brillante, con tallos largos; cultivada frecuentemente en interiores o terrazas.' a 'Planta tropical de hojas grandes y recortadas, de color verde brillante, con tallos largos; cultivada frecuentemente en interiores o terrazas.'"
+    },
+    {
+        "plant_num": 51,
+        "fecha": "2025-04-24 16:43:05",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Costilla de Adán\nMonstera deliciosa' a 'Costilla de Adán\nMonstera deliciosa'"
+    },
+    {
+        "plant_num": 51,
+        "fecha": "2025-04-24 16:43:05",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra crecimiento limitado y hojas amarillentas, posiblemente por estrés ambiental o falta de nutrientes.' a 'La planta muestra crecimiento limitado y hojas amarillentas, posiblemente por estrés ambiental o falta de nutrientes.'"
+    },
+    {
+        "plant_num": 53,
+        "fecha": "2025-04-24 16:43:44",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra signos de clorosis, con hojas amarillas y puntas secas, posiblemente por deficiencia de nutrientes o problemas de riego.' a 'La planta muestra signos de clorosis, con hojas amarillas y puntas secas, posiblemente por deficiencia de nutrientes o problemas de riego.'"
+    },
+    {
+        "plant_num": 53,
+        "fecha": "2025-04-24 16:43:44",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Es un arbusto o árbol pequeño de hojas alargadas de color verde, aunque actualmente predominan tonos amarillentos. Está plantado en una maceta de tamaño mediano y sus hojas son de margen liso.' a 'Es un arbusto o árbol pequeño de hojas alargadas de color verde, aunque actualmente predominan tonos amarillentos. Está plantado en una maceta de tamaño mediano y sus hojas son de margen liso.'"
+    },
+    {
+        "plant_num": 53,
+        "fecha": "2025-04-24 16:43:44",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Naranjo\nCitrus sinensis' a 'Naranjo\nCitrus sinensis'"
+    },
+    {
+        "plant_num": 56,
+        "fecha": "2025-04-24 16:45:41",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta suculenta de porte arbustivo, hojas carnosas de color verde con bordes rojizos, flores pequeñas agrupadas en la parte superior; tamaño mediano y forma redondeada.' a 'Planta suculenta de porte arbustivo, hojas carnosas de color verde con bordes rojizos, flores pequeñas agrupadas en la parte superior; tamaño mediano y forma redondeada.'"
+    },
+    {
+        "plant_num": 56,
+        "fecha": "2025-04-24 16:45:41",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta parece estar en buen estado general, con hojas suculentas y brotes florales, aunque algunas hojas muestran leve decoloración.' a 'La planta parece estar en buen estado general, con hojas suculentas y brotes florales, aunque algunas hojas muestran leve decoloración.'"
+    },
+    {
+        "plant_num": 56,
+        "fecha": "2025-04-24 16:45:41",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Planta de jade\nCrassula ovata' a 'Planta de jade\nCrassula ovata'"
+    },
+    {
+        "plant_num": 55,
+        "fecha": "2025-04-24 16:45:53",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra signos de defoliación y hojas amarillas, aunque sigue produciendo frutos. Requiere atención para mejorar su salud.' a 'La planta muestra signos de defoliación y hojas amarillas, aunque sigue produciendo frutos. Requiere atención para mejorar su salud.'"
+    },
+    {
+        "plant_num": 55,
+        "fecha": "2025-04-24 16:45:53",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Limonero\nCitrus limon' a 'Limonero\nCitrus limon'"
+    },
+    {
+        "plant_num": 55,
+        "fecha": "2025-04-24 16:45:53",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Árbol pequeño cultivado en maceta, con hojas ovaladas, frutos grandes y amarillos (limones), ramas despejadas y tronco leñoso.' a 'Árbol pequeño cultivado en maceta, con hojas ovaladas, frutos grandes y amarillos (limones), ramas despejadas y tronco leñoso.'"
+    },
+    {
+        "plant_num": 38,
+        "fecha": "2025-04-24 16:46:26",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Arbusto de tallos leñosos con espinas, hojas compuestas de pequeño tamaño y color verde claro. Tiende a formar matorrales densos con ramas entrelazadas.' a 'Arbusto de tallos leñosos con espinas, hojas compuestas de pequeño tamaño y color verde claro. Tiende a formar matorrales densos con ramas entrelazadas.'"
+    },
+    {
+        "plant_num": 38,
+        "fecha": "2025-04-24 16:46:26",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta presenta algunas hojas verdes y sanas, pero también ramas secas, lo que indica un estado de salud mixto.' a 'La planta presenta algunas hojas verdes y sanas, pero también ramas secas, lo que indica un estado de salud mixto.'"
+    },
+    {
+        "plant_num": 38,
+        "fecha": "2025-04-24 16:46:26",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Rosal silvestre\nRosa canina' a 'Rosal silvestre\nRosa canina'"
+    },
+    {
+        "plant_num": 52,
+        "fecha": "2025-04-24 16:47:24",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta parece estar sana, con hojas verdes y sin signos evidentes de plagas o enfermedades.' a 'La planta parece estar sana, con hojas verdes y sin signos evidentes de plagas o enfermedades.'"
+    },
+    {
+        "plant_num": 52,
+        "fecha": "2025-04-24 16:47:24",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Palmera pequeña de crecimiento lento, de hojas en abanico rígidas y de color verde brillante. El tronco es corto y fibroso, y puede formar matas densas. Es común como planta ornamental en zonas mediterráneas.' a 'Palmera pequeña de crecimiento lento, de hojas en abanico rígidas y de color verde brillante. El tronco es corto y fibroso, y puede formar matas densas. Es común como planta ornamental en zonas mediterráneas.'"
+    },
+    {
+        "plant_num": 52,
+        "fecha": "2025-04-24 16:47:24",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Palmito\nChamaerops humilis' a 'Palmito\nChamaerops humilis'"
+    },
+    {
+        "plant_num": 44,
+        "fecha": "2025-04-24 16:47:51",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta parece saludable en general, aunque algunas hojas presentan puntas secas y hay restos secos en la base.' a 'La planta parece saludable en general, aunque algunas hojas presentan puntas secas y hay restos secos en la base.'"
+    },
+    {
+        "plant_num": 44,
+        "fecha": "2025-04-24 16:47:51",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Palma pequeña de crecimiento lento, con hojas en forma de abanico de color verde claro, tallos cortos y base gruesa. Es típica de climas mediterráneos y se adapta bien a macetas.' a 'Palma pequeña de crecimiento lento, con hojas en forma de abanico de color verde claro, tallos cortos y base gruesa. Es típica de climas mediterráneos y se adapta bien a macetas.'"
+    },
+    {
+        "plant_num": 44,
+        "fecha": "2025-04-24 16:47:51",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Palmito\nChamaerops humilis' a 'Palmito\nChamaerops humilis'"
+    },
+    {
+        "plant_num": 43,
+        "fecha": "2025-04-24 16:48:00",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Palmera pequeña de crecimiento lento, hojas en forma de abanico, de color verde intenso, tallos múltiples y cortos, común en macetas y jardines mediterráneos.' a 'Palmera pequeña de crecimiento lento, hojas en forma de abanico, de color verde intenso, tallos múltiples y cortos, común en macetas y jardines mediterráneos.'"
+    },
+    {
+        "plant_num": 43,
+        "fecha": "2025-04-24 16:48:00",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra buen vigor general, aunque algunas hojas presentan bordes amarillentos y puntas secas, señal de posible estrés o falta de nutrientes.' a 'La planta muestra buen vigor general, aunque algunas hojas presentan bordes amarillentos y puntas secas, señal de posible estrés o falta de nutrientes.'"
+    },
+    {
+        "plant_num": 43,
+        "fecha": "2025-04-24 16:48:00",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Palmito\nChamaerops humilis' a 'Palmito\nChamaerops humilis'"
+    },
+    {
+        "plant_num": 42,
+        "fecha": "2025-04-24 16:48:17",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra signos de buena salud general, aunque algunas hojas tienen bordes rojizos, lo cual es común en condiciones de sol directo o falta de riego.' a 'La planta muestra signos de buena salud general, aunque algunas hojas tienen bordes rojizos, lo cual es común en condiciones de sol directo o falta de riego.'"
+    },
+    {
+        "plant_num": 42,
+        "fecha": "2025-04-24 16:48:17",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Árbol de jade\nCrassula ovata' a 'Árbol de jade\nCrassula ovata'"
+    },
+    {
+        "plant_num": 42,
+        "fecha": "2025-04-24 16:48:17",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta suculenta de tallos gruesos, leñosos y ramificados, con hojas carnosas de forma ovalada, verde-claras y bordes rojizos. Es de tamaño mediano a grande, cultivada en maceta, habitual en climas mediterráneos.' a 'Planta suculenta de tallos gruesos, leñosos y ramificados, con hojas carnosas de forma ovalada, verde-claras y bordes rojizos. Es de tamaño mediano a grande, cultivada en maceta, habitual en climas mediterráneos.'"
+    },
+    {
+        "plant_num": 37,
+        "fecha": "2025-04-24 16:48:33",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta se ve sana, con hojas carnosas y coloración verde intensa, sin señales evidentes de plagas o enfermedades.' a 'La planta se ve sana, con hojas carnosas y coloración verde intensa, sin señales evidentes de plagas o enfermedades.'"
+    },
+    {
+        "plant_num": 37,
+        "fecha": "2025-04-24 16:48:33",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta suculenta de porte arbustivo, con hojas gruesas, ovaladas y de color verde brillante, tallos robustos y de aspecto leñoso. Suele alcanzar un tamaño medio, ideal para macetas y jardines urbanos.' a 'Planta suculenta de porte arbustivo, con hojas gruesas, ovaladas y de color verde brillante, tallos robustos y de aspecto leñoso. Suele alcanzar un tamaño medio, ideal para macetas y jardines urbanos.'"
+    },
+    {
+        "plant_num": 37,
+        "fecha": "2025-04-24 16:48:33",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Árbol de Jade\nCrassula ovata' a 'Árbol de Jade\nCrassula ovata'"
+    },
+    {
+        "plant_num": 13,
+        "fecha": "2025-04-24 16:48:48",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta arbustiva de tallos leñosos con hojas compuestas, de color verde brillante. Presenta estructura ramificada, hojas alternas y bordes dentados típicos de especies ornamentales de jardín en clima mediterráneo.' a 'Planta arbustiva de tallos leñosos con hojas compuestas, de color verde brillante. Presenta estructura ramificada, hojas alternas y bordes dentados típicos de especies ornamentales de jardín en clima mediterráneo.'"
+    },
+    {
+        "plant_num": 13,
+        "fecha": "2025-04-24 16:48:48",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta parece en buen estado general, aunque algunas hojas muestran signos leves de sequedad o estrés, posiblemente por el sol.' a 'La planta parece en buen estado general, aunque algunas hojas muestran signos leves de sequedad o estrés, posiblemente por el sol.'"
+    },
+    {
+        "plant_num": 13,
+        "fecha": "2025-04-24 16:48:48",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Rosa\nRosa sp.' a 'Rosa\nRosa sp.'"
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025-04-24 16:49:01",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta parece saludable en general, con brotes y hojas verdes, aunque algunas hojas tienen bordes secos o dañados.' a 'La planta parece saludable en general, con brotes y hojas verdes, aunque algunas hojas tienen bordes secos o dañados.'"
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025-04-24 16:49:01",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Arbusto con tallos leñosos y hojas compuestas de borde dentado, de color verde intenso. Presenta brotes florales puntiagudos, típico de rosales; tamaño medio, común como ornamental en jardines mediterráneos.' a 'Arbusto con tallos leñosos y hojas compuestas de borde dentado, de color verde intenso. Presenta brotes florales puntiagudos, típico de rosales; tamaño medio, común como ornamental en jardines mediterráneos.'"
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025-04-24 16:49:01",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Rosa\nRosa sp.' a 'Rosa\nRosa sp.'"
+    },
+    {
+        "plant_num": 50,
+        "fecha": "2025-04-24 16:49:17",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta parece generalmente saludable, aunque tiene algunas hojas secas y un crecimiento un poco desordenado posiblemente por falta de luz o espacio.' a 'La planta parece generalmente saludable, aunque tiene algunas hojas secas y un crecimiento un poco desordenado posiblemente por falta de luz o espacio.'"
+    },
+    {
+        "plant_num": 50,
+        "fecha": "2025-04-24 16:49:17",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Dedos de muerto\nSenecio talinoides' a 'Dedos de muerto\nSenecio talinoides'"
+    },
+    {
+        "plant_num": 50,
+        "fecha": "2025-04-24 16:49:17",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Planta suculenta de porte colgante o rastrero, hojas alargadas y carnosas de color verde azulado. Crece formando tallos largos, comúnmente cultivada en maceta ornamental.' a 'Planta suculenta de porte colgante o rastrero, hojas alargadas y carnosas de color verde azulado. Crece formando tallos largos, comúnmente cultivada en maceta ornamental.'"
+    },
+    {
+        "plant_num": 57,
+        "fecha": "2025-04-24 16:49:38",
+        "usuario": "Luca",
+        "accion": "Cambio de estado",
+        "detalles": "AI cambió 'estado' de 'La planta muestra signos de estrés, con hojas amarillas y caída significativa de follaje. Parece estar sufriendo probablemente por falta de riego, nutrientes o plagas.' a 'La planta muestra signos de estrés, con hojas amarillas y caída significativa de follaje. Parece estar sufriendo probablemente por falta de riego, nutrientes o plagas.'"
+    },
+    {
+        "plant_num": 57,
+        "fecha": "2025-04-24 16:49:38",
+        "usuario": "Luca",
+        "accion": "Actualización de descripción",
+        "detalles": "AI cambió 'descripcion' de 'Árbol pequeño o arbusto perenne con hojas ovaladas, verdes (en este caso amarilleando) y ramas espinosas. Es común en jardines mediterráneos y suele producir frutos amarillos (limones).' a 'Árbol pequeño o arbusto perenne con hojas ovaladas, verdes (en este caso amarilleando) y ramas espinosas. Es común en jardines mediterráneos y suele producir frutos amarillos (limones).'"
+    },
+    {
+        "plant_num": 57,
+        "fecha": "2025-04-24 16:49:38",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "AI cambió 'identificacion' de 'Limonero\nCitrus limon' a 'Limonero\nCitrus limon'"
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-04-24 17:08:19",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta muestra signos de deshidratación o estrés ambie…' → 'La planta muestra signos de deshidratación o estrés ambie…'",
+        "old_value": "La planta muestra signos de deshidratación o estrés ambiental; las hojas tienen bordes rojizos y aspecto seco.",
+        "new_value": "La planta muestra signos de deshidratación o estrés ambiental; las hojas tienen bordes rojizos y aspecto seco."
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-04-24 17:08:19",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Suculenta de hojas gruesas, carnosas y redondeadas, con t…' → 'Suculenta de hojas gruesas, carnosas y redondeadas, con t…'",
+        "old_value": "Suculenta de hojas gruesas, carnosas y redondeadas, con tonos verdes y bordes rojizos. Crecimiento en roseta baja, típicamente ornamental y tolerante a la sequía.",
+        "new_value": "Suculenta de hojas gruesas, carnosas y redondeadas, con tonos verdes y bordes rojizos. Crecimiento en roseta baja, típicamente ornamental y tolerante a la sequía."
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-04-24 17:08:19",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Kalanchoe oreja de elefante Kalanchoe luciae' → 'Kalanchoe oreja de elefante Kalanchoe luciae'",
+        "old_value": "Kalanchoe oreja de elefante\nKalanchoe luciae",
+        "new_value": "Kalanchoe oreja de elefante\nKalanchoe luciae"
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-04-24 17:08:31",
+        "usuario": "Luca",
+        "accion": "Deshacer Cambio de nombre",
+        "detalles": "Restaurado a: 'Kalanchoe oreja de elefante Kalanchoe luciae'",
+        "old_value": "Kalanchoe oreja de elefante\nKalanchoe luciae",
+        "new_value": "Kalanchoe oreja de elefante\nKalanchoe luciae"
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-04-24 17:09:08",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Kalanchoe Kalanchoe luciae' → 'Kalanchoe Kalanchoe luciae'",
+        "old_value": "Kalanchoe\nKalanchoe luciae",
+        "new_value": "Kalanchoe\nKalanchoe luciae"
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-04-24 17:09:16",
+        "usuario": "Luca",
+        "accion": "Deshacer Cambio de nombre",
+        "detalles": "Restaurado a: 'Kalanchoe Kalanchoe luciae'",
+        "old_value": "Kalanchoe\nKalanchoe luciae",
+        "new_value": "Kalanchoe\nKalanchoe luciae"
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-04-24 17:10:17",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta muestra signos de deshidratación o estrés ambie…' → 'La planta muestra signos de deshidratación o estrés ambie…'",
+        "old_value": "La planta muestra signos de deshidratación o estrés ambiental; las hojas tienen bordes rojizos y aspecto seco.",
+        "new_value": "La planta muestra signos de deshidratación o estrés ambiental; las hojas tienen bordes rojizos y aspecto seco."
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-24 17:13:16",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Jade 2 Crassula ovata' → 'Jade 2 Crassula ovata'",
+        "old_value": "Jade 2\nCrassula ovata",
+        "new_value": "Jade 2\nCrassula ovata"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-24 17:13:19",
+        "usuario": "Luca",
+        "accion": "Deshacer Cambio de nombre",
+        "detalles": "Restaurado a: 'Jade 2 Crassula ovata'",
+        "old_value": "Jade 2\nCrassula ovata",
+        "new_value": "Jade 2\nCrassula ovata"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-24 17:13:31",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Jade Crassula ovata' → 'Jade Crassula ovata'",
+        "old_value": "Jade\nCrassula ovata",
+        "new_value": "Jade\nCrassula ovata"
+    },
+    {
+        "plant_num": 41,
+        "fecha": "2025-04-24 18:42:16",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta muestra escaso follaje y parece estar en estado…' → 'La planta muestra escaso follaje y parece estar en estado…'",
+        "old_value": "La planta muestra escaso follaje y parece estar en estado de reposo o recuperación, con signos de poda reciente o posible estrés ambiental.",
+        "new_value": "La planta muestra escaso follaje y parece estar en estado de reposo o recuperación, con signos de poda reciente o posible estrés ambiental."
+    },
+    {
+        "plant_num": 41,
+        "fecha": "2025-04-24 18:42:16",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta arbustiva de tallos leñosos y espinosos, con hojas…' → 'Planta arbustiva de tallos leñosos y espinosos, con hojas…'",
+        "old_value": "Planta arbustiva de tallos leñosos y espinosos, con hojas compuestas verdes. Es de porte medio y se cultiva comúnmente como ornamental en climas mediterráneos.",
+        "new_value": "Planta arbustiva de tallos leñosos y espinosos, con hojas compuestas verdes. Es de porte medio y se cultiva comúnmente como ornamental en climas mediterráneos."
+    },
+    {
+        "plant_num": 41,
+        "fecha": "2025-04-24 18:42:16",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Rosa Rosa sp.' → 'Rosa Rosa sp.'",
+        "old_value": "Rosa\nRosa sp.",
+        "new_value": "Rosa\nRosa sp."
+    },
+    {
+        "plant_num": 19,
+        "fecha": "2025-04-24 18:55:12",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Vid Vitis vinifera' → 'Vid Vitis vinifera'",
+        "old_value": "Vid\nVitis vinifera",
+        "new_value": "Vid\nVitis vinifera"
+    },
+    {
+        "plant_num": 16,
+        "fecha": "2025-04-24 18:55:30",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta presenta algunos brotes y hojas verdes, pero la…' → 'La planta presenta algunos brotes y hojas verdes, pero la…'",
+        "old_value": "La planta presenta algunos brotes y hojas verdes, pero la mayoría de sus ramas se ven secas, lo que sugiere que ha pasado por estrés hídrico o falta de poda.",
+        "new_value": "La planta presenta algunos brotes y hojas verdes, pero la mayoría de sus ramas se ven secas, lo que sugiere que ha pasado por estrés hídrico o falta de poda."
+    },
+    {
+        "plant_num": 16,
+        "fecha": "2025-04-24 18:55:30",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta trepadora ornamental de tallos leñosos retorcidos,…' → 'Planta trepadora ornamental de tallos leñosos retorcidos,…'",
+        "old_value": "Planta trepadora ornamental de tallos leñosos retorcidos, hojas verdes simples y forma ramificada. Suele alcanzar un gran tamaño y es común en jardines mediterráneos.",
+        "new_value": "Planta trepadora ornamental de tallos leñosos retorcidos, hojas verdes simples y forma ramificada. Suele alcanzar un gran tamaño y es común en jardines mediterráneos."
+    },
+    {
+        "plant_num": 16,
+        "fecha": "2025-04-24 18:55:30",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Bugambilia Bougainvillea glabra' → 'Bugambilia Bougainvillea glabra'",
+        "old_value": "Bugambilia\nBougainvillea glabra",
+        "new_value": "Bugambilia\nBougainvillea glabra"
+    },
+    {
+        "plant_num": 11,
+        "fecha": "2025-04-24 18:57:20",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Rosa Rosa sp.' → 'Rosa Rosa sp.'",
+        "old_value": "Rosa\nRosa sp.",
+        "new_value": "Rosa\nRosa sp."
+    },
+    {
+        "plant_num": 11,
+        "fecha": "2025-04-24 18:57:20",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece estar sana, con hojas verdes y sin signo…' → 'La planta parece estar sana, con hojas verdes y sin signo…'",
+        "old_value": "La planta parece estar sana, con hojas verdes y sin signos evidentes de enfermedad ni plagas.",
+        "new_value": "La planta parece estar sana, con hojas verdes y sin signos evidentes de enfermedad ni plagas."
+    },
+    {
+        "plant_num": 11,
+        "fecha": "2025-04-24 18:57:20",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Arbusto ornamental de hojas compuestas, verdes y brillant…' → 'Arbusto ornamental de hojas compuestas, verdes y brillant…'",
+        "old_value": "Arbusto ornamental de hojas compuestas, verdes y brillantes, con bordes aserrados. Tamaño medio, típico de jardines y terrazas mediterráneas.",
+        "new_value": "Arbusto ornamental de hojas compuestas, verdes y brillantes, con bordes aserrados. Tamaño medio, típico de jardines y terrazas mediterráneas."
+    },
+    {
+        "plant_num": 27,
+        "fecha": "2025-04-24 19:01:33",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta suculenta de gran tamaño, con hojas lanceoladas, r…' → 'Planta suculenta de gran tamaño, con hojas lanceoladas, r…'",
+        "old_value": "Planta suculenta de gran tamaño, con hojas lanceoladas, rígidas, de bordes espinosos y color verde con franjas amarillas. Generalmente forma una roseta compacta y es popular en jardines mediterráneos.",
+        "new_value": "Planta suculenta de gran tamaño, con hojas lanceoladas, rígidas, de bordes espinosos y color verde con franjas amarillas. Generalmente forma una roseta compacta y es popular en jardines mediterráneos."
+    },
+    {
+        "plant_num": 27,
+        "fecha": "2025-04-24 19:01:33",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Agave americana variegata Agave americana' → 'Agave americana variegata Agave americana'",
+        "old_value": "Agave americana variegata\nAgave americana",
+        "new_value": "Agave americana variegata\nAgave americana"
+    },
+    {
+        "plant_num": 27,
+        "fecha": "2025-04-24 19:01:33",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta presenta varias hojas secas o dañadas, pero la …' → 'La planta presenta varias hojas secas o dañadas, pero la …'",
+        "old_value": "La planta presenta varias hojas secas o dañadas, pero la mayoría están verdes y parecen saludables.",
+        "new_value": "La planta presenta varias hojas secas o dañadas, pero la mayoría están verdes y parecen saludables."
+    },
+    {
+        "plant_num": 27,
+        "fecha": "2025-04-24 19:01:39",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Agave americana Agave americana' → 'Agave americana Agave americana'",
+        "old_value": "Agave americana\nAgave americana",
+        "new_value": "Agave americana\nAgave americana"
+    },
+    {
+        "plant_num": 17,
+        "fecha": "2025-04-24 19:03:36",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta presenta un crecimiento moderado de hojas verde…' → 'La planta presenta un crecimiento moderado de hojas verde…'",
+        "old_value": "La planta presenta un crecimiento moderado de hojas verdes nuevas, pero muchas ramas están desnudas, lo que sugiere que está recuperándose o en una fase de brotación tras una posible poda o estrés.",
+        "new_value": "La planta presenta un crecimiento moderado de hojas verdes nuevas, pero muchas ramas están desnudas, lo que sugiere que está recuperándose o en una fase de brotación tras una posible poda o estrés."
+    },
+    {
+        "plant_num": 17,
+        "fecha": "2025-04-24 19:03:36",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Bugambilia Bougainvillea spectabilis' → 'Bugambilia Bougainvillea spectabilis'",
+        "old_value": "Bugambilia\nBougainvillea spectabilis",
+        "new_value": "Bugambilia\nBougainvillea spectabilis"
+    },
+    {
+        "plant_num": 17,
+        "fecha": "2025-04-24 19:03:36",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta trepadora leñosa, de tallos largos y delgados, con…' → 'Planta trepadora leñosa, de tallos largos y delgados, con…'",
+        "old_value": "Planta trepadora leñosa, de tallos largos y delgados, con hojas ovaladas de color verde brillante. Suele usarse en jardines como ornamental y es típica del clima mediterráneo.",
+        "new_value": "Planta trepadora leñosa, de tallos largos y delgados, con hojas ovaladas de color verde brillante. Suele usarse en jardines como ornamental y es típica del clima mediterráneo."
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2025-04-24 19:04:29",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Jade 'Gollum' Crassula ovata' → 'Jade 'Gollum' Crassula ovata'",
+        "old_value": "Jade 'Gollum'\nCrassula ovata",
+        "new_value": "Jade 'Gollum'\nCrassula ovata"
+    },
+    {
+        "plant_num": 30,
+        "fecha": "2025-04-25 12:36:17",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta muestra un buen estado de salud general. Las ho…' → 'La planta muestra un buen estado de salud general. Las ho…'",
+        "old_value": "La planta muestra un buen estado de salud general. Las hojas están firmes y de color adecuado, aunque algunas puntas están ligeramente secas.",
+        "new_value": "La planta muestra un buen estado de salud general. Las hojas están firmes y de color adecuado, aunque algunas puntas están ligeramente secas."
+    },
+    {
+        "plant_num": 30,
+        "fecha": "2025-04-25 12:36:17",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta suculenta de hojas alargadas, carnosas y puntiagud…' → 'Planta suculenta de hojas alargadas, carnosas y puntiagud…'",
+        "old_value": "Planta suculenta de hojas alargadas, carnosas y puntiagudas, color verde-grisáceo con bordes ligeramente espinosos. Forma una roseta densa y puede alcanzar hasta 60 cm de altura.",
+        "new_value": "Planta suculenta de hojas alargadas, carnosas y puntiagudas, color verde-grisáceo con bordes ligeramente espinosos. Forma una roseta densa y puede alcanzar hasta 60 cm de altura."
+    },
+    {
+        "plant_num": 30,
+        "fecha": "2025-04-25 12:36:17",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Áloe vera Aloe vera' → 'Áloe vera Aloe vera'",
+        "old_value": "Áloe vera\nAloe vera",
+        "new_value": "Áloe vera\nAloe vera"
+    },
+    {
+        "plant_num": 60,
+        "fecha": "2025-04-26 11:04:12",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 60,
+        "fecha": "2025-04-26 11:04:23",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Costilla de Adán Monstera deliciosa' → 'Costilla de Adán Monstera deliciosa'",
+        "old_value": "Costilla de Adán\nMonstera deliciosa",
+        "new_value": "Costilla de Adán\nMonstera deliciosa"
+    },
+    {
+        "plant_num": 60,
+        "fecha": "2025-04-26 11:04:23",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta de interior ornamental de hojas grandes, verdes y …' → 'Planta de interior ornamental de hojas grandes, verdes y …'",
+        "old_value": "Planta de interior ornamental de hojas grandes, verdes y brillantes, con profundas hendiduras y perforaciones características. Sus tallos son largos y trepadores, típica de ambientes cálidos y húmedos.",
+        "new_value": "Planta de interior ornamental de hojas grandes, verdes y brillantes, con profundas hendiduras y perforaciones características. Sus tallos son largos y trepadores, típica de ambientes cálidos y húmedos."
+    },
+    {
+        "plant_num": 60,
+        "fecha": "2025-04-26 11:04:23",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta se ve sana, con hojas verdes y brillantes, sin …' → 'La planta se ve sana, con hojas verdes y brillantes, sin …'",
+        "old_value": "La planta se ve sana, con hojas verdes y brillantes, sin signos importantes de sequedad o enfermedad.",
+        "new_value": "La planta se ve sana, con hojas verdes y brillantes, sin signos importantes de sequedad o enfermedad."
+    },
+    {
+        "plant_num": 60,
+        "fecha": "2025-04-26 11:04:35",
+        "usuario": "Luca",
+        "accion": "Riego",
+        "detalles": "Manual",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 61,
+        "fecha": "2025-04-26 11:05:33",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 61,
+        "fecha": "2025-04-26 11:06:02",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Cactus erizo pequeño (posible planta decorativa) Echinoca…' → 'Cactus erizo pequeño (posible planta decorativa) Echinoca…'",
+        "old_value": "Cactus erizo pequeño (posible planta decorativa)\nEchinocactus grusonii",
+        "new_value": "Cactus erizo pequeño (posible planta decorativa)\nEchinocactus grusonii"
+    },
+    {
+        "plant_num": 61,
+        "fecha": "2025-04-26 11:06:02",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta presenta un color apagado y señales de sequedad…' → 'La planta presenta un color apagado y señales de sequedad…'",
+        "old_value": "La planta presenta un color apagado y señales de sequedad, indicando que podría estar deshidratada o es una planta artificial.",
+        "new_value": "La planta presenta un color apagado y señales de sequedad, indicando que podría estar deshidratada o es una planta artificial."
+    },
+    {
+        "plant_num": 61,
+        "fecha": "2025-04-26 11:06:02",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Pequeño cactus globular de color verde con costillas marc…' → 'Pequeño cactus globular de color verde con costillas marc…'",
+        "old_value": "Pequeño cactus globular de color verde con costillas marcadas adornadas con vello blanco o espinas. Está colocado en una maceta blanca ornamental, típico en decoración interior.",
+        "new_value": "Pequeño cactus globular de color verde con costillas marcadas adornadas con vello blanco o espinas. Está colocado en una maceta blanca ornamental, típico en decoración interior."
+    },
+    {
+        "plant_num": 61,
+        "fecha": "2025-04-26 11:06:58",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 61,
+        "fecha": "2025-04-26 11:07:19",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece estar en buen estado general, con hojas …' → 'La planta parece estar en buen estado general, con hojas …'",
+        "old_value": "La planta parece estar en buen estado general, con hojas verdes y sin signos evidentes de plagas o enfermedades.",
+        "new_value": "La planta parece estar en buen estado general, con hojas verdes y sin signos evidentes de plagas o enfermedades."
+    },
+    {
+        "plant_num": 61,
+        "fecha": "2025-04-26 11:07:19",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta ornamental de tallo recto o en espiral, color verd…' → 'Planta ornamental de tallo recto o en espiral, color verd…'",
+        "old_value": "Planta ornamental de tallo recto o en espiral, color verde claro, hojas alargadas y lanceoladas. Tamaño pequeño, típica para cultivos en agua en recipientes de interior.",
+        "new_value": "Planta ornamental de tallo recto o en espiral, color verde claro, hojas alargadas y lanceoladas. Tamaño pequeño, típica para cultivos en agua en recipientes de interior."
+    },
+    {
+        "plant_num": 61,
+        "fecha": "2025-04-26 11:07:19",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Bambú de la suerte Dracaena sanderiana' → 'Bambú de la suerte Dracaena sanderiana'",
+        "old_value": "Bambú de la suerte\nDracaena sanderiana",
+        "new_value": "Bambú de la suerte\nDracaena sanderiana"
+    },
+    {
+        "plant_num": 62,
+        "fecha": "2025-04-27 02:00:05",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 62,
+        "fecha": "2025-04-27 20:41:02",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 58,
+        "fecha": "2025-04-29 10:58:55",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 58,
+        "fecha": "2025-04-29 10:59:48",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta muestra hojas verdes y sanas, sin síntomas evid…' → 'La planta muestra hojas verdes y sanas, sin síntomas evid…'",
+        "old_value": "La planta muestra hojas verdes y sanas, sin síntomas evidentes de plagas o enfermedades.",
+        "new_value": "La planta muestra hojas verdes y sanas, sin síntomas evidentes de plagas o enfermedades."
+    },
+    {
+        "plant_num": 58,
+        "fecha": "2025-04-29 10:59:49",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta trepadora ornamental con hojas compuestas de color…' → 'Planta trepadora ornamental con hojas compuestas de color…'",
+        "old_value": "Planta trepadora ornamental con hojas compuestas de color verde brillante, cada foliolo es alargado y dentado. Es de porte vigoroso, habitual en jardines y pérgolas del clima mediterráneo.",
+        "new_value": "Planta trepadora ornamental con hojas compuestas de color verde brillante, cada foliolo es alargado y dentado. Es de porte vigoroso, habitual en jardines y pérgolas del clima mediterráneo."
+    },
+    {
+        "plant_num": 58,
+        "fecha": "2025-04-29 10:59:49",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Glicinia japonesa Wisteria floribunda' → 'Glicinia japonesa Wisteria floribunda'",
+        "old_value": "Glicinia japonesa\nWisteria floribunda",
+        "new_value": "Glicinia japonesa\nWisteria floribunda"
+    },
+    {
+        "plant_num": 58,
+        "fecha": "2025-04-29 11:00:55",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 62,
+        "fecha": "2025-04-30 09:12:47",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: curiosity.png",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 62,
+        "fecha": "2025-05-15 08:55:54",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 62,
+        "fecha": "2025-05-15 08:57:42",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Suculenta (posible Echeveria) Echeveria sp.' → 'Suculenta (posible Echeveria) Echeveria sp.'",
+        "old_value": "Suculenta (posible Echeveria)\nEcheveria sp.",
+        "new_value": "Suculenta (posible Echeveria)\nEcheveria sp."
+    },
+    {
+        "plant_num": 62,
+        "fecha": "2025-05-15 08:57:42",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta suculenta de hojas carnosas dispuestas en roseta, …' → 'Planta suculenta de hojas carnosas dispuestas en roseta, …'",
+        "old_value": "Planta suculenta de hojas carnosas dispuestas en roseta, color verde. Tamaño pequeño, situada en un recipiente con arena y piedras decorativas.",
+        "new_value": "Planta suculenta de hojas carnosas dispuestas en roseta, color verde. Tamaño pequeño, situada en un recipiente con arena y piedras decorativas."
+    },
+    {
+        "plant_num": 62,
+        "fecha": "2025-05-15 08:57:42",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece estar en buen estado de salud, con hojas…' → 'La planta parece estar en buen estado de salud, con hojas…'",
+        "old_value": "La planta parece estar en buen estado de salud, con hojas firmes y color uniforme.",
+        "new_value": "La planta parece estar en buen estado de salud, con hojas firmes y color uniforme."
+    },
+    {
+        "plant_num": 62,
+        "fecha": "2025-05-15 08:58:08",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Suculenta Echeveria' → 'Suculenta Echeveria'",
+        "old_value": "Suculenta\nEcheveria",
+        "new_value": "Suculenta\nEcheveria"
+    },
+    {
+        "plant_num": 62,
+        "fecha": "2025-05-17 20:54:25",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 62,
+        "fecha": "2025-05-17 20:55:10",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Arbusto de follaje denso, con hojas lanceoladas, verdes y…' → 'Arbusto de follaje denso, con hojas lanceoladas, verdes y…'",
+        "old_value": "Arbusto de follaje denso, con hojas lanceoladas, verdes y brillantes. Es de tamaño mediano y frecuentemente utilizado como planta ornamental y culinaria en jardines del clima mediterráneo.",
+        "new_value": "Arbusto de follaje denso, con hojas lanceoladas, verdes y brillantes. Es de tamaño mediano y frecuentemente utilizado como planta ornamental y culinaria en jardines del clima mediterráneo."
+    },
+    {
+        "plant_num": 62,
+        "fecha": "2025-05-17 20:55:10",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Laurel común Laurus nobilis' → 'Laurel común Laurus nobilis'",
+        "old_value": "Laurel común\nLaurus nobilis",
+        "new_value": "Laurel común\nLaurus nobilis"
+    },
+    {
+        "plant_num": 62,
+        "fecha": "2025-05-17 20:55:10",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta se ve en buen estado general, con hojas verdes …' → 'La planta se ve en buen estado general, con hojas verdes …'",
+        "old_value": "La planta se ve en buen estado general, con hojas verdes y sin signos evidentes de plagas o enfermedades.",
+        "new_value": "La planta se ve en buen estado general, con hojas verdes y sin signos evidentes de plagas o enfermedades."
+    },
+    {
+        "plant_num": 63,
+        "fecha": "2025-05-28 08:25:31",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: IMG_4117.jpeg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 63,
+        "fecha": "2025-05-28 08:25:54",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Tomatera Solanum lycopersicum' → 'Tomatera Solanum lycopersicum'",
+        "old_value": "Tomatera\nSolanum lycopersicum",
+        "new_value": "Tomatera\nSolanum lycopersicum"
+    },
+    {
+        "plant_num": 63,
+        "fecha": "2025-05-28 08:25:54",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece estar en buen estado general, mostrando …' → 'La planta parece estar en buen estado general, mostrando …'",
+        "old_value": "La planta parece estar en buen estado general, mostrando hojas verdes y sin signos visibles de plagas o enfermedades. Está en una etapa joven y en pleno desarrollo.",
+        "new_value": "La planta parece estar en buen estado general, mostrando hojas verdes y sin signos visibles de plagas o enfermedades. Está en una etapa joven y en pleno desarrollo."
+    },
+    {
+        "plant_num": 63,
+        "fecha": "2025-05-28 08:25:54",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta de porte bajo actualmente, con hojas compuestas de…' → 'Planta de porte bajo actualmente, con hojas compuestas de…'",
+        "old_value": "Planta de porte bajo actualmente, con hojas compuestas de color verde claro. Es una planta anual, típica de huertos urbanos, y se cultiva en un macetero con tutores verticales para guiar su crecimiento.",
+        "new_value": "Planta de porte bajo actualmente, con hojas compuestas de color verde claro. Es una planta anual, típica de huertos urbanos, y se cultiva en un macetero con tutores verticales para guiar su crecimiento."
+    },
+    {
+        "plant_num": 21,
+        "fecha": "2025-05-28 08:26:52",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: IMG_4120.jpeg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025-05-28 08:29:07",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: IMG_4121.jpeg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025-05-28 08:29:37",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Arbusto ornamental de tamaño medio cultivado en maceta, c…' → 'Arbusto ornamental de tamaño medio cultivado en maceta, c…'",
+        "old_value": "Arbusto ornamental de tamaño medio cultivado en maceta, con hojas compuestas de color verde oscuro y flores grandes de colores variados (blanco, rosa, rojo). Tiene porte erguido y ramificado, propio de plantas cultivadas en clima mediterráneo.",
+        "new_value": "Arbusto ornamental de tamaño medio cultivado en maceta, con hojas compuestas de color verde oscuro y flores grandes de colores variados (blanco, rosa, rojo). Tiene porte erguido y ramificado, propio de plantas cultivadas en clima mediterráneo."
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025-05-28 08:29:37",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta se ve saludable, con abundante follaje verde y …' → 'La planta se ve saludable, con abundante follaje verde y …'",
+        "old_value": "La planta se ve saludable, con abundante follaje verde y numerosas flores en varios estados de floración.",
+        "new_value": "La planta se ve saludable, con abundante follaje verde y numerosas flores en varios estados de floración."
+    },
+    {
+        "plant_num": 14,
+        "fecha": "2025-05-28 08:29:37",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Rosa Rosa sp.' → 'Rosa Rosa sp.'",
+        "old_value": "Rosa\nRosa sp.",
+        "new_value": "Rosa\nRosa sp."
+    },
+    {
+        "plant_num": 21,
+        "fecha": "2025-05-28 08:44:22",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta se ve saludable, con hojas verdes y flores viva…' → 'La planta se ve saludable, con hojas verdes y flores viva…'",
+        "old_value": "La planta se ve saludable, con hojas verdes y flores vivas. No se aprecian signos evidentes de plagas o enfermedades.",
+        "new_value": "La planta se ve saludable, con hojas verdes y flores vivas. No se aprecian signos evidentes de plagas o enfermedades."
+    },
+    {
+        "plant_num": 21,
+        "fecha": "2025-05-28 08:44:22",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta perenne con hojas grandes, redondeadas y de color …' → 'Planta perenne con hojas grandes, redondeadas y de color …'",
+        "old_value": "Planta perenne con hojas grandes, redondeadas y de color verde brillante. Presenta tallos erectos con racimos de flores rosadas, adecuada para jardines y terrazas en climas templados.",
+        "new_value": "Planta perenne con hojas grandes, redondeadas y de color verde brillante. Presenta tallos erectos con racimos de flores rosadas, adecuada para jardines y terrazas en climas templados."
+    },
+    {
+        "plant_num": 21,
+        "fecha": "2025-05-28 08:44:22",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Bergenia Bergenia crassifolia' → 'Bergenia Bergenia crassifolia'",
+        "old_value": "Bergenia\nBergenia crassifolia",
+        "new_value": "Bergenia\nBergenia crassifolia"
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-05-28 08:46:22",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: IMG_4123.jpeg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-05-28 08:46:43",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece estar en buen estado de salud, con hojas…' → 'La planta parece estar en buen estado de salud, con hojas…'",
+        "old_value": "La planta parece estar en buen estado de salud, con hojas frondosas y de color verde vivo, aunque algunas hojas inferiores muestran ligero amarillamiento.",
+        "new_value": "La planta parece estar en buen estado de salud, con hojas frondosas y de color verde vivo, aunque algunas hojas inferiores muestran ligero amarillamiento."
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-05-28 08:46:43",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta perenne de porte herbáceo, con hojas largas, arque…' → 'Planta perenne de porte herbáceo, con hojas largas, arque…'",
+        "old_value": "Planta perenne de porte herbáceo, con hojas largas, arqueadas y pinnadas de color verde claro a medio. Ideal como planta ornamental en maceta, de tamaño mediano a grande y follaje denso.",
+        "new_value": "Planta perenne de porte herbáceo, con hojas largas, arqueadas y pinnadas de color verde claro a medio. Ideal como planta ornamental en maceta, de tamaño mediano a grande y follaje denso."
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-05-28 08:46:43",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Helecho espada Nephrolepis exaltata' → 'Helecho espada Nephrolepis exaltata'",
+        "old_value": "Helecho espada\nNephrolepis exaltata",
+        "new_value": "Helecho espada\nNephrolepis exaltata"
+    },
+    {
+        "plant_num": 46,
+        "fecha": "2025-05-28 08:48:29",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Arbusto perenne de hojas lanceoladas, de color verde bril…' → 'Arbusto perenne de hojas lanceoladas, de color verde bril…'",
+        "old_value": "Arbusto perenne de hojas lanceoladas, de color verde brillante y bordes lisos. Puede alcanzar varios metros de altura, y se utiliza comúnmente como planta ornamental y aromática en climas mediterráneos.",
+        "new_value": "Arbusto perenne de hojas lanceoladas, de color verde brillante y bordes lisos. Puede alcanzar varios metros de altura, y se utiliza comúnmente como planta ornamental y aromática en climas mediterráneos."
+    },
+    {
+        "plant_num": 46,
+        "fecha": "2025-05-28 08:48:29",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece estar saludable, con hojas verdes y sin …' → 'La planta parece estar saludable, con hojas verdes y sin …'",
+        "old_value": "La planta parece estar saludable, con hojas verdes y sin signos evidentes de daño o enfermedad.",
+        "new_value": "La planta parece estar saludable, con hojas verdes y sin signos evidentes de daño o enfermedad."
+    },
+    {
+        "plant_num": 46,
+        "fecha": "2025-05-28 08:48:29",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Laurel Laurus nobilis' → 'Laurel Laurus nobilis'",
+        "old_value": "Laurel\nLaurus nobilis",
+        "new_value": "Laurel\nLaurus nobilis"
+    },
+    {
+        "plant_num": 64,
+        "fecha": "2025-05-31 19:54:16",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 64,
+        "fecha": "2025-05-31 19:54:32",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta perenne de porte rastrero con tallos y hojas de co…' → 'Planta perenne de porte rastrero con tallos y hojas de co…'",
+        "old_value": "Planta perenne de porte rastrero con tallos y hojas de color púrpura intenso. Las hojas son alargadas y lanceoladas, y puede desarrollar pequeñas flores rosadas o moradas.",
+        "new_value": "Planta perenne de porte rastrero con tallos y hojas de color púrpura intenso. Las hojas son alargadas y lanceoladas, y puede desarrollar pequeñas flores rosadas o moradas."
+    },
+    {
+        "plant_num": 64,
+        "fecha": "2025-05-31 19:54:32",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece estar en buen estado general, con hojas …' → 'La planta parece estar en buen estado general, con hojas …'",
+        "old_value": "La planta parece estar en buen estado general, con hojas firmes y coloración adecuada.",
+        "new_value": "La planta parece estar en buen estado general, con hojas firmes y coloración adecuada."
+    },
+    {
+        "plant_num": 64,
+        "fecha": "2025-05-31 19:54:32",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Tradescantia morada Tradescantia pallida' → 'Tradescantia morada Tradescantia pallida'",
+        "old_value": "Tradescantia morada\nTradescantia pallida",
+        "new_value": "Tradescantia morada\nTradescantia pallida"
+    },
+    {
+        "plant_num": 65,
+        "fecha": "2025-05-31 19:54:59",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 66,
+        "fecha": "2025-05-31 19:55:26",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 67,
+        "fecha": "2025-05-31 19:55:48",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 67,
+        "fecha": "2025-05-31 19:56:21",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta se encuentra en estado de rebrote, mostrando br…' → 'La planta se encuentra en estado de rebrote, mostrando br…'",
+        "old_value": "La planta se encuentra en estado de rebrote, mostrando brotes nuevos y sanos después de una posible poda invernal.",
+        "new_value": "La planta se encuentra en estado de rebrote, mostrando brotes nuevos y sanos después de una posible poda invernal."
+    },
+    {
+        "plant_num": 67,
+        "fecha": "2025-05-31 19:56:21",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Rosa Rosa sp.' → 'Rosa Rosa sp.'",
+        "old_value": "Rosa\nRosa sp.",
+        "new_value": "Rosa\nRosa sp."
+    },
+    {
+        "plant_num": 67,
+        "fecha": "2025-05-31 19:56:21",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta arbustiva de tallos leñosos, brotando desde la bas…' → 'Planta arbustiva de tallos leñosos, brotando desde la bas…'",
+        "old_value": "Planta arbustiva de tallos leñosos, brotando desde la base, con hojas y brotes jóvenes de color marrón rojizo. Tamaño pequeño, habitual en jardines ornamentales mediterráneos.",
+        "new_value": "Planta arbustiva de tallos leñosos, brotando desde la base, con hojas y brotes jóvenes de color marrón rojizo. Tamaño pequeño, habitual en jardines ornamentales mediterráneos."
+    },
+    {
+        "plant_num": 67,
+        "fecha": "2025-05-31 19:58:04",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta herbácea perenne con brotes jóvenes rojizos emergi…' → 'Planta herbácea perenne con brotes jóvenes rojizos emergi…'",
+        "old_value": "Planta herbácea perenne con brotes jóvenes rojizos emergiendo del suelo, tallos robustos y crecimiento en forma de mata. Es común en jardines ornamentales, especialmente en climas templados.",
+        "new_value": "Planta herbácea perenne con brotes jóvenes rojizos emergiendo del suelo, tallos robustos y crecimiento en forma de mata. Es común en jardines ornamentales, especialmente en climas templados."
+    },
+    {
+        "plant_num": 67,
+        "fecha": "2025-05-31 19:58:04",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta muestra brotes nuevos, lo que indica que está e…' → 'La planta muestra brotes nuevos, lo que indica que está e…'",
+        "old_value": "La planta muestra brotes nuevos, lo que indica que está en fase de crecimiento inicial pero aún no plenamente desarrollada. No se observan signos evidentes de plagas ni enfermedades.",
+        "new_value": "La planta muestra brotes nuevos, lo que indica que está en fase de crecimiento inicial pero aún no plenamente desarrollada. No se observan signos evidentes de plagas ni enfermedades."
+    },
+    {
+        "plant_num": 67,
+        "fecha": "2025-05-31 19:58:04",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Peonía Paeonia lactiflora' → 'Peonía Paeonia lactiflora'",
+        "old_value": "Peonía\nPaeonia lactiflora",
+        "new_value": "Peonía\nPaeonia lactiflora"
+    },
+    {
+        "plant_num": 66,
+        "fecha": "2025-05-31 19:58:29",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece estar en estado regular, con algunas ram…' → 'La planta parece estar en estado regular, con algunas ram…'",
+        "old_value": "La planta parece estar en estado regular, con algunas ramas alargadas y crecimiento limitado, posiblemente por falta de luz o agua.",
+        "new_value": "La planta parece estar en estado regular, con algunas ramas alargadas y crecimiento limitado, posiblemente por falta de luz o agua."
+    },
+    {
+        "plant_num": 66,
+        "fecha": "2025-05-31 19:58:29",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta suculenta de pequeño tamaño, con hojas carnosas, o…' → 'Planta suculenta de pequeño tamaño, con hojas carnosas, o…'",
+        "old_value": "Planta suculenta de pequeño tamaño, con hojas carnosas, oblongas, cubiertas de vello blanco y margen ligeramente lobulado. De porte rastrero y tonos verdes claros, típica de climas cálidos y secos.",
+        "new_value": "Planta suculenta de pequeño tamaño, con hojas carnosas, oblongas, cubiertas de vello blanco y margen ligeramente lobulado. De porte rastrero y tonos verdes claros, típica de climas cálidos y secos."
+    },
+    {
+        "plant_num": 66,
+        "fecha": "2025-05-31 19:58:29",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Oreja de gato Cotyledon tomentosa' → 'Oreja de gato Cotyledon tomentosa'",
+        "old_value": "Oreja de gato\nCotyledon tomentosa",
+        "new_value": "Oreja de gato\nCotyledon tomentosa"
+    },
+    {
+        "plant_num": 65,
+        "fecha": "2025-05-31 19:58:38",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece sana, con hojas firmes y de color unifor…' → 'La planta parece sana, con hojas firmes y de color unifor…'",
+        "old_value": "La planta parece sana, con hojas firmes y de color uniforme, sin señales evidentes de plagas o enfermedades.",
+        "new_value": "La planta parece sana, con hojas firmes y de color uniforme, sin señales evidentes de plagas o enfermedades."
+    },
+    {
+        "plant_num": 65,
+        "fecha": "2025-05-31 19:58:38",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta suculenta de porte bajo, con tallos erectos y hoja…' → 'Planta suculenta de porte bajo, con tallos erectos y hoja…'",
+        "old_value": "Planta suculenta de porte bajo, con tallos erectos y hojas alargadas, carnosas, de color azul-verdoso. Suele crecer en pequeñas matas y es muy utilizada como planta ornamental en climas mediterráneos.",
+        "new_value": "Planta suculenta de porte bajo, con tallos erectos y hojas alargadas, carnosas, de color azul-verdoso. Suele crecer en pequeñas matas y es muy utilizada como planta ornamental en climas mediterráneos."
+    },
+    {
+        "plant_num": 65,
+        "fecha": "2025-05-31 19:58:38",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Dedo de muerto Senecio talinoides' → 'Dedo de muerto Senecio talinoides'",
+        "old_value": "Dedo de muerto\nSenecio talinoides",
+        "new_value": "Dedo de muerto\nSenecio talinoides"
+    },
+    {
+        "plant_num": 64,
+        "fecha": "2025-05-31 19:58:54",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Tradescantia Tradescantia pallida' → 'Tradescantia Tradescantia pallida'",
+        "old_value": "Tradescantia\nTradescantia pallida",
+        "new_value": "Tradescantia\nTradescantia pallida"
+    },
+    {
+        "plant_num": 64,
+        "fecha": "2025-05-31 19:59:12",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Amor de hombre Tradescantia pallida' → 'Amor de hombre Tradescantia pallida'",
+        "old_value": "Amor de hombre\nTradescantia pallida",
+        "new_value": "Amor de hombre\nTradescantia pallida"
+    },
+    {
+        "plant_num": 63,
+        "fecha": "2025-05-31 20:00:02",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 63,
+        "fecha": "2025-05-31 20:00:55",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'Las plantas se ven jóvenes y saludables, con hojas verdes…' → 'Las plantas se ven jóvenes y saludables, con hojas verdes…'",
+        "old_value": "Las plantas se ven jóvenes y saludables, con hojas verdes y sin signos evidentes de plagas o enfermedades.",
+        "new_value": "Las plantas se ven jóvenes y saludables, con hojas verdes y sin signos evidentes de plagas o enfermedades."
+    },
+    {
+        "plant_num": 63,
+        "fecha": "2025-05-31 20:00:55",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta herbácea anual de porte erguido, hojas compuestas …' → 'Planta herbácea anual de porte erguido, hojas compuestas …'",
+        "old_value": "Planta herbácea anual de porte erguido, hojas compuestas y verde intenso, tallos delgados y crecimiento vertical que requiere tutores. Tamaño pequeño, en crecimiento, típica de huertos urbanos y jardines mediterráneos.",
+        "new_value": "Planta herbácea anual de porte erguido, hojas compuestas y verde intenso, tallos delgados y crecimiento vertical que requiere tutores. Tamaño pequeño, en crecimiento, típica de huertos urbanos y jardines mediterráneos."
+    },
+    {
+        "plant_num": 63,
+        "fecha": "2025-05-31 20:00:55",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Tomatera Solanum lycopersicum' → 'Tomatera Solanum lycopersicum'",
+        "old_value": "Tomatera\nSolanum lycopersicum",
+        "new_value": "Tomatera\nSolanum lycopersicum"
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-05-31 20:19:20",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-05-31 20:19:42",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-05-31 20:20:06",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece sana, con frondas mayoritariamente verde…' → 'La planta parece sana, con frondas mayoritariamente verde…'",
+        "old_value": "La planta parece sana, con frondas mayoritariamente verdes y erguidas, aunque algunas hojas presentan ligeros signos de amarilleo en los bordes.",
+        "new_value": "La planta parece sana, con frondas mayoritariamente verdes y erguidas, aunque algunas hojas presentan ligeros signos de amarilleo en los bordes."
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-05-31 20:20:06",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta perenne de frondas largas y estrechas, con foliolo…' → 'Planta perenne de frondas largas y estrechas, con foliolo…'",
+        "old_value": "Planta perenne de frondas largas y estrechas, con foliolos alineados de forma densa a lo largo del tallo, color verde claro a medio. Es de tamaño mediano a grande y forma matas compactas y arqueadas.",
+        "new_value": "Planta perenne de frondas largas y estrechas, con foliolos alineados de forma densa a lo largo del tallo, color verde claro a medio. Es de tamaño mediano a grande y forma matas compactas y arqueadas."
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-05-31 20:20:06",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Helecho espada Nephrolepis exaltata' → 'Helecho espada Nephrolepis exaltata'",
+        "old_value": "Helecho espada\nNephrolepis exaltata",
+        "new_value": "Helecho espada\nNephrolepis exaltata"
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-05-31 20:21:38",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece estar en buen estado de salud, con hojas…' → 'La planta parece estar en buen estado de salud, con hojas…'",
+        "old_value": "La planta parece estar en buen estado de salud, con hojas verdes y sin signos evidentes de daño o enfermedad.",
+        "new_value": "La planta parece estar en buen estado de salud, con hojas verdes y sin signos evidentes de daño o enfermedad."
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-05-31 20:21:38",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta de porte rastrero o colgante, con hojas carnosas, …' → 'Planta de porte rastrero o colgante, con hojas carnosas, …'",
+        "old_value": "Planta de porte rastrero o colgante, con hojas carnosas, pequeñas y verdes, tallos flexibles y hábito denso. Muy utilizada como ornamental en macetas y jardines de clima mediterráneo.",
+        "new_value": "Planta de porte rastrero o colgante, con hojas carnosas, pequeñas y verdes, tallos flexibles y hábito denso. Muy utilizada como ornamental en macetas y jardines de clima mediterráneo."
+    },
+    {
+        "plant_num": 22,
+        "fecha": "2025-05-31 20:21:38",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Planta del dinero Plectranthus verticillatus' → 'Planta del dinero Plectranthus verticillatus'",
+        "old_value": "Planta del dinero\nPlectranthus verticillatus",
+        "new_value": "Planta del dinero\nPlectranthus verticillatus"
+    },
+    {
+        "plant_num": 68,
+        "fecha": "2025-05-31 20:35:34",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: image.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 68,
+        "fecha": "2025-05-31 20:35:43",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'No se observa ninguna planta en la imagen, por lo que no …' → 'No se observa ninguna planta en la imagen, por lo que no …'",
+        "old_value": "No se observa ninguna planta en la imagen, por lo que no es posible analizar su estado de salud.",
+        "new_value": "No se observa ninguna planta en la imagen, por lo que no es posible analizar su estado de salud."
+    },
+    {
+        "plant_num": 68,
+        "fecha": "2025-05-31 20:35:43",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'No hay planta visible en la imagen para describir.' → 'No hay planta visible en la imagen para describir.'",
+        "old_value": "No hay planta visible en la imagen para describir.",
+        "new_value": "No hay planta visible en la imagen para describir."
+    },
+    {
+        "plant_num": 2,
+        "fecha": "2025-05-31 20:53:15",
+        "usuario": "Ale",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Planta de jade Crassula ovata' → 'Planta de jade Crassula ovata'",
+        "old_value": "Planta de jade\nCrassula ovata",
+        "new_value": "Planta de jade\nCrassula ovata"
+    },
+    {
+        "plant_num": 2,
+        "fecha": "2025-05-31 20:53:15",
+        "usuario": "Ale",
+        "accion": "Estado",
+        "detalles": "De: 'La planta muestra hojas sanas y carnosas, de color verde …' → 'La planta muestra hojas sanas y carnosas, de color verde …'",
+        "old_value": "La planta muestra hojas sanas y carnosas, de color verde brillante con bordes rojizos. No presenta signos visibles de daño o enfermedades.",
+        "new_value": "La planta muestra hojas sanas y carnosas, de color verde brillante con bordes rojizos. No presenta signos visibles de daño o enfermedades."
+    },
+    {
+        "plant_num": 2,
+        "fecha": "2025-05-31 20:53:15",
+        "usuario": "Ale",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta suculenta de hojas gruesas, ovaladas y carnosas, d…' → 'Planta suculenta de hojas gruesas, ovaladas y carnosas, d…'",
+        "old_value": "Planta suculenta de hojas gruesas, ovaladas y carnosas, de color verde con bordes rojizos. Crece formando arbustos compactos y es común como ornamental en climas mediterráneos.",
+        "new_value": "Planta suculenta de hojas gruesas, ovaladas y carnosas, de color verde con bordes rojizos. Crece formando arbustos compactos y es común como ornamental en climas mediterráneos."
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-05-31 20:53:28",
+        "usuario": "Ale",
+        "accion": "Estado",
+        "detalles": "De: 'La planta muestra flores sanas pero algunas hojas present…' → 'La planta muestra flores sanas pero algunas hojas present…'",
+        "old_value": "La planta muestra flores sanas pero algunas hojas presentan signos de sequedad y daños, aunque en general se ve saludable.",
+        "new_value": "La planta muestra flores sanas pero algunas hojas presentan signos de sequedad y daños, aunque en general se ve saludable."
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-05-31 20:53:28",
+        "usuario": "Ale",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta perenne de hojas grandes, verdes y brillantes con …' → 'Planta perenne de hojas grandes, verdes y brillantes con …'",
+        "old_value": "Planta perenne de hojas grandes, verdes y brillantes con flores blancas en forma de embudo y centro amarillo. Tallo largo y erecto, típica de jardines ornamentales mediterráneos.",
+        "new_value": "Planta perenne de hojas grandes, verdes y brillantes con flores blancas en forma de embudo y centro amarillo. Tallo largo y erecto, típica de jardines ornamentales mediterráneos."
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-05-31 20:53:28",
+        "usuario": "Ale",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Cala Zantedeschia aethiopica' → 'Cala Zantedeschia aethiopica'",
+        "old_value": "Cala\nZantedeschia aethiopica",
+        "new_value": "Cala\nZantedeschia aethiopica"
+    },
+    {
+        "plant_num": 70,
+        "fecha": "2025-05-31 21:27:29",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Nueva plantaAA' → 'Nueva plantaAA'",
+        "old_value": "Nueva plantaAA",
+        "new_value": "Nueva plantaAA"
+    },
+    {
+        "plant_num": 70,
+        "fecha": "2025-05-31 21:28:50",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: ChatGPT Image May 29, 2025, 12_20_3…",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-05-31 21:29:37",
+        "usuario": "Ale",
+        "accion": "Estado",
+        "detalles": "De: 'La planta muestra un follaje sano y verde, sin signos vis…' → 'La planta muestra un follaje sano y verde, sin signos vis…'",
+        "old_value": "La planta muestra un follaje sano y verde, sin signos visibles de enfermedades o plagas.",
+        "new_value": "La planta muestra un follaje sano y verde, sin signos visibles de enfermedades o plagas."
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-05-31 21:29:37",
+        "usuario": "Ale",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Hortensia Hydrangea macrophylla' → 'Hortensia Hydrangea macrophylla'",
+        "old_value": "Hortensia\nHydrangea macrophylla",
+        "new_value": "Hortensia\nHydrangea macrophylla"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-05-31 21:29:37",
+        "usuario": "Ale",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta ornamental de hojas grandes y ovaladas, bordes den…' → 'Planta ornamental de hojas grandes y ovaladas, bordes den…'",
+        "old_value": "Planta ornamental de hojas grandes y ovaladas, bordes dentados y color verde intenso. Crece en forma de arbusto y típicamente alcanza entre 1 y 2 metros de altura en condiciones óptimas.",
+        "new_value": "Planta ornamental de hojas grandes y ovaladas, bordes dentados y color verde intenso. Crece en forma de arbusto y típicamente alcanza entre 1 y 2 metros de altura en condiciones óptimas."
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-05-31 21:29:50",
+        "usuario": "Ale",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: ChatGPT Image May 29, 2025, 05_09_0…",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-05-31 21:30:18",
+        "usuario": "Ale",
+        "accion": "Estado",
+        "detalles": "De: 'La planta presenta hojas verdes y sanas, sin signos visib…' → 'La planta presenta hojas verdes y sanas, sin signos visib…'",
+        "old_value": "La planta presenta hojas verdes y sanas, sin signos visibles de plagas o enfermedades. Se ve vigorosa y en buen desarrollo.",
+        "new_value": "La planta presenta hojas verdes y sanas, sin signos visibles de plagas o enfermedades. Se ve vigorosa y en buen desarrollo."
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-05-31 21:30:18",
+        "usuario": "Ale",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Hortensia Hydrangea macrophylla' → 'Hortensia Hydrangea macrophylla'",
+        "old_value": "Hortensia\nHydrangea macrophylla",
+        "new_value": "Hortensia\nHydrangea macrophylla"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2025-05-31 21:30:18",
+        "usuario": "Ale",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta ornamental de follaje denso y hojas anchas, de bor…' → 'Planta ornamental de follaje denso y hojas anchas, de bor…'",
+        "old_value": "Planta ornamental de follaje denso y hojas anchas, de bordes aserrados y color verde intenso. Generalmente crece en forma de arbusto compacto y es común en jardines mediterráneos.",
+        "new_value": "Planta ornamental de follaje denso y hojas anchas, de bordes aserrados y color verde intenso. Generalmente crece en forma de arbusto compacto y es común en jardines mediterráneos."
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-05-31 23:08:04",
+        "usuario": "Ale",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-05-31 23:08:13",
+        "usuario": "Ale",
+        "accion": "Estado",
+        "detalles": "De: 'La planta muestra flores sanas pero algunas hojas present…' → 'No se puede analizar el estado de salud de la planta ya q…'",
+        "old_value": "La planta muestra flores sanas pero algunas hojas presentan signos de sequedad y daños, aunque en general se ve saludable.",
+        "new_value": "No se puede analizar el estado de salud de la planta ya que la imagen muestra un edificio emblemático, no una planta."
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-05-31 23:08:13",
+        "usuario": "Ale",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta perenne de hojas grandes, verdes y brillantes con …' → 'La imagen no muestra una planta, sino la Torre Glòries, u…'",
+        "old_value": "Planta perenne de hojas grandes, verdes y brillantes con flores blancas en forma de embudo y centro amarillo. Tallo largo y erecto, típica de jardines ornamentales mediterráneos.",
+        "new_value": "La imagen no muestra una planta, sino la Torre Glòries, un edificio de Barcelona con forma cilíndrica y luces LED de colores."
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-05-31 23:08:13",
+        "usuario": "Ale",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Cala Zantedeschia aethiopica' → 'Desconocido'",
+        "old_value": "Cala\nZantedeschia aethiopica",
+        "new_value": "Desconocido"
+    },
+    {
+        "plant_num": 2,
+        "fecha": "2025-05-31 23:08:32",
+        "usuario": "Ale",
+        "accion": "Estado",
+        "detalles": "De: 'La planta muestra hojas sanas y carnosas, de color verde …' → 'No se aprecia ninguna planta en la imagen, por lo que no …'",
+        "old_value": "La planta muestra hojas sanas y carnosas, de color verde brillante con bordes rojizos. No presenta signos visibles de daño o enfermedades.",
+        "new_value": "No se aprecia ninguna planta en la imagen, por lo que no es posible evaluar su estado de salud."
+    },
+    {
+        "plant_num": 2,
+        "fecha": "2025-05-31 23:08:32",
+        "usuario": "Ale",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta suculenta de hojas gruesas, ovaladas y carnosas, d…' → 'La imagen no contiene ninguna planta reconocible; muestra…'",
+        "old_value": "Planta suculenta de hojas gruesas, ovaladas y carnosas, de color verde con bordes rojizos. Crece formando arbustos compactos y es común como ornamental en climas mediterráneos.",
+        "new_value": "La imagen no contiene ninguna planta reconocible; muestra a una persona frente a un ordenador en un entorno interior."
+    },
+    {
+        "plant_num": 2,
+        "fecha": "2025-05-31 23:08:32",
+        "usuario": "Ale",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Planta de jade Crassula ovata' → 'Desconocida'",
+        "old_value": "Planta de jade\nCrassula ovata",
+        "new_value": "Desconocida"
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025-06-01 00:13:09",
+        "usuario": "Ale",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025-06-01 00:13:25",
+        "usuario": "Ale",
+        "accion": "Estado",
+        "detalles": "De: 'Estado pendiente' → 'No se puede analizar el estado de salud porque la imagen …'",
+        "old_value": "Estado pendiente",
+        "new_value": "No se puede analizar el estado de salud porque la imagen no corresponde a una planta."
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025-06-01 00:13:25",
+        "usuario": "Ale",
+        "accion": "Descripción",
+        "detalles": "De: 'Descripción pendiente' → 'La imagen mostrada no corresponde a una planta, sino a la…'",
+        "old_value": "Descripción pendiente",
+        "new_value": "La imagen mostrada no corresponde a una planta, sino a la Luna u objetos astronómicos."
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025-06-01 00:13:25",
+        "usuario": "Ale",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Nueva planta' → 'No identificable'",
+        "old_value": "Nueva planta",
+        "new_value": "No identificable"
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025-06-01 00:14:01",
+        "usuario": "Ale",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025-06-01 00:14:19",
+        "usuario": "Ale",
+        "accion": "Estado",
+        "detalles": "De: 'No se puede analizar el estado de salud porque la imagen …' → 'La planta se ve saludable, con hojas verdes y algunos fru…'",
+        "old_value": "No se puede analizar el estado de salud porque la imagen no corresponde a una planta.",
+        "new_value": "La planta se ve saludable, con hojas verdes y algunos frutos en desarrollo. No se observan signos evidentes de plagas o enfermedades."
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025-06-01 00:14:19",
+        "usuario": "Ale",
+        "accion": "Descripción",
+        "detalles": "De: 'La imagen mostrada no corresponde a una planta, sino a la…' → 'Planta herbácea de bajo porte, con hojas compuestas de co…'",
+        "old_value": "La imagen mostrada no corresponde a una planta, sino a la Luna u objetos astronómicos.",
+        "new_value": "Planta herbácea de bajo porte, con hojas compuestas de color verde brillante y bordes dentados. Produce flores blancas y pequeños frutos rojos típicos de la fresa."
+    },
+    {
+        "plant_num": 6,
+        "fecha": "2025-06-01 00:14:19",
+        "usuario": "Ale",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'No identificable' → 'Fresa Fragaria x ananassa'",
+        "old_value": "No identificable",
+        "new_value": "Fresa\nFragaria x ananassa"
+    },
+    {
+        "plant_num": 75,
+        "fecha": "2025-06-02 14:00:42",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 75,
+        "fecha": "2025-06-02 14:00:52",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'Estado pendiente' → 'La planta se ve saludable, con hojas verdes y vigorosas, …'",
+        "old_value": "Estado pendiente",
+        "new_value": "La planta se ve saludable, con hojas verdes y vigorosas, aunque algunas presentan ligeros bordes secos."
+    },
+    {
+        "plant_num": 75,
+        "fecha": "2025-06-02 14:00:52",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Descripción pendiente' → 'Planta herbácea de hojas lanceoladas, color verde brillan…'",
+        "old_value": "Descripción pendiente",
+        "new_value": "Planta herbácea de hojas lanceoladas, color verde brillante, de tamaño mediano, con tallos erguidos y estructura tupida."
+    },
+    {
+        "plant_num": 75,
+        "fecha": "2025-06-02 14:00:52",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Nueva planta' → 'Menta Mentha spicata'",
+        "old_value": "Nueva planta",
+        "new_value": "Menta\nMentha spicata"
+    },
+    {
+        "plant_num": 76,
+        "fecha": "2025-06-02 14:01:20",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 76,
+        "fecha": "2025-06-02 14:01:29",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 76,
+        "fecha": "2025-06-02 14:01:39",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'Estado pendiente' → 'La planta parece estar sana, con hojas verdes y sin signo…'",
+        "old_value": "Estado pendiente",
+        "new_value": "La planta parece estar sana, con hojas verdes y sin signos visibles de plagas o enfermedades."
+    },
+    {
+        "plant_num": 76,
+        "fecha": "2025-06-02 14:01:39",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Descripción pendiente' → 'Planta herbácea de porte erecto, con hojas compuestas de …'",
+        "old_value": "Descripción pendiente",
+        "new_value": "Planta herbácea de porte erecto, con hojas compuestas de color verde intenso y bordes dentados. Presenta un tamaño mediano y está apoyada en tutores verticales para facilitar su crecimiento."
+    },
+    {
+        "plant_num": 76,
+        "fecha": "2025-06-02 14:01:39",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Nueva planta' → 'Tomatera Solanum lycopersicum'",
+        "old_value": "Nueva planta",
+        "new_value": "Tomatera\nSolanum lycopersicum"
+    },
+    {
+        "plant_num": 77,
+        "fecha": "2025-06-03 20:05:46",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-06-03 22:01:36",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece sana, con frondas mayoritariamente verde…' → 'La planta parece saludable en general, aunque algunas fro…'",
+        "old_value": "La planta parece sana, con frondas mayoritariamente verdes y erguidas, aunque algunas hojas presentan ligeros signos de amarilleo en los bordes.",
+        "new_value": "La planta parece saludable en general, aunque algunas frondas presentan puntas secas o amarillentas."
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-06-03 22:01:37",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta perenne de frondas largas y estrechas, con foliolo…' → 'Planta de porte herbáceo, frondoso y perenne, con hojas l…'",
+        "old_value": "Planta perenne de frondas largas y estrechas, con foliolos alineados de forma densa a lo largo del tallo, color verde claro a medio. Es de tamaño mediano a grande y forma matas compactas y arqueadas.",
+        "new_value": "Planta de porte herbáceo, frondoso y perenne, con hojas largas, verdes y pinnadas que crecen en forma de roseta. Suele permanecer compacta, alcanzando tamaños medianos y es común en macetas ornamentales."
+    },
+    {
+        "plant_num": 25,
+        "fecha": "2025-06-03 22:01:37",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Helecho espada Nephrolepis exaltata' → 'Helecho espada Nephrolepis exaltata'",
+        "old_value": "Helecho espada\nNephrolepis exaltata",
+        "new_value": "Helecho espada\nNephrolepis exaltata"
+    },
+    {
+        "plant_num": 24,
+        "fecha": "2025-06-03 22:01:47",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Cinta Chlorophytum comosum' → 'Cinta Chlorophytum comosum'",
+        "old_value": "Cinta\nChlorophytum comosum",
+        "new_value": "Cinta\nChlorophytum comosum"
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-06-04 20:51:31",
+        "usuario": "Ale",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-06-04 20:57:21",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-06-04 21:05:40",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-06-04 21:07:31",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-06-04 21:07:49",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-06-04 21:09:44",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-06-04 21:20:55",
+        "usuario": "Ale",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-06-04 21:21:13",
+        "usuario": "Ale",
+        "accion": "Estado",
+        "detalles": "De: 'No se puede analizar el estado de salud de la planta ya q…' → 'La planta se ve saludable aunque presenta cierta decolora…'",
+        "old_value": "No se puede analizar el estado de salud de la planta ya que la imagen muestra un edificio emblemático, no una planta.",
+        "new_value": "La planta se ve saludable aunque presenta cierta decoloración amarilla en la parte superior, posiblemente por exposición solar intensa o envejecimiento."
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-06-04 21:21:13",
+        "usuario": "Ale",
+        "accion": "Descripción",
+        "detalles": "De: 'La imagen no muestra una planta, sino la Torre Glòries, u…' → 'Cactus globoso de gran tamaño, color verde intenso con co…'",
+        "old_value": "La imagen no muestra una planta, sino la Torre Glòries, un edificio de Barcelona con forma cilíndrica y luces LED de colores.",
+        "new_value": "Cactus globoso de gran tamaño, color verde intenso con costillas marcadas y espinas largas y amarillas. Es típico como planta ornamental en jardines de clima seco o mediterráneo, como los de Barcelona."
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-06-04 21:21:13",
+        "usuario": "Ale",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Desconocido' → 'Cactus erizo, asiento de suegra Echinocactus grusonii'",
+        "old_value": "Desconocido",
+        "new_value": "Cactus erizo, asiento de suegra\nEchinocactus grusonii"
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2025-06-04 21:22:46",
+        "usuario": "Ale",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Asiento de suegra Echinocactus grusonii' → 'Asiento de suegra Echinocactus grusonii'",
+        "old_value": "Asiento de suegra\nEchinocactus grusonii",
+        "new_value": "Asiento de suegra\nEchinocactus grusonii"
+    },
+    {
+        "plant_num": 58,
+        "fecha": "2025-06-05 10:13:11",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 58,
+        "fecha": "2025-06-05 10:13:24",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece sana, con hojas verdes y sin signos evid…' → 'La planta presenta un follaje vigoroso y flores saludable…'",
+        "old_value": "La planta parece sana, con hojas verdes y sin signos evidentes de plagas o enfermedades. No se observan daños visibles en el follaje.",
+        "new_value": "La planta presenta un follaje vigoroso y flores saludables sin signos visibles de plagas o enfermedades."
+    },
+    {
+        "plant_num": 58,
+        "fecha": "2025-06-05 10:13:24",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Es una planta trepadora con hojas compuestas de color ver…' → 'Planta trepadora de hojas compuestas, flores grandes en f…'",
+        "old_value": "Es una planta trepadora con hojas compuestas de color verde intenso. Actualmente presenta un crecimiento vigoroso y saludable.",
+        "new_value": "Planta trepadora de hojas compuestas, flores grandes en forma de trompeta y color rojo-anaranjado, muy utilizada como ornamental en climas templados y mediterráneos."
+    },
+    {
+        "plant_num": 58,
+        "fecha": "2025-06-05 10:13:24",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Glicinia japonesa Wisteria floribunda' → 'Bignonia roja o Trompeta trepadora Campsis radicans'",
+        "old_value": "Glicinia japonesa Wisteria floribunda",
+        "new_value": "Bignonia roja o Trompeta trepadora\nCampsis radicans"
+    },
+    {
+        "plant_num": 58,
+        "fecha": "2025-06-05 11:34:34",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Bignonia roja Campsis radicans' → 'Bignonia roja Campsis radicans'",
+        "old_value": "Bignonia roja\nCampsis radicans",
+        "new_value": "Bignonia roja\nCampsis radicans"
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-06-06 08:57:54",
+        "usuario": "Ale",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-06-06 08:58:11",
+        "usuario": "Ale",
+        "accion": "Estado",
+        "detalles": "De: 'Estado pendiente' → 'La planta parece estar en buen estado de salud, con hojas…'",
+        "old_value": "Estado pendiente",
+        "new_value": "La planta parece estar en buen estado de salud, con hojas verdes y carnosas sin signos evidentes de daño o enfermedad."
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-06-06 08:58:11",
+        "usuario": "Ale",
+        "accion": "Descripción",
+        "detalles": "De: 'Descripción pendiente' → 'Planta suculenta pequeña de hojas carnosas y dispuestas e…'",
+        "old_value": "Descripción pendiente",
+        "new_value": "Planta suculenta pequeña de hojas carnosas y dispuestas en forma de roseta, de color verde. Está ubicada en un entorno de arena con varias piedras decorativas; se trata de una especie ornamental popular en jardines y macetas mediterráneas."
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-06-06 08:58:11",
+        "usuario": "Ale",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Nueva planta' → 'Suculenta (posiblemente Echeveria) Echeveria sp.'",
+        "old_value": "Nueva planta",
+        "new_value": "Suculenta (posiblemente Echeveria)\nEcheveria sp."
+    },
+    {
+        "plant_num": 7,
+        "fecha": "2025-06-06 09:02:08",
+        "usuario": "Ale",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Suculenta Echeveria sp.' → 'Suculenta Echeveria sp.'",
+        "old_value": "Suculenta\nEcheveria sp.",
+        "new_value": "Suculenta\nEcheveria sp."
+    },
+    {
+        "plant_num": 77,
+        "fecha": "2025-06-07 21:44:24",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 77,
+        "fecha": "2025-06-07 21:44:28",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 77,
+        "fecha": "2025-06-07 21:44:41",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'Estado pendiente' → 'La planta parece estar en buen estado general, aunque alg…'",
+        "old_value": "Estado pendiente",
+        "new_value": "La planta parece estar en buen estado general, aunque algunas hojas muestran ligeros signos de decoloración."
+    },
+    {
+        "plant_num": 77,
+        "fecha": "2025-06-07 21:44:41",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Descripción pendiente' → 'Arbusto ornamental con hojas grandes, ovaladas y de color…'",
+        "old_value": "Descripción pendiente",
+        "new_value": "Arbusto ornamental con hojas grandes, ovaladas y de color verde claro. Presenta flores agrupadas de color rosa intenso y forma acampanada, típicas de jardines en clima mediterráneo."
+    },
+    {
+        "plant_num": 77,
+        "fecha": "2025-06-07 21:44:41",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Nueva planta' → 'Rododendro Rhododendron sp.'",
+        "old_value": "Nueva planta",
+        "new_value": "Rododendro\nRhododendron sp."
+    },
+    {
+        "plant_num": 77,
+        "fecha": "2025-06-07 21:45:28",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta parece estar en buen estado general, aunque alg…' → 'La planta muestra flores sanas y hojas mayormente verdes,…'",
+        "old_value": "La planta parece estar en buen estado general, aunque algunas hojas muestran ligeros signos de decoloración.",
+        "new_value": "La planta muestra flores sanas y hojas mayormente verdes, aunque algunas hojas presentan signos leves de clorosis. Estado general bueno."
+    },
+    {
+        "plant_num": 77,
+        "fecha": "2025-06-07 21:45:28",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Arbusto ornamental con hojas grandes, ovaladas y de color…' → 'Arbusto ornamental de hojas grandes, alargadas y coriácea…'",
+        "old_value": "Arbusto ornamental con hojas grandes, ovaladas y de color verde claro. Presenta flores agrupadas de color rosa intenso y forma acampanada, típicas de jardines en clima mediterráneo.",
+        "new_value": "Arbusto ornamental de hojas grandes, alargadas y coriáceas, con flores grandes y agrupadas de color rosa intenso. Puede alcanzar varios metros de altura y es popular en jardines mediterráneos."
+    },
+    {
+        "plant_num": 77,
+        "fecha": "2025-06-07 21:45:28",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Rododendro Rhododendron sp.' → 'Rododendro Rhododendron sp.'",
+        "old_value": "Rododendro\nRhododendron sp.",
+        "new_value": "Rododendro\nRhododendron sp."
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2026-02-11 12:37:09",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2026-02-11 12:42:58",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2026-02-11 11:47:56",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 4,
+        "fecha": "2026-02-11 12:05:28",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 78,
+        "fecha": "2026-02-11 13:23:58",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "De: 'null' → 'null'",
+        "old_value": "null",
+        "new_value": "null"
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2026-02-11 13:31:45",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: IMG_6984.jpeg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 78,
+        "fecha": "2026-02-11 13:34:48",
+        "usuario": "Luca",
+        "accion": "Nueva imagen",
+        "detalles": "Nueva imagen añadida: cal.jpg",
+        "old_value": null,
+        "new_value": null
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2026-02-11 14:03:39",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta luce en general saludable, pero algunas hojas m…' → 'Planta en floración con flores blancas abiertas y aspecto…'",
+        "old_value": "La planta luce en general saludable, pero algunas hojas muestran signos de amarillamiento y hay una flor marchita.",
+        "new_value": "Planta en floración con flores blancas abiertas y aspecto general saludable; sin embargo, algunas hojas inferiores presentan amarilleo y bordes secos, indicativo de estrés por riego, exceso de sol o déficit nutritivo. En conjunto parece vigorosa pero convendría vigilar riego y exposición."
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2026-02-11 14:03:39",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta herbácea perenne de hojas grandes, verdes y brilla…' → 'Perenne rizomatosa de porte herbáceo, creciendo en maceta…'",
+        "old_value": "Planta herbácea perenne de hojas grandes, verdes y brillantes. Sus flores son espatas blancas con un espádice amarillo en el centro, de tamaño mediano a grande.",
+        "new_value": "Perenne rizomatosa de porte herbáceo, creciendo en maceta en un toque en mata. Hojas verdes, lanceoladas a en forma de corazón, superficie lisa y algo brillante; flores formadas por una espata blanca en forma de embudo con un espádice amarillo en el centro; altura aproximada 30–60 cm."
+    },
+    {
+        "plant_num": 1,
+        "fecha": "2026-02-11 14:03:39",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Cala Zantedeschia aethiopica' → 'Cala (alcatraz) Zantedeschia aethiopica'",
+        "old_value": "Cala\nZantedeschia aethiopica",
+        "new_value": "Cala (alcatraz)\nZantedeschia aethiopica"
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2026-02-11 14:04:20",
+        "usuario": "Luca",
+        "accion": "Estado",
+        "detalles": "De: 'La planta se ve sana, con hojas verdes y sin signos visib…' → 'Planta con buen vigor: hojas verdes y brotes nuevos, aspe…'",
+        "old_value": "La planta se ve sana, con hojas verdes y sin signos visibles de plagas o enfermedades.",
+        "new_value": "Planta con buen vigor: hojas verdes y brotes nuevos, aspecto compacto y sin manchas ni marchitez visibles."
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2026-02-11 14:04:20",
+        "usuario": "Luca",
+        "accion": "Descripción",
+        "detalles": "De: 'Planta arbustiva de hojas grandes, de color verde intenso…' → 'Arbusto ornamental de porte compacto en maceta; hojas opu…'",
+        "old_value": "Planta arbustiva de hojas grandes, de color verde intenso, bordes dentados y brotes compactos, cultivada en maceta de tamaño mediano.",
+        "new_value": "Arbusto ornamental de porte compacto en maceta; hojas opuestas, grandes, ovaladas y dentadas de color verde brillante; tamaño reducido (aprox. 20–35 cm de altura en la foto), típicamente cultivada en climas mediterráneos como planta decorativa."
+    },
+    {
+        "plant_num": 5,
+        "fecha": "2026-02-11 14:04:20",
+        "usuario": "Luca",
+        "accion": "Cambio de nombre",
+        "detalles": "De: 'Hortensia Hydrangea macrophylla' → 'Hortensia Hydrangea macrophylla'",
+        "old_value": "Hortensia\nHydrangea macrophylla",
+        "new_value": "Hortensia\nHydrangea macrophylla"
+    }
+]

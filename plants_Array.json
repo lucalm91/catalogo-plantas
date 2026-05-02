@@ -1,0 +1,876 @@
+[
+    {
+        "num": 1,
+        "identificacion": "Cala\nZantedeschia aethiopica",
+        "zona": "Zona salida",
+        "estado": "La planta luce en general saludable, pero algunas hojas muestran signos de amarillamiento y hay una flor marchita.",
+        "descripcion": "Planta herbácea perenne de hojas grandes, verdes y brillantes. Sus flores son espatas blancas con un espádice amarillo en el centro, de tamaño mediano a grande.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_1_1745487601.webp",
+            "images\/plant_1_1743962908.webp",
+            "images\/plant_1_1743933996.webp"
+        ],
+        "orden": 0
+    },
+    {
+        "num": 2,
+        "identificacion": "Jade\nCrassula ovata",
+        "zona": "Zona salida",
+        "estado": "La planta se ve sana, con hojas verdes y bordes rojizos, sin signos visibles de plagas o enfermedad.",
+        "descripcion": "Planta suculenta de tallos gruesos y hojas ovaladas, carnosas, de color verde con bordes rojizos, dispuestas en rosetas compactas. De tamaño medio, ramificada y de aspecto arbustivo.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_2_1745487541.webp",
+            "images\/plant_2.webp"
+        ],
+        "orden": 1
+    },
+    {
+        "num": 3,
+        "identificacion": "Jade 'Gollum'\nCrassula ovata 'Gollum'",
+        "zona": "Zona salida",
+        "estado": "La planta se ve sana, con hojas verdes y firmes, sin signos evidentes de plagas o enfermedades.",
+        "descripcion": "Planta suculenta de tallos gruesos y leñosos, hojas alargadas de color verde brillante, con forma tubular característica; tamaño mediano y porte arbustivo.",
+        "riego": "Bajo",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_3_1743962999.webp",
+            "images\/plant_3.webp"
+        ],
+        "orden": 2
+    },
+    {
+        "num": 4,
+        "identificacion": "Jade 'Gollum'\nCrassula ovata",
+        "zona": "Zona salida",
+        "estado": "La planta se ve sana, con hojas verdes y sin signos evidentes de plagas o enfermedades.",
+        "descripcion": "Planta suculenta de tallos gruesos y ramificados, con hojas carnosas de color verde brillante y forma ovalada, cultivada en maceta decorativa.",
+        "riego": "Bajo",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_4_1743963048.webp",
+            "images\/plant_4.webp"
+        ],
+        "orden": 3
+    },
+    {
+        "num": 5,
+        "identificacion": "Hortensia\nHydrangea macrophylla",
+        "zona": "Zona salida",
+        "estado": "La planta se ve sana, con hojas verdes y sin signos visibles de plagas o enfermedades.",
+        "descripcion": "Planta arbustiva de hojas grandes, de color verde intenso, bordes dentados y brotes compactos, cultivada en maceta de tamaño mediano.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_5_1744216058.webp",
+            "images\/plant_5_1743963077.webp",
+            "images\/plant_5.webp"
+        ],
+        "orden": 4
+    },
+    {
+        "num": 6,
+        "identificacion": "Níspero\nEriobotrya japonica",
+        "zona": "Zona salida",
+        "estado": "La planta se ve mayormente sana, con hojas verdes aunque algunas presentan un leve amarillamiento en las puntas.",
+        "descripcion": "Árbol pequeño de follaje perenne, con hojas grandes, alargadas y de textura coriácea; el color de las hojas varía de verde claro a oscuro y la planta presenta un porte arbustivo.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_6.webp"
+        ],
+        "orden": 5
+    },
+    {
+        "num": 7,
+        "identificacion": "Kalanchoe\nKalanchoe luciae",
+        "zona": "Zona salida",
+        "estado": "La planta muestra signos de deshidratación o estrés ambiental; las hojas tienen bordes rojizos y aspecto seco.",
+        "descripcion": "Suculenta de hojas gruesas, carnosas y redondeadas, con tonos verdes y bordes rojizos. Crecimiento en roseta baja, típicamente ornamental y tolerante a la sequía.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_7.webp"
+        ],
+        "orden": 6
+    },
+    {
+        "num": 8,
+        "identificacion": "Daphne odora (probable)",
+        "zona": "Zona salida",
+        "estado": "Verde y fragante",
+        "descripcion": "Arbusto de hoja perenne con flores muy aromáticas en invierno.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_8.webp"
+        ],
+        "orden": 7
+    },
+    {
+        "num": 9,
+        "identificacion": "Hierba Luisa\nAloysia citrodora",
+        "zona": "Zona salida",
+        "estado": "Verde brillante, saludable",
+        "descripcion": "Arbusto aromático, con hojas que desprenden un suave olor a limón.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_9_1743963118.webp",
+            "images\/plant_9.webp"
+        ],
+        "orden": 8
+    },
+    {
+        "num": 10,
+        "identificacion": "Rosa\nRosa sp.",
+        "zona": "Zona salida",
+        "estado": "La planta se ve mayormente saludable, pero algunas hojas tienen bordes secos y señales de estrés.",
+        "descripcion": "Planta arbustiva de tallos leñosos y espinosos, hojas compuestas de borde aserrado, de color verde con brotes jóvenes rojizos. Tamaño mediano y porte erecto.",
+        "riego": "Alto",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_10_1745487247.webp",
+            "images\/plant_10.webp"
+        ],
+        "orden": 9
+    },
+    {
+        "num": 11,
+        "identificacion": "Rosa\nRosa sp.",
+        "zona": "Zona salida",
+        "estado": "La planta parece estar sana, con hojas verdes y sin signos evidentes de enfermedad ni plagas.",
+        "descripcion": "Arbusto ornamental de hojas compuestas, verdes y brillantes, con bordes aserrados. Tamaño medio, típico de jardines y terrazas mediterráneas.",
+        "riego": "Alto",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_11_1745487292.webp",
+            "images\/plant_11.webp"
+        ],
+        "orden": 10
+    },
+    {
+        "num": 12,
+        "identificacion": "Ave del Paraíso\nStrelitzia reginae",
+        "zona": "Zona salida",
+        "estado": "En buen estado, hojas sanas",
+        "descripcion": "Planta tropical de aspecto exótico y flores llamativas.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_12.webp"
+        ],
+        "orden": 11
+    },
+    {
+        "num": 13,
+        "identificacion": "Rosa\nRosa sp.",
+        "zona": "Zona salida",
+        "estado": "La planta parece en buen estado general, aunque algunas hojas muestran signos leves de sequedad o estrés, posiblemente por el sol.",
+        "descripcion": "Planta arbustiva de tallos leñosos con hojas compuestas, de color verde brillante. Presenta estructura ramificada, hojas alternas y bordes dentados típicos de especies ornamentales de jardín en clima mediterráneo.",
+        "riego": "Alto",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_13_1745487334.webp",
+            "images\/plant_13.webp"
+        ],
+        "orden": 12
+    },
+    {
+        "num": 14,
+        "identificacion": "Rosa\nRosa sp.",
+        "zona": "Zona salida",
+        "estado": "La planta se ve saludable, con abundante follaje verde y numerosas flores en varios estados de floración.",
+        "descripcion": "Arbusto ornamental de tamaño medio cultivado en maceta, con hojas compuestas de color verde oscuro y flores grandes de colores variados (blanco, rosa, rojo). Tiene porte erguido y ramificado, propio de plantas cultivadas en clima mediterráneo.",
+        "riego": "Alto",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_14_1748413746.webp",
+            "images\/plant_14_1745487397.webp",
+            "images\/plant_14.webp"
+        ],
+        "orden": 13
+    },
+    {
+        "num": 15,
+        "identificacion": "Serissa foetida",
+        "zona": "Zona arco",
+        "estado": "La planta muestra hojas verdes en su mayoría, aunque algunas parecen algo pálidas, sin signos claros de plagas.",
+        "descripcion": "Arbusto pequeño de hojas verdes, brillantes y pequeñas, con tallos finos y ramificados; típicamente cultivado como bonsái.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_15_1745487471.webp",
+            "images\/plant_15.webp"
+        ],
+        "orden": 0
+    },
+    {
+        "num": 16,
+        "identificacion": "Bugambilia\nBougainvillea glabra",
+        "zona": "Zona arco",
+        "estado": "La planta presenta algunos brotes y hojas verdes, pero la mayoría de sus ramas se ven secas, lo que sugiere que ha pasado por estrés hídrico o falta de poda.",
+        "descripcion": "Planta trepadora ornamental de tallos leñosos retorcidos, hojas verdes simples y forma ramificada. Suele alcanzar un gran tamaño y es común en jardines mediterráneos.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_16.webp"
+        ],
+        "orden": 1
+    },
+    {
+        "num": 17,
+        "identificacion": "Bugambilia\nBougainvillea spectabilis",
+        "zona": "Zona arco",
+        "estado": "La planta presenta un crecimiento moderado de hojas verdes nuevas, pero muchas ramas están desnudas, lo que sugiere que está recuperándose o en una fase de brotación tras una posible poda o estrés.",
+        "descripcion": "Planta trepadora leñosa, de tallos largos y delgados, con hojas ovaladas de color verde brillante. Suele usarse en jardines como ornamental y es típica del clima mediterráneo.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_17_1743779230.webp"
+        ],
+        "orden": 2
+    },
+    {
+        "num": 18,
+        "identificacion": "Bougainvillea secundaria",
+        "zona": "Zona arco",
+        "estado": "Hojas jóvenes, sin flor visible",
+        "descripcion": "Variedad secundaria de Bougainvillea, en crecimiento.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_18_1743779313.webp"
+        ],
+        "orden": 3
+    },
+    {
+        "num": 19,
+        "identificacion": "Vid\nVitis vinifera",
+        "zona": "Zona arco",
+        "estado": "Con brotes primaverales",
+        "descripcion": "Vid trepadora que comienza a brotar en primavera.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_19.webp"
+        ],
+        "orden": 4
+    },
+    {
+        "num": 20,
+        "identificacion": "Vid\nVitis vinifera",
+        "zona": "Zona arco",
+        "estado": "La planta muestra hojas verdes y sanas, con un crecimiento vigoroso. No se observan signos evidentes de plagas o enfermedades.",
+        "descripcion": "Planta trepadora leñosa de hojas grandes, lobuladas y de color verde claro. Tiene tallos largos y flexibles que suelen crecer en estructuras de soporte. Es comúnmente cultivada en jardines y terrazas urbanas.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_20_1743963251.webp",
+            "images\/plant_20.webp"
+        ],
+        "orden": 5
+    },
+    {
+        "num": 21,
+        "identificacion": "Bergenia\nBergenia crassifolia",
+        "zona": "Zona pérgola",
+        "estado": "La planta se ve saludable, con hojas verdes y flores vivas. No se aprecian signos evidentes de plagas o enfermedades.",
+        "descripcion": "Planta perenne con hojas grandes, redondeadas y de color verde brillante. Presenta tallos erectos con racimos de flores rosadas, adecuada para jardines y terrazas en climas templados.",
+        "riego": "Alto",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_21_1748413611.webp",
+            "images\/plant_21_1743776534.webp"
+        ],
+        "orden": 0
+    },
+    {
+        "num": 22,
+        "identificacion": "Planta del dinero\nPlectranthus verticillatus",
+        "zona": "Zona pérgola",
+        "estado": "La planta parece estar en buen estado de salud, con hojas verdes y sin signos evidentes de daño o enfermedad.",
+        "descripcion": "Planta de porte rastrero o colgante, con hojas carnosas, pequeñas y verdes, tallos flexibles y hábito denso. Muy utilizada como ornamental en macetas y jardines de clima mediterráneo.",
+        "riego": "Bajo",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_22_1748715559.webp",
+            "images\/plant_22_1743963503.webp",
+            "images\/plant_22_1743777969.webp"
+        ],
+        "orden": 1
+    },
+    {
+        "num": 23,
+        "identificacion": "Menta\nMentha sp.",
+        "zona": "Zona pérgola",
+        "estado": "La planta se ve sana, con hojas verdes y sin signos de plagas.",
+        "descripcion": "Planta herbácea de hojas opuestas, lanceoladas, de color verde brillante y bordes dentados; crece en matas densas y es de tamaño pequeño a mediano.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_23_1745486435.webp",
+            "images\/plant_23_1743963547.webp",
+            "images\/plant_23.webp"
+        ],
+        "orden": 2
+    },
+    {
+        "num": 24,
+        "identificacion": "Cinta o Lazo de amor\nChlorophytum comosum",
+        "zona": "Zona pérgola",
+        "estado": "La planta muestra signos de daño en las hojas, con manchas marrones y algunas puntas secas, lo que indica posibles problemas de riego, plagas o enfermedades.",
+        "descripcion": "Planta herbácea de hojas alargadas, arqueadas y variegadas con franjas verdes y blancas; crece en matas densas y es comúnmente utilizada como ornamental en interiores o exteriores.",
+        "riego": "Medio",
+        "sistema_riego": "Sin riego",
+        "imagenes": [
+            "images\/plant_24_1743777995.webp"
+        ],
+        "orden": 3
+    },
+    {
+        "num": 25,
+        "identificacion": "Helecho espada\nNephrolepis exaltata",
+        "zona": "Zona pérgola",
+        "estado": "La planta parece sana, con frondas mayoritariamente verdes y erguidas, aunque algunas hojas presentan ligeros signos de amarilleo en los bordes.",
+        "descripcion": "Planta perenne de frondas largas y estrechas, con foliolos alineados de forma densa a lo largo del tallo, color verde claro a medio. Es de tamaño mediano a grande y forma matas compactas y arqueadas.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 2",
+        "imagenes": [
+            "images\/plant_25_1748715580.webp",
+            "images\/plant_25_1748414781.webp",
+            "images\/plant_25_1743778880.webp"
+        ],
+        "orden": 4
+    },
+    {
+        "num": 26,
+        "identificacion": "Garras de oso\nCotyledon tomentosa",
+        "zona": "Zona pérgola",
+        "estado": "La planta parece estar en buen estado de salud, con hojas carnosas y sin signos visibles de plagas o enfermedades.",
+        "descripcion": "Planta suculenta de tamaño pequeño, hojas carnosas, gruesas y cubiertas de vellosidad, de color verde con puntas rojizas. Suele crecer en macetas y su forma es compacta y redondeada.",
+        "riego": "Bajo",
+        "sistema_riego": "Sin riego",
+        "imagenes": [
+            "images\/plant_26_1743778940.webp"
+        ],
+        "orden": 5
+    },
+    {
+        "num": 27,
+        "identificacion": "Agave americana\nAgave americana",
+        "zona": "Zona pérgola",
+        "estado": "La planta presenta varias hojas secas o dañadas, pero la mayoría están verdes y parecen saludables.",
+        "descripcion": "Planta suculenta de gran tamaño, con hojas lanceoladas, rígidas, de bordes espinosos y color verde con franjas amarillas. Generalmente forma una roseta compacta y es popular en jardines mediterráneos.",
+        "riego": "Medio",
+        "sistema_riego": "Sin riego",
+        "imagenes": [
+            "images\/plant_27_1743778953.webp"
+        ],
+        "orden": 6
+    },
+    {
+        "num": 28,
+        "identificacion": "Tradescantia morada\nTradescantia pallida",
+        "zona": "Zona pérgola",
+        "estado": "La planta parece sana en su mayoría, aunque se observan algunas hojas secas en las orillas.",
+        "descripcion": "Planta herbácea de hojas alargadas y puntiagudas de color morado intenso, de porte rastrero o colgante y tallos gruesos. Apropiada para macetas o jardines de bajo mantenimiento.",
+        "riego": "Medio",
+        "sistema_riego": "Sin riego",
+        "imagenes": [
+            "images\/plant_28.webp"
+        ],
+        "orden": 7
+    },
+    {
+        "num": 29,
+        "identificacion": "Lengua de suegra\nSansevieria trifasciata",
+        "zona": "Zona pérgola",
+        "estado": "La planta muestra algunas puntas secas y hojas dañadas, lo que indica posible falta de riego adecuado o exposición excesiva al sol.",
+        "descripcion": "Planta suculenta de hojas largas, erguidas y rígidas, con bandas verdes claras y oscuras, de forma lanceolada y bordes amarillos o marrones.",
+        "riego": "Medio",
+        "sistema_riego": "Sin riego",
+        "imagenes": [
+            "images\/plant_29.webp"
+        ],
+        "orden": 8
+    },
+    {
+        "num": 30,
+        "identificacion": "Áloe vera\nAloe vera",
+        "zona": "Zona pérgola",
+        "estado": "La planta muestra un buen estado de salud general. Las hojas están firmes y de color adecuado, aunque algunas puntas están ligeramente secas.",
+        "descripcion": "Planta suculenta de hojas alargadas, carnosas y puntiagudas, color verde-grisáceo con bordes ligeramente espinosos. Forma una roseta densa y puede alcanzar hasta 60 cm de altura.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_30.webp"
+        ],
+        "orden": 9
+    },
+    {
+        "num": 31,
+        "identificacion": "Yuca\nYucca elephantipes",
+        "zona": "Zona pérgola",
+        "estado": "La planta parece sana, aunque muestra algo de crecimiento leñoso en el tallo y hojas agrupadas solo en la parte superior.",
+        "descripcion": "Planta de tipo ornamental, de tallo grueso y leñoso con hojas largas, puntiagudas y verdes, dispuestas en forma de roseta en la punta del tallo.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_31.webp"
+        ],
+        "orden": 10
+    },
+    {
+        "num": 32,
+        "identificacion": "Yuca\nYucca elephantipes",
+        "zona": "Zona pérgola",
+        "estado": "La planta muestra un aspecto saludable, con hojas verdes y erectas sin signos evidentes de daño o enfermedad.",
+        "descripcion": "Planta perenne de porte arbustivo, con hojas largas, lanceoladas y puntiagudas de color verde claro, agrupadas en rosetas; tallos gruesos y verticales que pueden alcanzar varios metros de altura.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_32.webp"
+        ],
+        "orden": 11
+    },
+    {
+        "num": 33,
+        "identificacion": "Geranio citronela\nPelargonium graveolens",
+        "zona": "Zona pérgola",
+        "estado": "En flor, aspecto saludable",
+        "descripcion": "Planta aromática con flores rosadas y fragancia cítrica.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_33_1743963445.webp",
+            "images\/plant_33.webp"
+        ],
+        "orden": 12
+    },
+    {
+        "num": 34,
+        "identificacion": "Ficus elástico variegado\nFicus elastica 'Variegata'",
+        "zona": "Zona pérgola",
+        "estado": "La planta parece saludable, con hojas firmes y colores vivos. No se observan signos evidentes de plagas o enfermedades.",
+        "descripcion": "Planta arbustiva de hojas grandes, ovaladas y coriáceas; las hojas presentan un distintivo borde crema o amarillo en contraste con el centro verde intenso. Crece erguida y puede alcanzar gran tamaño si se cuida adecuadamente.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_34_1743963304.webp",
+            "images\/plant_34.webp"
+        ],
+        "orden": 13
+    },
+    {
+        "num": 35,
+        "identificacion": "Ficus elástico\nFicus elastica",
+        "zona": "Zona pérgola",
+        "estado": "La planta parece estar en estado saludable, aunque algunas hojas muestran ligeros signos de amarillamiento.",
+        "descripcion": "Planta de hojas grandes, ovaladas y gruesas, de color verde brillante con tonos rojizos en los tallos jóvenes. Crece verticalmente como arbusto y suele emplearse como planta ornamental en maceta.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_35_1743963331.webp",
+            "images\/plant_35.webp"
+        ],
+        "orden": 14
+    },
+    {
+        "num": 36,
+        "identificacion": "Rosal trepador (otro lado del arco)",
+        "zona": "Zona arco",
+        "estado": "Trepadora, vigorosa",
+        "descripcion": "Rosa trepadora que se adhiere al arco, en crecimiento.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_36_1743779056.webp"
+        ],
+        "orden": 6
+    },
+    {
+        "num": 37,
+        "identificacion": "Árbol de Jade\nCrassula ovata",
+        "zona": "Zona arco",
+        "estado": "La planta se ve sana, con hojas carnosas y coloración verde intensa, sin señales evidentes de plagas o enfermedades.",
+        "descripcion": "Planta suculenta de porte arbustivo, con hojas gruesas, ovaladas y de color verde brillante, tallos robustos y de aspecto leñoso. Suele alcanzar un tamaño medio, ideal para macetas y jardines urbanos.",
+        "riego": "Bajo",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_37.webp"
+        ],
+        "orden": 7
+    },
+    {
+        "num": 38,
+        "identificacion": "Rosal silvestre\nRosa canina",
+        "zona": "Zona arco",
+        "estado": "La planta presenta algunas hojas verdes y sanas, pero también ramas secas, lo que indica un estado de salud mixto.",
+        "descripcion": "Arbusto de tallos leñosos con espinas, hojas compuestas de pequeño tamaño y color verde claro. Tiende a formar matorrales densos con ramas entrelazadas.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_38_1743779079.webp"
+        ],
+        "orden": 8
+    },
+    {
+        "num": 39,
+        "identificacion": "Ziziphus jujuba\nAzufaifo",
+        "zona": "Zona arco",
+        "estado": "Con frutos verdes",
+        "descripcion": "Árbol frutal pequeño, de tronco grisáceo y frutos redondos.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_39_1743779012.webp"
+        ],
+        "orden": 9
+    },
+    {
+        "num": 40,
+        "identificacion": "Bougainvillea (tronco leñoso, sin flores)",
+        "zona": "Zona arco",
+        "estado": "Tronco sano, sin floración",
+        "descripcion": "Enredadera típica en climas cálidos, sin flores en esta época.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_40_1743779172.webp"
+        ],
+        "orden": 10
+    },
+    {
+        "num": 41,
+        "identificacion": "Rosa\nRosa sp.",
+        "zona": "Zona arco",
+        "estado": "La planta muestra escaso follaje y parece estar en estado de reposo o recuperación, con signos de poda reciente o posible estrés ambiental.",
+        "descripcion": "Planta arbustiva de tallos leñosos y espinosos, con hojas compuestas verdes. Es de porte medio y se cultiva comúnmente como ornamental en climas mediterráneos.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_41_1743779154.webp"
+        ],
+        "orden": 11
+    },
+    {
+        "num": 42,
+        "identificacion": "Árbol de jade\nCrassula ovata",
+        "zona": "Zona salida",
+        "estado": "La planta muestra signos de buena salud general, aunque algunas hojas tienen bordes rojizos, lo cual es común en condiciones de sol directo o falta de riego.",
+        "descripcion": "Planta suculenta de tallos gruesos, leñosos y ramificados, con hojas carnosas de forma ovalada, verde-claras y bordes rojizos. Es de tamaño mediano a grande, cultivada en maceta, habitual en climas mediterráneos.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_42.webp"
+        ],
+        "orden": 20
+    },
+    {
+        "num": 43,
+        "identificacion": "Palmito\nChamaerops humilis",
+        "zona": "Zona salida",
+        "estado": "La planta muestra buen vigor general, aunque algunas hojas presentan bordes amarillentos y puntas secas, señal de posible estrés o falta de nutrientes.",
+        "descripcion": "Palmera pequeña de crecimiento lento, hojas en forma de abanico, de color verde intenso, tallos múltiples y cortos, común en macetas y jardines mediterráneos.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_43.webp"
+        ],
+        "orden": 21
+    },
+    {
+        "num": 44,
+        "identificacion": "Palmito\nChamaerops humilis",
+        "zona": "Zona salida",
+        "estado": "La planta parece saludable en general, aunque algunas hojas presentan puntas secas y hay restos secos en la base.",
+        "descripcion": "Palma pequeña de crecimiento lento, con hojas en forma de abanico de color verde claro, tallos cortos y base gruesa. Es típica de climas mediterráneos y se adapta bien a macetas.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_44.webp"
+        ],
+        "orden": 22
+    },
+    {
+        "num": 45,
+        "identificacion": "Árbol paraguas\nSchefflera arboricola",
+        "zona": "Zona salida",
+        "estado": "La planta muestra signos de clorosis, con hojas amarillas que podrían indicar deficiencia de nutrientes o exceso de riego. Sin embargo, la mayor parte del follaje sigue siendo denso.",
+        "descripcion": "Planta arbustiva de hojas compuestas, dispuestas en forma de paraguas, de color verde claro a amarillo. Puede alcanzar un tamaño mediano y se cultiva comúnmente como ornamental en macetas o jardines.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_45.webp"
+        ],
+        "orden": 23
+    },
+    {
+        "num": 46,
+        "identificacion": "Laurel\nLaurus nobilis",
+        "zona": "Zona salida",
+        "estado": "La planta parece estar saludable, con hojas verdes y sin signos evidentes de daño o enfermedad.",
+        "descripcion": "Arbusto perenne de hojas lanceoladas, de color verde brillante y bordes lisos. Puede alcanzar varios metros de altura, y se utiliza comúnmente como planta ornamental y aromática en climas mediterráneos.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_46_1743963184.webp",
+            "images\/plant_46.webp"
+        ],
+        "orden": 24
+    },
+    {
+        "num": 47,
+        "identificacion": "Jade Variegada\nCrassula ovata 'Variegata'",
+        "zona": "Zona salida",
+        "estado": "La planta parece estar sana, con hojas firmes y colores vivos; sin embargo, la tierra parece seca y podría necesitar riego.",
+        "descripcion": "Es una planta suculenta de tallo grueso y ramificado, con hojas carnosas de borde crema y tonos verdes. De tamaño mediano, ideal para macetas y ambientes decorativos.",
+        "riego": "Bajo",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_47.webp"
+        ],
+        "orden": 25
+    },
+    {
+        "num": 48,
+        "identificacion": "Oreja de elefante\nAlocasia macrorrhizos",
+        "zona": "Zona salida",
+        "estado": "La planta muestra un color amarillento en las hojas, lo que indica una posible deficiencia de nutrientes o exceso de riego. No se observan plagas obvias.",
+        "descripcion": "Planta perenne tropical de gran tamaño con hojas grandes, acorazonadas y de bordes ondulados. El color predominante es verde claro y presenta un porte vertical llamativo.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_48.webp"
+        ],
+        "orden": 26
+    },
+    {
+        "num": 49,
+        "identificacion": "Níspero\nEriobotrya japonica",
+        "zona": "Zona salida",
+        "estado": "Sano, con brotes",
+        "descripcion": "Árbol frutal de hoja perenne, vigoroso.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_49.webp"
+        ],
+        "orden": 27
+    },
+    {
+        "num": 50,
+        "identificacion": "Dedos de muerto\nSenecio talinoides",
+        "zona": "Zona salida",
+        "estado": "La planta parece generalmente saludable, aunque tiene algunas hojas secas y un crecimiento un poco desordenado posiblemente por falta de luz o espacio.",
+        "descripcion": "Planta suculenta de porte colgante o rastrero, hojas alargadas y carnosas de color verde azulado. Crece formando tallos largos, comúnmente cultivada en maceta ornamental.",
+        "riego": "Bajo",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_50.webp"
+        ],
+        "orden": 28
+    },
+    {
+        "num": 51,
+        "identificacion": "Costilla de Adán\nMonstera deliciosa",
+        "zona": "Zona salida",
+        "estado": "La planta muestra crecimiento limitado y hojas amarillentas, posiblemente por estrés ambiental o falta de nutrientes.",
+        "descripcion": "Planta tropical de hojas grandes y recortadas, de color verde brillante, con tallos largos; cultivada frecuentemente en interiores o terrazas.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_51.webp"
+        ],
+        "orden": 29
+    },
+    {
+        "num": 52,
+        "identificacion": "Palmito\nChamaerops humilis",
+        "zona": "Zona salida",
+        "estado": "La planta parece estar sana, con hojas verdes y sin signos evidentes de plagas o enfermedades.",
+        "descripcion": "Palmera pequeña de crecimiento lento, de hojas en abanico rígidas y de color verde brillante. El tronco es corto y fibroso, y puede formar matas densas. Es común como planta ornamental en zonas mediterráneas.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_52.webp"
+        ],
+        "orden": 30
+    },
+    {
+        "num": 53,
+        "identificacion": "Naranjo\nCitrus sinensis",
+        "zona": "Zona salida",
+        "estado": "La planta muestra signos de clorosis, con hojas amarillas y puntas secas, posiblemente por deficiencia de nutrientes o problemas de riego.",
+        "descripcion": "Es un arbusto o árbol pequeño de hojas alargadas de color verde, aunque actualmente predominan tonos amarillentos. Está plantado en una maceta de tamaño mediano y sus hojas son de margen liso.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_53.webp"
+        ],
+        "orden": 31
+    },
+    {
+        "num": 54,
+        "identificacion": "Árbol de hoja caduca (posible Prunus)",
+        "zona": "Zona salida",
+        "estado": "Sin hojas, en reposo",
+        "descripcion": "Árbol en periodo invernal, pendiente de brotar.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_54.webp"
+        ],
+        "orden": 32
+    },
+    {
+        "num": 55,
+        "identificacion": "Limonero\nCitrus limon",
+        "zona": "Zona salida",
+        "estado": "La planta muestra signos de defoliación y hojas amarillas, aunque sigue produciendo frutos. Requiere atención para mejorar su salud.",
+        "descripcion": "Árbol pequeño cultivado en maceta, con hojas ovaladas, frutos grandes y amarillos (limones), ramas despejadas y tronco leñoso.",
+        "riego": "Alto",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_55.webp"
+        ],
+        "orden": 33
+    },
+    {
+        "num": 56,
+        "identificacion": "Planta de jade\nCrassula ovata",
+        "zona": "Zona salida",
+        "estado": "La planta parece estar en buen estado general, con hojas suculentas y brotes florales, aunque algunas hojas muestran leve decoloración.",
+        "descripcion": "Planta suculenta de porte arbustivo, hojas carnosas de color verde con bordes rojizos, flores pequeñas agrupadas en la parte superior; tamaño mediano y forma redondeada.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_56.webp"
+        ],
+        "orden": 34
+    },
+    {
+        "num": 57,
+        "identificacion": "Limonero\nCitrus limon",
+        "zona": "Zona salida",
+        "estado": "La planta muestra signos de estrés, con hojas amarillas y caída significativa de follaje. Parece estar sufriendo probablemente por falta de riego, nutrientes o plagas.",
+        "descripcion": "Árbol pequeño o arbusto perenne con hojas ovaladas, verdes (en este caso amarilleando) y ramas espinosas. Es común en jardines mediterráneos y suele producir frutos amarillos (limones).",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_57.webp"
+        ],
+        "orden": 35
+    },
+    {
+        "num": 58,
+        "identificacion": "Glicinia japonesa Wisteria floribunda",
+        "zona": "Zona salida",
+        "estado": "La planta parece sana, con hojas verdes y sin signos evidentes de plagas o enfermedades. No se observan daños visibles en el follaje.",
+        "descripcion": "Es una planta trepadora con hojas compuestas de color verde intenso. Actualmente presenta un crecimiento vigoroso y saludable.",
+        "riego": "Medio",
+        "sistema_riego": "Riego 1",
+        "imagenes": [
+            "images\/plant_58_1745917249.webp",
+            "images\/plant_58_1745917129.webp",
+            "images\/plant_58.webp"
+        ],
+        "orden": 36
+    },
+    {
+        "num": 60,
+        "zona": "Interior",
+        "identificacion": "Costilla de Adán\nMonstera deliciosa",
+        "descripcion": "Planta de interior ornamental de hojas grandes, verdes y brillantes, con profundas hendiduras y perforaciones características. Sus tallos son largos y trepadores, típica de ambientes cálidos y húmedos.",
+        "estado": "La planta se ve sana, con hojas verdes y brillantes, sin signos importantes de sequedad o enfermedad.",
+        "riego": "Manual",
+        "sistema_riego": "",
+        "imagenes": [
+            "images\/plant_60_1745658245.webp"
+        ],
+        "orden": 0
+    },
+    {
+        "num": 61,
+        "zona": "Interior",
+        "identificacion": "Bambú de la suerte\nDracaena sanderiana",
+        "descripcion": "Planta ornamental de tallo recto o en espiral, color verde claro, hojas alargadas y lanceoladas. Tamaño pequeño, típica para cultivos en agua en recipientes de interior.",
+        "estado": "La planta parece estar en buen estado general, con hojas verdes y sin signos evidentes de plagas o enfermedades.",
+        "riego": "",
+        "sistema_riego": "",
+        "imagenes": [
+            "images\/plant_61_1745658410.webp"
+        ],
+        "orden": 1
+    },
+    {
+        "num": 63,
+        "zona": "Zona pérgola",
+        "identificacion": "Tomatera\nSolanum lycopersicum",
+        "descripcion": "Planta herbácea anual de porte erguido, hojas compuestas y verde intenso, tallos delgados y crecimiento vertical que requiere tutores. Tamaño pequeño, en crecimiento, típica de huertos urbanos y jardines mediterráneos.",
+        "estado": "Las plantas se ven jóvenes y saludables, con hojas verdes y sin signos evidentes de plagas o enfermedades.",
+        "riego": "",
+        "sistema_riego": "",
+        "imagenes": [
+            "images\/plant_63_1748714400.webp",
+            "images\/plant_63_1748413529.webp"
+        ],
+        "orden": 15
+    },
+    {
+        "num": 64,
+        "zona": "Zona pérgola",
+        "identificacion": "Amor de hombre\nTradescantia pallida",
+        "descripcion": "Planta perenne de porte rastrero con tallos y hojas de color púrpura intenso. Las hojas son alargadas y lanceoladas, y puede desarrollar pequeñas flores rosadas o moradas.",
+        "estado": "La planta parece estar en buen estado general, con hojas firmes y coloración adecuada.",
+        "riego": "",
+        "sistema_riego": "",
+        "imagenes": [
+            "images\/plant_64_1748714055.webp"
+        ],
+        "orden": 16
+    },
+    {
+        "num": 65,
+        "zona": "Zona pérgola",
+        "identificacion": "Dedo de muerto\nSenecio talinoides",
+        "descripcion": "Planta suculenta de porte bajo, con tallos erectos y hojas alargadas, carnosas, de color azul-verdoso. Suele crecer en pequeñas matas y es muy utilizada como planta ornamental en climas mediterráneos.",
+        "estado": "La planta parece sana, con hojas firmes y de color uniforme, sin señales evidentes de plagas o enfermedades.",
+        "riego": "",
+        "sistema_riego": "",
+        "imagenes": [
+            "images\/plant_65_1748714098.webp"
+        ],
+        "orden": 17
+    },
+    {
+        "num": 66,
+        "zona": "Zona pérgola",
+        "identificacion": "Oreja de gato\nCotyledon tomentosa",
+        "descripcion": "Planta suculenta de pequeño tamaño, con hojas carnosas, oblongas, cubiertas de vello blanco y margen ligeramente lobulado. De porte rastrero y tonos verdes claros, típica de climas cálidos y secos.",
+        "estado": "La planta parece estar en estado regular, con algunas ramas alargadas y crecimiento limitado, posiblemente por falta de luz o agua.",
+        "riego": "",
+        "sistema_riego": "",
+        "imagenes": [
+            "images\/plant_66_1748714125.webp"
+        ],
+        "orden": 18
+    },
+    {
+        "num": 67,
+        "zona": "Zona pérgola",
+        "identificacion": "Peonía\nPaeonia lactiflora",
+        "descripcion": "Planta herbácea perenne con brotes jóvenes rojizos emergiendo del suelo, tallos robustos y crecimiento en forma de mata. Es común en jardines ornamentales, especialmente en climas templados.",
+        "estado": "La planta muestra brotes nuevos, lo que indica que está en fase de crecimiento inicial pero aún no plenamente desarrollada. No se observan signos evidentes de plagas ni enfermedades.",
+        "riego": "",
+        "sistema_riego": "",
+        "imagenes": [
+            "images\/plant_67_1748714147.webp"
+        ],
+        "orden": 19
+    }
+]
