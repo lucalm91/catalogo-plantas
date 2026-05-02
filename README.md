@@ -34,4 +34,4 @@ http://127.0.0.1:8000
 
 ## Persistencia
 
-La aplicación usa MySQL como fuente de datos. No hay persistencia en JSON.
+La aplicación usa MySQL como fuente de datos. No hay persistencia en JSON..
