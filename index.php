@@ -19,7 +19,7 @@ if (!isset($_SESSION['user'])): ?>
   <meta charset="UTF-8">
   <title>Bienvenido - Catálogo de Plantas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=<?php echo filemtime(__DIR__ . '/assets/styles.css'); ?>">
   <style>
     .welcome-home {
       max-width: 500px;
@@ -115,7 +115,7 @@ if (count($zonas) > 1) {
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="preload" href="images/placeholder.jpg" as="image">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=<?php echo filemtime(__DIR__ . '/assets/styles.css'); ?>">
 </head>
 <body>
   <header>
@@ -767,6 +767,6 @@ if (count($zonas) > 1) {
       <?php endif; ?>
     }); 
   </script>
-  <script src="assets/scripts.js" defer="defer"></script>
+  <script src="assets/scripts.js?v=<?php echo filemtime(__DIR__ . '/assets/scripts.js'); ?>" defer="defer"></script>
 </body>
 </html>
