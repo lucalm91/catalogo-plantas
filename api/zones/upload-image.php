@@ -8,7 +8,7 @@ app_require_user_json();
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !isset($_FILES['zone_image']) || !isset($_POST['zona'])) {
     http_response_code(400);
-    echo json_encode(['success' => false, 'error' => 'Solicitud invÃ¡lida']);
+    echo json_encode(['success' => false, 'error' => 'Solicitud inválida']);
     exit;
 }
 
@@ -38,7 +38,7 @@ try {
     $imagesDir = app_root() . '/images';
     if (!is_dir($imagesDir)) {
         if (!mkdir($imagesDir, 0755, true)) {
-            throw new Exception('No se pudo crear el directorio de imÃ¡genes');
+            throw new Exception('No se pudo crear el directorio de imágenes');
         }
     }
     

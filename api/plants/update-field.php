@@ -4,7 +4,7 @@ require_once __DIR__ . '/../../includes/app.php';
 $user = app_require_user_json();
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !isset($_POST['plant_num'], $_POST['field'], $_POST['value'])) {
-    app_json_response(['error' => 'Solicitud invÃ¡lida.'], 400);
+    app_json_response(['error' => 'Solicitud inválida.'], 400);
 }
 
 try {

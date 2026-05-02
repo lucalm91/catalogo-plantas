@@ -8,7 +8,7 @@ $zona = isset($_POST['zona']) ? (string) $_POST['zona'] : '';
 $direction = isset($_POST['direction']) ? (string) $_POST['direction'] : '';
 
 if (!$plantNum || $zona === '' || !in_array($direction, ['up', 'down'], true)) {
-    app_json_response(['success' => false, 'error' => 'Datos invÃ¡lidos'], 400);
+    app_json_response(['success' => false, 'error' => 'Datos inválidos'], 400);
 }
 
 try {
@@ -20,7 +20,7 @@ try {
     }
     $swapIdx = $direction === 'up' ? $idx - 1 : $idx + 1;
     if ($swapIdx < 0 || $swapIdx >= count($plants)) {
-        app_json_response(['success' => false, 'error' => 'No se puede mover mÃ¡s'], 400);
+        app_json_response(['success' => false, 'error' => 'No se puede mover más'], 400);
     }
     $tmp = $plants[$idx]['orden'];
     $plants[$idx]['orden'] = $plants[$swapIdx]['orden'];

@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initFullscreenViewer(); // Added for fullscreen functionality
   
   // Initialize mobile viewer with slight delay to ensure DOM is ready
-  // setTimeout(initMobileImageViewer, 500); // <-- Elimina o comenta esta lÃ­nea si no tienes la funciÃ³n
+  // setTimeout(initMobileImageViewer, 500); // <-- Elimina o comenta esta línea si no tienes la función
 });
 
 // User interface initialization
@@ -191,7 +191,7 @@ function analyzeImageWithAI(imagePath, plantNum) {
                 data = JSON.parse(text);
             } catch (e) {
                 console.error("Non-JSON response received:", text);
-                throw new Error("Respuesta invÃ¡lida del servidor (posible error PHP). revisa la consola.");
+                throw new Error("Respuesta inválida del servidor (posible error PHP). revisa la consola.");
             }
             
             if (!response.ok) {
@@ -213,7 +213,7 @@ function analyzeImageWithAI(imagePath, plantNum) {
         if (data.success && data.results) {
             showAISuggestionsDialog(data.results, plantNum);
         } else {
-            alert('Error en el anÃ¡lisis IA: ' + (data.error || 'Respuesta desconocida del servidor.'));
+            alert('Error en el análisis IA: ' + (data.error || 'Respuesta desconocida del servidor.'));
         }
     })
     .catch(error => {
@@ -225,7 +225,7 @@ function analyzeImageWithAI(imagePath, plantNum) {
         }
         }
         console.error('Error fetching AI analysis:', error);
-        alert('Error de conexiÃ³n al analizar con IA: ' + error.message);
+        alert('Error de conexión al analizar con IA: ' + error.message);
     });
 }
 
@@ -261,7 +261,7 @@ function ensureAIAnalyzeButton() {
 
     btn.onclick = function() {
         if (!currentPlantNum || !currentGallery || currentGallery.length === 0) {
-            alert("No hay imagen actual para analizar o la planta no estÃ¡ seleccionada.");
+            alert("No hay imagen actual para analizar o la planta no está seleccionada.");
             this.disabled = false; // Re-enable button if it was disabled by mistake
           const label = this.querySelector('.icon-label');
           if (label) label.textContent = 'Analizar';
@@ -269,7 +269,7 @@ function ensureAIAnalyzeButton() {
         }
         const imageToAnalyze = currentGallery[currentIndex];
         if (!imageToAnalyze) {
-            alert("La imagen seleccionada no es vÃ¡lida.");
+            alert("La imagen seleccionada no es válida.");
             this.disabled = false;
           const label = this.querySelector('.icon-label');
           if (label) label.textContent = 'Analizar';
@@ -308,7 +308,7 @@ function openDirectAIChat(plantNum) {
       </div>
     </div>
     <div id="ai-direct-chat-messages" class="ai-chat-messages" style="flex:1 1 auto;max-height:320px;min-height:120px;overflow-y:auto;padding:18px 12px 12px 12px;background:#f7faf7;scrollbar-width:thin;">
-      <div class="ai-chat-bubble ai"><span>Â¡Hola! Soy tu asistente IA. Â¿En quÃ© puedo ayudarte con <strong>${escapeHTML(plantName)}</strong>?</span></div>
+      <div class="ai-chat-bubble ai"><span>¡Hola! Soy tu asistente IA. ¿En qué puedo ayudarte con <strong>${escapeHTML(plantName)}</strong>?</span></div>
     </div>
     <form id="ai-direct-chat-form" style="display:flex;border-top:1px solid #e0e8e0;background:#f7faf7;">
       <input type="text" id="ai-direct-chat-input" placeholder="Pregunta a la IA..." autocomplete="off" style="flex:1;padding:12px 14px;font-size:15px;border:none;background:#f7faf7;">
@@ -406,7 +406,7 @@ function openDirectAIChat(plantNum) {
       thinkingBubble.remove();
       const errBubble = document.createElement('div');
       errBubble.classList.add('ai-chat-bubble', 'ai', 'error');
-      errBubble.innerHTML = '<span>Error de conexiÃ³n: ' + escapeHTML(error.toString()) + '</span>';
+      errBubble.innerHTML = '<span>Error de conexión: ' + escapeHTML(error.toString()) + '</span>';
       messagesDiv.appendChild(errBubble);
       messagesDiv.scrollTop = messagesDiv.scrollHeight;
     });
@@ -454,7 +454,7 @@ function processPlantTitles() {
     const originalText = title.textContent.trim();
     const [nombreComun, nombreCientifico] = originalText.split('\n');
     if (nombreCientifico) {
-      // Usar span en vez de <br> para evitar salto de lÃ­nea real en cards
+      // Usar span en vez de <br> para evitar salto de línea real en cards
       title.innerHTML = `<span class="nombre-comun">${nombreComun}</span><span class="nombre-cientifico" style="font-style:italic;color:#3a6b3a;font-size:13px;display:block;">${nombreCientifico}</span>`;
     } else {
       title.innerHTML = `<span class="nombre-comun">${nombreComun}</span>`;
@@ -987,9 +987,9 @@ function updateField(plantNum, field, value, force = false) {
 
 // --- START MOVED AI CHAT FUNCTIONS ---
 // --- Chat con IA ---
-let aiChatHistory = []; // Global para mantener el historial de la sesiÃ³n actual del chat
+let aiChatHistory = []; // Global para mantener el historial de la sesión actual del chat
 
-// --- AÃ±adir mensaje al chat ---
+// --- Añadir mensaje al chat ---
 function addMessageToAIChat(role, message, dialogBox) {
     const messagesDiv = dialogBox.querySelector('#ai-chat-messages');
     if (!messagesDiv) return;
@@ -1014,7 +1014,7 @@ function sendAIChatMessage(message, plantNum, dialogBox) {
 
     addMessageToAIChat('user', message, dialogBox);
 
-    // AÃ±adir "pensando..."
+    // Añadir "pensando..."
     const thinkingBubble = document.createElement('div');
     thinkingBubble.classList.add('ai-chat-bubble', 'ai');
     const thinkingSpan = document.createElement('span');
@@ -1049,7 +1049,7 @@ function sendAIChatMessage(message, plantNum, dialogBox) {
             // Actualizar historial global
             aiChatHistory.push({role: 'user', content: message});
             aiChatHistory.push({role: 'assistant', content: data.reply});
-            // Limitar historial a N mensajes (ej. Ãºltimos 20)
+            // Limitar historial a N mensajes (ej. últimos 20)
             const maxHistoryLength = 20;
             if (aiChatHistory.length > maxHistoryLength) {
                 aiChatHistory = aiChatHistory.slice(-maxHistoryLength);
@@ -1057,12 +1057,12 @@ function sendAIChatMessage(message, plantNum, dialogBox) {
         }
     })
     .catch(error => {
-        addMessageToAIChat('ai error', `Error de conexiÃ³n: ${error}`, dialogBox);
+        addMessageToAIChat('ai error', `Error de conexión: ${error}`, dialogBox);
     });
 }
 
-// --- Inicializar diÃ¡logo de chat IA ---
-// Esta funciÃ³n se llama desde showAISuggestionsDialog
+// --- Inicializar diálogo de chat IA ---
+// Esta función se llama desde showAISuggestionsDialog
 function initAIChatDialog(dialogBox, plantNum) {
     const chatContainer = dialogBox.querySelector('#ai-chat-container');
     const chatForm = dialogBox.querySelector('#ai-chat-form');
@@ -1072,11 +1072,11 @@ function initAIChatDialog(dialogBox, plantNum) {
     const chatExpandBtn = dialogBox.querySelector('#ai-chat-expand');
 
     if (!chatContainer || !chatForm || !chatInput || !messagesDiv || !chatCloseBtn || !chatExpandBtn) {
-        console.error("Elementos del chat IA no encontrados en el diÃ¡logo.");
+        console.error("Elementos del chat IA no encontrados en el diálogo.");
         return;
     }
     
-    // Limpiar historial y mensajes al iniciar un nuevo diÃ¡logo de sugerencias
+    // Limpiar historial y mensajes al iniciar un nuevo diálogo de sugerencias
     aiChatHistory = [];
     messagesDiv.innerHTML = ''; // Limpiar mensajes previos
 
@@ -1100,20 +1100,20 @@ function initAIChatDialog(dialogBox, plantNum) {
         chatContainer.classList.toggle('ai-chat-expanded', isChatExpanded);
         chatExpandBtn.innerHTML = isChatExpanded ? '&#x2923;' : '&#x2922;'; // Cambiar icono
         chatExpandBtn.title = isChatExpanded ? 'Minimizar chat' : 'Expandir chat';
-        // Forzar reflow para que el scroll funcione bien tras cambio de tamaÃ±o
+        // Forzar reflow para que el scroll funcione bien tras cambio de tamaño
         setTimeout(() => {
             if (messagesDiv) messagesDiv.scrollTop = messagesDiv.scrollHeight;
         }, 50);
     };
     
-    // AÃ±adir mensaje inicial de la IA si es necesario o deseado
-    // addMessageToAIChat('ai', 'Hola, Â¿cÃ³mo puedo ayudarte con esta planta?', dialogBox);
+    // Añadir mensaje inicial de la IA si es necesario o deseado
+    // addMessageToAIChat('ai', 'Hola, ¿cómo puedo ayudarte con esta planta?', dialogBox);
 }
 // --- END MOVED AI CHAT FUNCTIONS ---
 
-// --- DiÃ¡logo resumen de sugerencias IA ---
+// --- Diálogo resumen de sugerencias IA ---
 function showAISuggestionsDialog(ai, plantNum) {
-  // Eliminar cualquier diÃ¡logo previo
+  // Eliminar cualquier diálogo previo
   let existing = document.getElementById('ai-suggestions-dialog');
   if (existing) existing.remove();
 
@@ -1124,7 +1124,7 @@ function showAISuggestionsDialog(ai, plantNum) {
   }
 
   let html = `<h3 style="margin-top:0;">Sugerencias de la IA</h3>`;
-  // --- Thumbnail justo debajo del tÃ­tulo ---
+  // --- Thumbnail justo debajo del título ---
   if (analyzedImage) {
     html += `
       <div id="ai-analyzed-thumb" style="width:100%;display:flex;justify-content:center;margin-bottom:14px;">
@@ -1142,7 +1142,7 @@ function showAISuggestionsDialog(ai, plantNum) {
     html += `</label>`;
   }
   if (ai.descripcion) {
-    html += `<label style="display:block;margin-bottom:7px;"><input type="checkbox" name="descripcion" checked> <strong>DescripciÃ³n sugerida:</strong> <span style="color:#58a45c">${ai.descripcion}</span></label>`;
+    html += `<label style="display:block;margin-bottom:7px;"><input type="checkbox" name="descripcion" checked> <strong>Descripción sugerida:</strong> <span style="color:#58a45c">${ai.descripcion}</span></label>`;
   }
   if (ai.estado) {
     html += `<label style="display:block;margin-bottom:7px;"><input type="checkbox" name="estado" checked> <strong>Estado sugerido:</strong> <span style="color:#58a45c">${ai.estado}</span></label>`;
@@ -1176,7 +1176,7 @@ function showAISuggestionsDialog(ai, plantNum) {
     </div>
   `;
 
-  // Crear el diÃ¡logo
+  // Crear el diálogo
   const dialog = document.createElement('div');
   dialog.id = 'ai-suggestions-dialog';
   dialog.style.position = 'fixed';
@@ -1205,7 +1205,7 @@ function showAISuggestionsDialog(ai, plantNum) {
   document.body.appendChild(dialog);
 
   // --- FUNCIONES DE APLICAR CAMBIOS ---
-  // Reemplaza la funciÃ³n applyAISuggestions dentro de showAISuggestionsDialog por esta versiÃ³n robusta:
+  // Reemplaza la función applyAISuggestions dentro de showAISuggestionsDialog por esta versión robusta:
   function applyAISuggestions(selected) {
     // Aplica los cambios uno a uno y espera a que cada uno termine antes de continuar (para evitar solapamientos de escritura)
     const updates = [];
@@ -1264,7 +1264,7 @@ function showAISuggestionsDialog(ai, plantNum) {
     updates.reduce((p, fn) => p.then(fn), Promise.resolve());
   }
 
-  // Helper: versiÃ³n Promise de updateField para asegurar escritura secuencial
+  // Helper: versión Promise de updateField para asegurar escritura secuencial
   function updateFieldPromise(plantNum, field, value, force = false) {
     return new Promise((resolve, reject) => {
       fetch('api/plants/update-field.php', {
@@ -1295,7 +1295,7 @@ function showAISuggestionsDialog(ai, plantNum) {
     });
   }
 
-  // BotÃ³n aplicar (form submit)
+  // Botón aplicar (form submit)
   box.querySelector('#ai-apply-form').onsubmit = function(e) {
     e.preventDefault();
     const form = e.target;
@@ -1323,7 +1323,7 @@ function showAISuggestionsDialog(ai, plantNum) {
       if (chatContainer.style.display === 'flex') {
         const chatMessages = chatContainer.querySelector('#ai-chat-messages');
         if (chatMessages && chatMessages.children.length === 0) {
-          let saludo = "Â¡Hola! Soy tu asistente IA. ";
+          let saludo = "¡Hola! Soy tu asistente IA. ";
           if (ai.identificacion) {
             const [nombreComun, nombreCientifico] = ai.identificacion.split('\n');
             saludo += `Esta planta parece ser <strong>${escapeHTML(nombreComun)}</strong>`;
@@ -1333,7 +1333,7 @@ function showAISuggestionsDialog(ai, plantNum) {
           if (ai.descripcion) {
             saludo += escapeHTML(ai.descripcion) + ". ";
           }
-          saludo += "Â¿En quÃ© puedo ayudarte con esta planta?";
+          saludo += "¿En qué puedo ayudarte con esta planta?";
           chatMessages.innerHTML = `<div class="ai-chat-bubble ai"><span>${saludo}</span></div>`;
         }
         setTimeout(() => {
@@ -1381,7 +1381,7 @@ function showAISuggestionsDialog(ai, plantNum) {
       };
     }
   }
-  // Inicializar chat IA SIEMPRE despuÃ©s de crear el HTML
+  // Inicializar chat IA SIEMPRE después de crear el HTML
   initAIChatDialog(box, plantNum);
 }
 
@@ -1415,9 +1415,9 @@ function handleImageUpload(event) {
       updateGalleryState();
       displayCurrentImage();
       updateCardImage(currentPlantNum, data.imagen);
-      logPlantChange(currentPlantNum, "subida_imagen", "Nueva imagen aÃ±adida: " + file.name);
+      logPlantChange(currentPlantNum, "subida_imagen", "Nueva imagen añadida: " + file.name);
 
-      // --- Guardar automÃ¡ticamente la planta tras aÃ±adir la imagen ---
+      // --- Guardar automáticamente la planta tras añadir la imagen ---
       if (modalDetails && typeof updateField === "function") {
         if (modalTitle && modalTitle.innerText && modalTitle.innerText !== originalFieldValues.identificacion) {
           updateField(currentPlantNum, "identificacion", modalTitle.innerText, true);
@@ -1457,7 +1457,7 @@ function handleImageDelete() {
     alert("No hay imagen para eliminar.");
     return;
   }
-  if (!confirm("Â¿EstÃ¡s seguro de que deseas eliminar esta imagen?")) return;
+  if (!confirm("¿Estás seguro de que deseas eliminar esta imagen?")) return;
 
   var formData = new FormData();
   formData.append('plant_num', currentPlantNum);
@@ -1489,7 +1489,7 @@ function handleImageDelete() {
     }
   })
   .catch(error => {
-    alert('Error de conexiÃ³n al eliminar la imagen: ' + error.message);
+    alert('Error de conexión al eliminar la imagen: ' + error.message);
   });
 }
 
@@ -1573,7 +1573,7 @@ function fetchPlantHistory(plantNum) {
           ${isLoggedIn ? `<td>${entry.usuario || 'N/A'}</td>` : ''}
           <td>${entry.accion || 'N/A'}</td>
           <td>${entry.detalles || 'N/A'}</td>
-          ${isLoggedIn ? `<td><button class="btn-delete-log" onclick="deleteLogEntry(${plantNum}, '${entry.fecha || ''}')" title="Eliminar entrada">ðŸ—‘ï¸</button></td>` : ''}
+          ${isLoggedIn ? `<td><button class="btn-delete-log" onclick="deleteLogEntry(${plantNum}, '${entry.fecha || ''}')" title="Eliminar entrada">🗑️</button></td>` : ''}
         `;
         tbody.appendChild(row);
       });
@@ -1586,7 +1586,7 @@ function fetchPlantHistory(plantNum) {
     });
 }
 
-// AÃ±ade esta funciÃ³n global para registrar cambios en el historial (logPlantChange)
+// Añade esta función global para registrar cambios en el historial (logPlantChange)
 function logPlantChange(plantNum, accion, detalles = "", old_value = null, new_value = null) {
   const params = new URLSearchParams({
     plant_num: plantNum,
@@ -1603,7 +1603,7 @@ function logPlantChange(plantNum, accion, detalles = "", old_value = null, new_v
   })
   .then(r => r.json())
   .then(data => {
-    // Opcional: puedes refrescar el historial aquÃ­ si quieres
+    // Opcional: puedes refrescar el historial aquí si quieres
     // fetchPlantHistory(plantNum);
   })
   .catch(() => {
@@ -1614,7 +1614,7 @@ function logPlantChange(plantNum, accion, detalles = "", old_value = null, new_v
 // Eliminar entrada de historial
 function deleteLogEntry(plantNum, fecha) {
   if (!plantNum || !fecha) return;
-  if (!confirm('Â¿Eliminar esta entrada del historial?')) return;
+  if (!confirm('¿Eliminar esta entrada del historial?')) return;
 
   fetch('api/history/delete.php', {
     method: 'POST',
@@ -1786,11 +1786,11 @@ function deleteCurrentImage() {
     
     var imageToDelete = plantImages[currentImageIndex];
     if (!imageToDelete) {
-        showNotification('Imagen no vÃ¡lida', 'error');
+        showNotification('Imagen no válida', 'error');
         return;
     }
     
-    if (!confirm('Â¿EstÃ¡s seguro de que quieres eliminar esta imagen?')) {
+    if (!confirm('¿Estás seguro de que quieres eliminar esta imagen?')) {
         return;
     }
     

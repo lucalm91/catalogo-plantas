@@ -5,7 +5,7 @@ $user = app_require_user_json();
 $num = isset($_POST['num']) ? intval($_POST['num']) : 0;
 
 if (!$num) {
-    app_json_response(['success' => false, 'error' => 'NÃºmero de planta invÃ¡lido'], 400);
+    app_json_response(['success' => false, 'error' => 'Número de planta inválido'], 400);
 }
 
 try {

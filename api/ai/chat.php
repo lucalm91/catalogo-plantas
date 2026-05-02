@@ -36,7 +36,7 @@ if ($plant_num) {
 }
 
 if (!$msg) {
-    echo json_encode(['error' => 'Mensaje vacÃ­o']);
+    echo json_encode(['error' => 'Mensaje vacío']);
     exit;
 }
 
@@ -65,7 +65,7 @@ if ($image_path && file_exists($image_path)) {
 
 // Llamar a OpenAI con el mensaje y la imagen (si hay)
 try {
-    // Si usÃ³ una imagen temporal (redimensionada), recordarla para borrarla
+    // Si usó una imagen temporal (redimensionada), recordarla para borrarla
     $isTempImage = ($aiImagePath !== $image_path); 
 
     $reply = sendToOpenAI($msg, $aiImagePath, $plant_name, $history);
@@ -138,7 +138,7 @@ function sendToOpenAI($userMessage, $imagePath = null, $plantName = 'esta planta
     // But usually 'user' is the safest fallback if 'system' is rejected.
     $messages[] = [
         "role" => "user", 
-        "content" => "InstrucciÃ³n de sistema: Eres un asistente experto en plantas y jardinerÃ­a. La planta actual se llama '$plantName'. EstÃ¡s en Barcelona, EspaÃ±a (clima mediterrÃ¡neo). Proporciona respuestas concisas y Ãºtiles. Si te piden identificar una planta en una imagen, hazlo lo mejor posible."
+        "content" => "Instrucción de sistema: Eres un asistente experto en plantas y jardinería. La planta actual se llama '$plantName'. Estás en Barcelona, España (clima mediterráneo). Proporciona respuestas concisas y útiles. Si te piden identificar una planta en una imagen, hazlo lo mejor posible."
     ];
 
     // Add existing chat history

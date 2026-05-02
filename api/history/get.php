@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../../includes/app.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'GET' || !isset($_GET['plant_num'])) {
-    app_json_response(['error' => 'Solicitud invÃ¡lida.'], 400);
+    app_json_response(['error' => 'Solicitud inválida.'], 400);
 }
 
 try {

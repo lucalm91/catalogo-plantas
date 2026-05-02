@@ -22,14 +22,14 @@ register_shutdown_function(function () {
 if (!isset($_SESSION['user'])) {
     http_response_code(403);
     header('Content-Type: application/json'); 
-    echo json_encode(["success" => false, "error" => "Acceso denegado. Se requiere inicio de sesiÃ³n."]);
+    echo json_encode(["success" => false, "error" => "Acceso denegado. Se requiere inicio de sesión."]);
     exit;
 }
 
 if (!extension_loaded('curl')) {
     http_response_code(500);
     header('Content-Type: application/json');
-    echo json_encode(["success" => false, "error" => "Error del servidor: La extensiÃ³n PHP cURL no estÃ¡ instalada o habilitada. Contacta al administrador del hosting."]);
+    echo json_encode(["success" => false, "error" => "Error del servidor: La extensión PHP cURL no está instalada o habilitada. Contacta al administrador del hosting."]);
     exit;
 }
 
@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["image_path"]) && isset
     if (!$plantData) {
         http_response_code(404);
         header('Content-Type: application/json');
-        echo json_encode(["success" => false, "error" => "Planta nÃºmero " . htmlspecialchars((string) $plant_num) . " no encontrada."]);
+        echo json_encode(["success" => false, "error" => "Planta número " . htmlspecialchars((string) $plant_num) . " no encontrada."]);
         exit;
     }
     
@@ -60,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["image_path"]) && isset
         if (!@mkdir($aiImageDir, 0755, true)) {
             http_response_code(500);
             header('Content-Type: application/json');
-            echo json_encode(["success" => false, "error" => "No se pudo crear el directorio para imÃ¡genes temporales AI."]);
+            echo json_encode(["success" => false, "error" => "No se pudo crear el directorio para imágenes temporales AI."]);
             exit;
         }
     }
@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["image_path"]) && isset
         // Guard: avoid fatal memory errors on huge images
         $sizeCheck = @filesize($finalImagePath);
         if ($sizeCheck !== false && $sizeCheck > 6 * 1024 * 1024) { // 6MB
-            throw new Exception("Imagen demasiado grande para anÃ¡lisis. Reduce el tamaÃ±o o habilita GD.");
+            throw new Exception("Imagen demasiado grande para análisis. Reduce el tamaño o habilita GD.");
         }
 
         $analysis = sendImageToOpenAI($finalImagePath, $plantData);
@@ -113,14 +113,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["image_path"]) && isset
 
         http_response_code(500);
         header('Content-Type: application/json');
-        echo json_encode(["success" => false, "error" => "ExcepciÃ³n en anÃ¡lisis AI: " . $e->getMessage()]);
+        echo json_encode(["success" => false, "error" => "Excepción en análisis AI: " . $e->getMessage()]);
         exit;
     }
     
 } else {
     http_response_code(400);
     header('Content-Type: application/json');
-    echo json_encode(["success" => false, "error" => "Solicitud invÃ¡lida. Se requiere image_path y plant_num vÃ­a POST."]);
+    echo json_encode(["success" => false, "error" => "Solicitud inválida. Se requiere image_path y plant_num vía POST."]);
 }
 
 function cropAndResizeImage($sourcePath, $targetPath, $size = 512) {
@@ -215,7 +215,7 @@ function sendImageToOpenAI($imagePath, $plantData) {
     // Prevent memory fatal errors with very large files (esp. without GD)
     $imageSize = @filesize($imagePath);
     if ($imageSize !== false && $imageSize > 6 * 1024 * 1024) { // 6MB
-        throw new Exception("Imagen demasiado grande para anÃ¡lisis. Reduce el tamaÃ±o o habilita GD.");
+        throw new Exception("Imagen demasiado grande para análisis. Reduce el tamaño o habilita GD.");
     }
     // Safety check for empty or missing file
     $content = @file_get_contents($imagePath);
@@ -227,9 +227,9 @@ function sendImageToOpenAI($imagePath, $plantData) {
     $prompt = <<<PROMPT
 Analiza la imagen de la planta y responde en formato JSON con las siguientes claves:
 - "estado": Explica en una o dos frases el estado de salud actual de la planta.
-- "identificacion": Devuelve SIEMPRE dos lÃ­neas: la primera lÃ­nea el nombre comÃºn mÃ¡s probable, la segunda lÃ­nea el nombre cientÃ­fico (o subespecie) mÃ¡s probable. Si no sabes el nombre cientÃ­fico, deja la segunda lÃ­nea vacÃ­a. Ejemplo: "Rosa\nRosa sp.".
-- "descripcion": Da una breve descripciÃ³n general de la planta (tipo, forma, color, tamaÃ±o, etc.), sin valorar su estado de salud.
-Ten en cuenta que la planta estÃ¡ en Barcelona, EspaÃ±a (clima mediterrÃ¡neo, plantas ornamentales y de jardÃ­n tÃ­picas de la regiÃ³n).
+- "identificacion": Devuelve SIEMPRE dos líneas: la primera línea el nombre común más probable, la segunda línea el nombre científico (o subespecie) más probable. Si no sabes el nombre científico, deja la segunda línea vacía. Ejemplo: "Rosa\nRosa sp.".
+- "descripcion": Da una breve descripción general de la planta (tipo, forma, color, tamaño, etc.), sin valorar su estado de salud.
+Ten en cuenta que la planta está en Barcelona, España (clima mediterráneo, plantas ornamentales y de jardín típicas de la región).
 Responde SOLO el JSON, sin explicaciones ni texto adicional.
 PROMPT;
 
@@ -296,14 +296,14 @@ PROMPT;
         }
         if (!is_array($json)) {
             error_log("Failed to parse JSON from AI response: " . $aiJsonContent);
-            throw new Exception('No se pudo extraer JSON vÃ¡lido del anÃ¡lisis AI. Respuesta: ' . substr(htmlspecialchars($aiJsonContent), 0, 200));
+            throw new Exception('No se pudo extraer JSON válido del análisis AI. Respuesta: ' . substr(htmlspecialchars($aiJsonContent), 0, 200));
         }
     }
 
     // Ensure all expected keys exist, providing defaults if not.
     $estado = isset($json['estado']) ? trim($json['estado']) : "No se pudo determinar el estado.";
     $identificacion = isset($json['identificacion']) ? trim($json['identificacion']) : "No identificado.";
-    $descripcion = isset($json['descripcion']) ? trim($json['descripcion']) : "Sin descripciÃ³n.";
+    $descripcion = isset($json['descripcion']) ? trim($json['descripcion']) : "Sin descripción.";
 
     return [
         'estado' => $estado,

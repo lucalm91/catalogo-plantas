@@ -12,7 +12,7 @@ header('Content-Type: application/json');
 // Check if upload exceeded PHP limits (empty $_FILES and $_POST)
 if ($_SERVER["REQUEST_METHOD"] === "POST" && empty($_FILES) && empty($_POST)) {
     http_response_code(413);
-    echo json_encode(["error" => "El archivo es demasiado grande. MÃ¡ximo permitido: " . ini_get('upload_max_filesize')]);
+    echo json_encode(["error" => "El archivo es demasiado grande. Máximo permitido: " . ini_get('upload_max_filesize')]);
     exit;
 }
 
@@ -23,15 +23,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["nueva_imagen"]) && i
     // Check for upload errors
     if ($_FILES["nueva_imagen"]["error"] !== UPLOAD_ERR_OK) {
         $uploadErrors = [
-            UPLOAD_ERR_INI_SIZE => "El archivo excede el tamaÃ±o mÃ¡ximo permitido por el servidor (" . ini_get('upload_max_filesize') . ").",
-            UPLOAD_ERR_FORM_SIZE => "El archivo excede el tamaÃ±o mÃ¡ximo permitido por el formulario.",
-            UPLOAD_ERR_PARTIAL => "El archivo se subiÃ³ parcialmente.",
-            UPLOAD_ERR_NO_FILE => "No se seleccionÃ³ ningÃºn archivo.",
+            UPLOAD_ERR_INI_SIZE => "El archivo excede el tamaño máximo permitido por el servidor (" . ini_get('upload_max_filesize') . ").",
+            UPLOAD_ERR_FORM_SIZE => "El archivo excede el tamaño máximo permitido por el formulario.",
+            UPLOAD_ERR_PARTIAL => "El archivo se subió parcialmente.",
+            UPLOAD_ERR_NO_FILE => "No se seleccionó ningún archivo.",
             UPLOAD_ERR_NO_TMP_DIR => "Falta la carpeta temporal del servidor.",
             UPLOAD_ERR_CANT_WRITE => "No se pudo escribir el archivo en disco.",
-            UPLOAD_ERR_EXTENSION => "Una extensiÃ³n de PHP detuvo la subida.",
+            UPLOAD_ERR_EXTENSION => "Una extensión de PHP detuvo la subida.",
         ];
-        $errMsg = $uploadErrors[$_FILES["nueva_imagen"]["error"]] ?? "Error desconocido al subir el archivo (cÃ³digo " . $_FILES["nueva_imagen"]["error"] . ").";
+        $errMsg = $uploadErrors[$_FILES["nueva_imagen"]["error"]] ?? "Error desconocido al subir el archivo (código " . $_FILES["nueva_imagen"]["error"] . ").";
         http_response_code(400);
         echo json_encode(["error" => $errMsg]);
         exit;
@@ -127,7 +127,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["nueva_imagen"]) && i
     }
 
     if (app_add_plant_image($user, $plant_num, $storedPath)) {
-        // Solo mover original si GD procesÃ³ la imagen (si no, ya se moviÃ³ antes)
+        // Solo mover original si GD procesó la imagen (si no, ya se movió antes)
         if ($hasGD) {
             $originalName = "plant_{$plant_num}_{$timestamp}." . $imageFileType;
             move_uploaded_file($_FILES["nueva_imagen"]["tmp_name"], $originalsDir . $originalName);
@@ -150,5 +150,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["nueva_imagen"]) && i
 
 } else {
     http_response_code(400);
-    echo json_encode(["error" => "Solicitud invÃ¡lida."]);
+    echo json_encode(["error" => "Solicitud inválida."]);
 }

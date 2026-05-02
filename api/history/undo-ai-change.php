@@ -4,7 +4,7 @@ require_once __DIR__ . '/../../includes/app.php';
 $owner = app_require_user_json();
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !isset($_POST['plant_num'], $_POST['fecha'])) {
-    app_json_response(['error' => 'Solicitud invÃ¡lida.'], 400);
+    app_json_response(['error' => 'Solicitud inválida.'], 400);
 }
 
 try {
@@ -19,12 +19,12 @@ try {
     $stmt->execute([$owner, $plantNum, $fechaSql]);
     $log = $stmt->fetch();
     if (!$log || empty($log['old_value'])) {
-        app_json_response(['error' => 'No se encontrÃ³ el cambio para deshacer.'], 404);
+        app_json_response(['error' => 'No se encontró el cambio para deshacer.'], 404);
     }
 
     $field = match ($log['accion']) {
         'Cambio de nombre' => 'identificacion',
-        'DescripciÃ³n' => 'descripcion',
+        'Descripción' => 'descripcion',
         'Estado' => 'estado',
         'Riego' => 'riego',
         'Sistema de riego' => 'sistema_riego',
