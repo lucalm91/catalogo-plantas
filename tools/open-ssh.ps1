@@ -15,9 +15,17 @@ if (Test-Path $envPath) {
 $sshHost = $env:SSH_HOST
 $sshPort = if ($env:SSH_PORT) { $env:SSH_PORT } else { "22" }
 $sshUser = $env:SSH_USER
+$sshKeyPath = $env:SSH_KEY_PATH
 
 if (-not $sshHost -or -not $sshUser) {
   throw "Faltan SSH_HOST o SSH_USER en $envPath"
 }
 
-ssh -p $sshPort "$sshUser@$sshHost"
+$args = @("-p", $sshPort)
+if ($sshKeyPath) {
+  $expandedKeyPath = $sshKeyPath -replace '^~', $env:USERPROFILE
+  $args += @("-i", $expandedKeyPath)
+}
+$args += "$sshUser@$sshHost"
+
+ssh @args

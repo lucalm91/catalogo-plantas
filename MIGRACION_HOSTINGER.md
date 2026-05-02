@@ -1,6 +1,8 @@
-# Migración a Hostinger
+# Hostinger
 
-## 1. Contraseñas locales
+El proyecto ya usa MySQL como fuente de datos. Los antiguos JSON de plantas e historial no forman parte del runtime.
+
+## Configuración Local
 
 Edita `.env` y rellena:
 
@@ -9,9 +11,9 @@ DB_PASSWORD=PON_AQUI_TU_PASSWORD_MYSQL
 OPENAI_API_KEY=PON_AQUI_TU_API_KEY_OPENAI
 ```
 
-No pongas contraseñas en los scripts. El túnel SSH pedirá la contraseña si tu clave SSH local no autentica sola.
+No pongas contraseñas en scripts ni comandos.
 
-## 2. Abrir túnel MySQL local
+## Túnel MySQL Local
 
 Deja esta terminal abierta:
 
@@ -25,21 +27,21 @@ Esto publica la base remota de Hostinger en:
 127.0.0.1:3307
 ```
 
-## 3. Crear esquema e importar JSON
+## Instalar Esquema
 
-Con el túnel abierto y `.env` configurado:
+Solo si partes de una base vacía:
 
 ```powershell
-php .\tools\migrate-json-to-mysql.php --reset
+php .\tools\install-schema.php
 ```
 
-`--reset` vacía las tablas antes de importar. Si no quieres vaciar, ejecútalo sin esa opción.
+## Configuración En Hostinger
 
-## 4. Configuración en Hostinger
-
-Al subir el proyecto, crea un `.env` en el servidor con los valores de `.env.hostinger.example`, usando:
+El `.env` del servidor debe usar:
 
 ```ini
+APP_ENV=production
+APP_STORAGE=mysql
 DB_HOST=localhost
 DB_PORT=3306
 DB_DATABASE=u557144898_plantas
@@ -47,9 +49,7 @@ DB_USERNAME=u557144898_user_plantas
 DB_PASSWORD=tu_password_mysql
 ```
 
-## 5. SSH directo
-
-Para abrir SSH normal:
+## SSH Directo
 
 ```powershell
 .\tools\open-ssh.ps1
@@ -58,5 +58,5 @@ Para abrir SSH normal:
 Equivale a:
 
 ```powershell
-ssh -p 65002 u557144898@92.113.28.187
+ssh -i ~/.ssh/codex_hostinger_studio -p 65002 u557144898@92.113.28.187
 ```

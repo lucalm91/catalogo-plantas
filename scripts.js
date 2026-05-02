@@ -705,7 +705,7 @@ function navigateToPlant(direction) {
 function openModal(plantData) {
   // Si se pasa un número, busca en JSON (retrocompatibilidad)
   if (typeof plantData === 'number' || (typeof plantData === 'string' && !plantData.identificacion)) {
-    fetch('get_plants.php?' + new Date().getTime()) // Changed from plants.json
+    fetch('get_plants.php?' + new Date().getTime())
       .then(response => response.json())
       .then(data => {
         const plant = data.find(p => p.num == plantData);
