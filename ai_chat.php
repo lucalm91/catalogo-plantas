@@ -126,7 +126,7 @@ function cropAndResizeImage($sourcePath, $targetPath, $size = 512) {
 
 function sendToOpenAI($userMessage, $imagePath = null, $plantName = 'esta planta', $chatHistory = []) {
     $api_key = app_env('OPENAI_API_KEY');
-    if (!$api_key || str_starts_with($api_key, 'PON_AQUI')) {
+    if (app_is_placeholder($api_key)) {
         throw new Exception('Configura OPENAI_API_KEY en .env');
     }
 

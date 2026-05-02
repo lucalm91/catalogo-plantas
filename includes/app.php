@@ -52,6 +52,18 @@ function app_env(string $key, ?string $default = null): ?string
     return $value === false ? $default : $value;
 }
 
+function app_is_placeholder(?string $value): bool
+{
+    if ($value === null) {
+        return true;
+    }
+    $normalized = strtolower(trim($value));
+    return $normalized === '' ||
+        $normalized === 'change_me' ||
+        str_starts_with($normalized, 'pon_aqui') ||
+        str_starts_with($normalized, 'your_');
+}
+
 function app_current_user(): ?string
 {
     if (!isset($_SESSION['user'])) {
@@ -94,7 +106,7 @@ function app_db(): PDO
     $pass = app_env('DB_PASSWORD');
     $charset = app_env('DB_CHARSET', 'utf8mb4');
 
-    if (!$db || !$user || $pass === null || str_starts_with($pass, 'PON_AQUI')) {
+    if (app_is_placeholder($db) || app_is_placeholder($user) || app_is_placeholder($pass)) {
         throw new RuntimeException('Configura DB_DATABASE, DB_USERNAME y DB_PASSWORD en .env');
     }
 
