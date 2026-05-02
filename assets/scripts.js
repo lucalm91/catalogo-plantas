@@ -13,6 +13,10 @@ function escapeHTML(str) {
   return div.innerHTML;
 }
 
+const UI_ICONS = {
+  trash: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v5"/><path d="M14 11v5"/></svg>'
+};
+
 // DOM-ready event handler
 document.addEventListener('DOMContentLoaded', function() {
   // Core initializations
@@ -1573,7 +1577,7 @@ function fetchPlantHistory(plantNum) {
           ${isLoggedIn ? `<td>${entry.usuario || 'N/A'}</td>` : ''}
           <td>${entry.accion || 'N/A'}</td>
           <td>${entry.detalles || 'N/A'}</td>
-          ${isLoggedIn ? `<td><button class="btn-delete-log" onclick="deleteLogEntry(${plantNum}, '${entry.fecha || ''}')" title="Eliminar entrada">🗑️</button></td>` : ''}
+          ${isLoggedIn ? `<td><button class="btn-delete-log" onclick="deleteLogEntry(${plantNum}, '${entry.fecha || ''}')" title="Eliminar entrada" aria-label="Eliminar entrada">${UI_ICONS.trash}</button></td>` : ''}
         `;
         tbody.appendChild(row);
       });

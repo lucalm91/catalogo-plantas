@@ -11,6 +11,21 @@ function getImageUrl($imagePath) {
     return $imagePath . "?t=" . time();
 }
 
+function ui_icon(string $name): string {
+    $icons = [
+        'edit' => '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>',
+        'trash' => '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v5"/><path d="M14 11v5"/></svg>',
+        'arrow-up' => '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>',
+        'arrow-down' => '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>',
+        'arrow-left' => '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>',
+        'arrow-right' => '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>',
+        'image' => '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="m21 15-5-5L5 19"/></svg>',
+        'plus' => '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14"/><path d="M5 12h14"/></svg>',
+        'leaf' => '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21c0-7 4-11 9-14-7-1-13 2-16 8 3 1 5 3 7 6Z"/><path d="M12 21c0-5-3-8-8-10"/></svg>',
+    ];
+    return $icons[$name] ?? '';
+}
+
 // --- NUEVO: mostrar home de bienvenida si no está logueado ---
 if (!isset($_SESSION['user'])): ?>
 <!DOCTYPE html>
@@ -56,16 +71,31 @@ if (!isset($_SESSION['user'])): ?>
     }
     .welcome-home .btn-login:hover { background: #458a49; }
     .welcome-home .logo-plant {
-      font-size: 3.5em;
+      width: 58px;
+      height: 58px;
       margin-bottom: 18px;
-      color: #58a45c;
-      display: block;
+      color: #3f7f43;
+      background: #eaf7ea;
+      border: 1px solid rgba(88, 164, 92, 0.25);
+      border-radius: 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .welcome-home .logo-plant svg {
+      width: 30px;
+      height: 30px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
     }
   </style>
 </head>
 <body>
   <div class="welcome-home">
-    <span class="logo-plant">🌱</span>
+    <span class="logo-plant"><?php echo ui_icon('leaf'); ?></span>
     <h1>Bienvenido al Catálogo de Plantas</h1>
     <p>
       Gestiona y explora tu colección de plantas.<br>
@@ -197,14 +227,14 @@ if (count($zonas) > 1) {
         
         <?php if(isset($_SESSION['user'])): ?>
         <div class="zone-banner-controls">
-          <button class="zone-control-btn rename-zone-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Renombrar zona">✏️</button>
-          <button class="zone-control-btn delete-zone-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Eliminar zona">🗑️</button>
-          <button class="zone-control-btn move-zone-up-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Mover zona arriba" <?php if($i === 0) echo 'disabled'; ?>>⬆️</button>
-          <button class="zone-control-btn move-zone-down-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Mover zona abajo" <?php if($i === count($zonas_keys)-1) echo 'disabled'; ?>>⬇️</button>
+          <button class="zone-control-btn rename-zone-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Renombrar zona" aria-label="Renombrar zona"><?php echo ui_icon('edit'); ?></button>
+          <button class="zone-control-btn delete-zone-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Eliminar zona" aria-label="Eliminar zona"><?php echo ui_icon('trash'); ?></button>
+          <button class="zone-control-btn move-zone-up-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Mover zona arriba" aria-label="Mover zona arriba" <?php if($i === 0) echo 'disabled'; ?>><?php echo ui_icon('arrow-up'); ?></button>
+          <button class="zone-control-btn move-zone-down-btn" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Mover zona abajo" aria-label="Mover zona abajo" <?php if($i === count($zonas_keys)-1) echo 'disabled'; ?>><?php echo ui_icon('arrow-down'); ?></button>
           <form class="zone-upload-form" method="post" enctype="multipart/form-data" data-zone="<?php echo htmlspecialchars($zona); ?>" style="display:inline;">
-            <label class="zone-control-btn zone-upload-btn" title="Cambiar imagen de la zona" style="margin:0;">
+            <label class="zone-control-btn zone-upload-btn" title="Cambiar imagen de la zona" aria-label="Cambiar imagen de la zona">
               <input type="file" name="zone_image" accept="image/*" style="display:none;">
-              <span>🖼️</span>
+              <?php echo ui_icon('image'); ?>
             </label>
           </form>
         </div>
@@ -231,18 +261,18 @@ if (count($zonas) > 1) {
               </div>
               <?php if(isset($_SESSION['user'])): ?>
               <div class="plant-action-controls">
-                <button class="move-plant-left-btn" data-plant-num="<?php echo $planta['num']; ?>" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Mover planta a la izquierda" <?php if($j === 0) echo 'disabled'; ?>>&#8592;</button>
-                <button class="move-plant-right-btn" data-plant-num="<?php echo $planta['num']; ?>" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Mover planta a la derecha" <?php if($j === count($listaPlantas)-1) echo 'disabled'; ?>>&#8594;</button>
-                <button class="delete-plant-btn" data-plant-num="<?php echo $planta['num']; ?>" title="Eliminar planta">&#128465;</button>
+                <button class="move-plant-left-btn" data-plant-num="<?php echo $planta['num']; ?>" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Mover planta a la izquierda" aria-label="Mover planta a la izquierda" <?php if($j === 0) echo 'disabled'; ?>><?php echo ui_icon('arrow-left'); ?></button>
+                <button class="move-plant-right-btn" data-plant-num="<?php echo $planta['num']; ?>" data-zone="<?php echo htmlspecialchars($zona); ?>" title="Mover planta a la derecha" aria-label="Mover planta a la derecha" <?php if($j === count($listaPlantas)-1) echo 'disabled'; ?>><?php echo ui_icon('arrow-right'); ?></button>
+                <button class="delete-plant-btn" data-plant-num="<?php echo $planta['num']; ?>" title="Eliminar planta" aria-label="Eliminar planta"><?php echo ui_icon('trash'); ?></button>
               </div>
               <?php endif; ?>
             </div> <!-- End plant-item-column -->
           <?php endforeach; ?>
           <?php if(isset($_SESSION['user'])): ?>
             <div class="plant-item-column"> <!-- New wrapper for add-plant-card -->
-              <div class="plant-card add-plant-card" style="display:flex;align-items:center;justify-content:center;flex-direction:column;cursor:pointer;background:#eaf7ea;border:2px dashed #58a45c;color:#58a45c;font-size:22px;font-weight:bold;min-height:180px;" data-zone="<?php echo htmlspecialchars($zona); ?>">
-                <span style="font-size:38px;line-height:1;">+</span>
-                <span style="font-size:15px;margin-top:8px;">Añadir planta</span>
+              <div class="plant-card add-plant-card" data-zone="<?php echo htmlspecialchars($zona); ?>">
+                <span class="add-plant-icon"><?php echo ui_icon('plus'); ?></span>
+                <span class="add-plant-label">Añadir planta</span>
               </div>
             </div> <!-- End plant-item-column for add-plant-card -->
           <?php endif; ?>
@@ -496,9 +526,9 @@ if (count($zonas) > 1) {
                         <p><strong>Riego:</strong> <span class="plant-riego">${newPlantData.riego}</span> <span class="sistema-container">| <strong>Sistema:</strong> <span class="plant-sistema">${newPlantData.sistema_riego}</span></span></p>
                       </div>
                       <div class="plant-action-controls">
-                        <button class="move-plant-left-btn" data-plant-num="${newPlantData.num}" data-zone="${newPlantData.zona}" title="Mover planta a la izquierda">&#8592;</button>
-                        <button class="move-plant-right-btn" data-plant-num="${newPlantData.num}" data-zone="${newPlantData.zona}" title="Mover planta a la derecha">&#8594;</button>
-                        <button class="delete-plant-btn" data-plant-num="${newPlantData.num}" title="Eliminar planta">&#128465;</button>
+                        <button class="move-plant-left-btn" data-plant-num="${newPlantData.num}" data-zone="${newPlantData.zona}" title="Mover planta a la izquierda" aria-label="Mover planta a la izquierda"><?php echo ui_icon('arrow-left'); ?></button>
+                        <button class="move-plant-right-btn" data-plant-num="${newPlantData.num}" data-zone="${newPlantData.zona}" title="Mover planta a la derecha" aria-label="Mover planta a la derecha"><?php echo ui_icon('arrow-right'); ?></button>
+                        <button class="delete-plant-btn" data-plant-num="${newPlantData.num}" title="Eliminar planta" aria-label="Eliminar planta"><?php echo ui_icon('trash'); ?></button>
                       </div>
                     `;
                     

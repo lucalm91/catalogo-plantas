@@ -167,27 +167,40 @@ header .site-title {
 }
 
 .zone-control-btn {
-  width: 32px;
-  height: 32px;
-  border-radius: 6px;
-  background: rgba(255, 255, 255, 0.85);
-  border: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  color: #2f6f34;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  font-size: 14px;
-  transition: background 0.2s, transform 0.1s, opacity 0.2s;
-  opacity: 0.8;
+  transition: background 0.2s, transform 0.1s, opacity 0.2s, box-shadow 0.2s;
+  opacity: 0.92;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.14);
+  padding: 0;
+}
+
+.zone-control-btn svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex: 0 0 auto;
 }
 
 .zone-control-btn:hover {
-  background: rgba(255, 255, 255, 0.95);
+  background: #fff;
   opacity: 1;
-  transform: scale(1.05);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
 }
 
 .zone-control-btn:active {
@@ -201,38 +214,23 @@ header .site-title {
 }
 
 .zone-control-btn.delete-zone-btn {
-  background: rgba(217, 83, 79, 0.85);
-  color: white;
+  background: rgba(255, 242, 242, 0.95);
+  color: #c43d39;
+  border-color: rgba(217, 83, 79, 0.25);
 }
 
 .zone-control-btn.delete-zone-btn:hover {
-  background: rgba(217, 83, 79, 0.95);
+  background: #d9534f;
+  color: white;
 }
 
 .zone-upload-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255, 255, 255, 0.85);
-  border-radius: 6px;
-  width: 32px;
-  height: 32px;
-  padding: 0;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  opacity: 0.8;
-  transition: background 0.2s, opacity 0.2s, transform 0.1s;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  font-size: 14px;
+  margin: 0;
 }
 
 .zone-upload-btn:hover,
 .zone-upload-btn:focus {
-  background: rgba(255, 255, 255, 0.95);
-  opacity: 1;
-  transform: scale(1.05);
+  background: #fff;
 }
 
 .zone-upload-btn input[type="file"] { display: none; }
@@ -406,36 +404,107 @@ header .site-title {
 .plant-action-controls {
   display: flex;
   justify-content: center;
-  gap: 8px;
-  /* margin-bottom: 18px; */ /* Removed, column structure handles overall item spacing */
-  margin-top: 2px; /* Space from card above */
-  width: 100%; /* Take full width of the column */
-  padding: 5px 0; /* Optional padding */
+  gap: 6px;
+  margin-top: 6px;
+  width: 100%;
+  padding: 4px 0;
 }
 
-.btn-delete-plant {
-  /* position: absolute; */ /* No longer absolute positioning */
-  /* top: 8px; */
-  /* right: 8px; */
+.plant-action-controls button {
   background: #fff;
-  color: #d9534f;
-  border: 1px solid #d9534f;
-  border-radius: 50%;
-  width: 28px;
-  height: 28px;
+  color: #3f7f43;
+  border: 1px solid rgba(88, 164, 92, 0.28);
+  border-radius: 8px;
+  width: 32px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  font-size: 16px;
-  z-index: 2;
-  transition: background 0.15s, color 0.15s, border 0.15s;
+  padding: 0;
+  transition: background 0.15s, color 0.15s, border 0.15s, transform 0.12s;
 }
-.btn-delete-plant:hover,
-.btn-delete-plant:focus {
+
+.plant-action-controls button svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.plant-action-controls button:hover,
+.plant-action-controls button:focus {
+  background: #eaf7ea;
+  border-color: rgba(88, 164, 92, 0.45);
+  transform: translateY(-1px);
+}
+
+.plant-action-controls button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.plant-action-controls .delete-plant-btn {
+  color: #c43d39;
+  border-color: rgba(217, 83, 79, 0.25);
+}
+
+.plant-action-controls .delete-plant-btn:hover,
+.plant-action-controls .delete-plant-btn:focus {
   background: #d9534f;
   color: #fff;
-  border: 1px solid #d9534f;
+  border-color: #d9534f;
+}
+
+.add-plant-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  background: #f6fbf6;
+  border: 1px dashed rgba(88, 164, 92, 0.55);
+  color: #3f7f43;
+  min-height: 180px;
+  gap: 10px;
+  transition: background 0.18s, border-color 0.18s, transform 0.12s;
+}
+
+.add-plant-card:hover,
+.add-plant-card:focus {
+  background: #eaf7ea;
+  border-color: #58a45c;
+  transform: translateY(-1px);
+}
+
+.add-plant-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid rgba(88, 164, 92, 0.22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-plant-icon svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.add-plant-label {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 /* ---------- Contenteditable Styles ---------- */
@@ -844,7 +913,6 @@ input[type="file"].hidden-input { display: none; }
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 17px;
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -855,6 +923,17 @@ input[type="file"].hidden-input { display: none; }
   transition: background 0.15s;
   color: #58a45c;
   vertical-align: middle;
+}
+
+.btn-delete-log svg,
+.btn-undo-ai-log svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 .btn-delete-log:hover,
 .btn-undo-ai-log:hover {
@@ -874,7 +953,10 @@ input[type="file"].hidden-input { display: none; }
   #history-table th:nth-child(4),
   #history-table td:nth-child(4) { max-width: 80px; }
   .btn-delete-log,
-  .btn-undo-ai-log { font-size: 15px; width: 22px; height: 22px; }
+  .btn-undo-ai-log { width: 22px; height: 22px; }
+
+  .btn-delete-log svg,
+  .btn-undo-ai-log svg { width: 13px; height: 13px; }
 }
 
 /* ---------- Scroll Indicator Styling ---------- */
@@ -1395,6 +1477,11 @@ input[type="file"].hidden-input { display: none; }
   position: relative;
   padding: 4px 8px;
   gap: 2px;
+}
+.icon-btn.minimal-btn svg {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
 }
 .icon-btn.minimal-btn:last-child { margin-right: 0; }
 .icon-btn.minimal-btn:hover,
