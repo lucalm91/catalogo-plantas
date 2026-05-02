@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', 0);
 error_reporting(E_ALL);
-session_start();
+require_once __DIR__ . '/includes/app.php';
 
 // Catch fatal errors and return JSON instead of empty 500
 register_shutdown_function(function () {
@@ -17,23 +17,6 @@ register_shutdown_function(function () {
         ]);
     }
 });
-
-// Function to get user-specific plants file
-function getUserPlantsFile() {
-    if (isset($_SESSION['user'])) {
-        $user = preg_replace('/[^a-zA-Z0-9_\-]/', '', $_SESSION['user']);
-        $file = __DIR__ . "/plants_$user.json"; 
-        if (file_exists($file)) return $file;
-        
-        // If user-specific file doesn't exist, check for default plants.json
-        // This behavior might need adjustment based on whether a user file *must* exist
-        // or if falling back to a global plants.json is acceptable for analysis.
-        // For now, if plants_user.json is missing, we'll flag it as an error later.
-        return $file; 
-    }
-    // Fallback if no user session (though primary auth check should prevent this)
-    return __DIR__ . "/plants.json"; 
-}
 
 // Authentication Check
 if (!isset($_SESSION['user'])) {
@@ -61,39 +44,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["image_path"]) && isset
         exit;
     }
     
-    $jsonFile = getUserPlantsFile();
-    if (!file_exists($jsonFile)) {
-        http_response_code(404);
-        header('Content-Type: application/json');
-        echo json_encode(["success" => false, "error" => "Archivo de plantas del usuario no encontrado: " . htmlspecialchars(basename($jsonFile))]);
-        exit;
-    }
-
-    $file_content = @file_get_contents($jsonFile);
-    if ($file_content === false) {
-        http_response_code(500);
-        header('Content-Type: application/json');
-        echo json_encode(["success" => false, "error" => "No se pudo leer el archivo de plantas: " . htmlspecialchars(basename($jsonFile))]);
-        exit;
-    }
-    
-    $data = json_decode($file_content, true);
-    if (!is_array($data)) {
-        $data = []; // Treat invalid JSON as empty to prevent further errors
-    }
-
-    $plantData = null;
-    foreach ($data as $planta) {
-        if (isset($planta['num']) && $planta['num'] == $plant_num) {
-            $plantData = $planta;
-            break;
-        }
-    }
+    $owner = app_current_user();
+    $plantData = $owner ? app_fetch_plant($owner, $plant_num) : null;
     
     if (!$plantData) {
         http_response_code(404);
         header('Content-Type: application/json');
-        echo json_encode(["success" => false, "error" => "Planta número " . htmlspecialchars($plant_num) . " no encontrada en " . htmlspecialchars(basename($jsonFile)) . "."]);
+        echo json_encode(["success" => false, "error" => "Planta número " . htmlspecialchars((string) $plant_num) . " no encontrada."]);
         exit;
     }
     
@@ -233,7 +190,10 @@ function cropAndResizeImage($sourcePath, $targetPath, $size = 512) {
 }
 
 function sendImageToOpenAI($imagePath, $plantData) {
-    $api_key = "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"; // User's API key
+    $api_key = app_env('OPENAI_API_KEY');
+    if (!$api_key || str_starts_with($api_key, 'PON_AQUI')) {
+        throw new Exception('Configura OPENAI_API_KEY en .env');
+    }
     $imageData = base64_encode(file_get_contents($imagePath));
 
     // Determine mime type

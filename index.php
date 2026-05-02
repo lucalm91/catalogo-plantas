@@ -3,22 +3,9 @@ session_start();
 header("Cache-Control: no-store, must-revalidate");
 header("Pragma: no-cache");
 header("Expires: 0");
+require_once __DIR__ . '/includes/app.php';
 
 // --- NUEVO: función para obtener el archivo de plantas del usuario ---
-function getUserPlantsFile() {
-    if (isset($_SESSION['user'])) {
-        $user = preg_replace('/[^a-zA-Z0-9_\-]/', '', $_SESSION['user']);
-        $file = "plants_$user.json";
-        if (file_exists($file)) return $file;
-        // Si no existe, crea una copia inicial desde plants.json
-        if (file_exists("plants.json")) {
-            copy("plants.json", $file);
-            return $file;
-        }
-    }
-    return "plants.json";
-}
-
 // Add missing getImageUrl function
 function getImageUrl($imagePath) {
     return $imagePath . "?t=" . time();
@@ -91,12 +78,13 @@ if (!isset($_SESSION['user'])): ?>
 <?php exit; endif;
 
 // --- SOLO SI ESTÁ LOGUEADO SE MUESTRA EL CATÁLOGO ---
-$userPlantsFile = getUserPlantsFile();
-function cargarPlantas($file) {
-    $json = file_get_contents($file);
-    return json_decode($json, true);
+try {
+    $plantas = app_fetch_plants(app_current_user());
+} catch (Throwable $e) {
+    http_response_code(500);
+    echo "<h1>Error de base de datos</h1><p>" . htmlspecialchars($e->getMessage()) . "</p>";
+    exit;
 }
-$plantas = cargarPlantas($userPlantsFile);
 
 // --- NUEVO: obtener zonas dinámicamente según usuario ---
 // Restaurar la lógica para Luca: mostrar siempre todas las zonas presentes en el JSON, incluyendo "Huerta" si hay plantas ahí.

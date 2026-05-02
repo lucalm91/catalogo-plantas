@@ -1,115 +1,59 @@
 <?php
-session_start();
-if (!isset($_SESSION['user'])) {
-    http_response_code(403);
-    echo json_encode(["error" => "Acceso denegado."]);
-    exit;
+require_once __DIR__ . '/includes/app.php';
+
+$owner = app_require_user_json();
+
+if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !isset($_POST['plant_num'], $_POST['fecha'])) {
+    app_json_response(['error' => 'Solicitud inválida.'], 400);
 }
 
-if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["plant_num"]) && isset($_POST["fecha"])) {
-    $plant_num = intval($_POST["plant_num"]);
-    $fecha = $_POST["fecha"];
-    $jsonFile = "plants.json";
-    $historyDir = "history/";
-    $historyFile = $historyDir . "plant_history.json";
+try {
+    $plantNum = intval($_POST['plant_num']);
+    $fecha = (string) $_POST['fecha'];
+    $date = DateTime::createFromFormat('d/m/Y H:i', $fecha);
+    $fechaSql = $date ? $date->format('Y-m-d H:i:s') : $fecha;
 
-    if (!file_exists($historyFile)) {
-        echo json_encode(["error" => "Archivo de historial no encontrado."]);
-        exit;
-    }
-    $history = json_decode(file_get_contents($historyFile), true);
-    $plants = json_decode(file_get_contents($jsonFile), true);
-
-    // Buscar la entrada por fecha y old_value
-    $log = null;
-    for ($i = count($history) - 1; $i >= 0; $i--) {
-        $entry = $history[$i];
-        $entryDate = isset($entry['fecha']) ? $entry['fecha'] : '';
-        $formattedDate = '';
-        if ($entryDate) {
-            $timestamp = strtotime($entryDate);
-            if ($timestamp) {
-                $formattedDate = date('d/m/Y H:i', $timestamp);
-            }
-        }
-        if ($entry['plant_num'] == $plant_num && ($entry['fecha'] == $fecha || $formattedDate == $fecha)) {
-            if (
-                (isset($entry['old_value']) && $entry['old_value'] !== null && $entry['old_value'] !== '') &&
-                (isset($entry['accion']) && $entry['accion'])
-            ) {
-                $log = $entry;
-                break;
-            }
-        }
-    }
-    if (!$log) {
-        echo json_encode(["error" => "No se encontró el cambio para deshacer."]);
-        exit;
+    $stmt = app_db()->prepare(
+        'SELECT * FROM plant_history WHERE owner = ? AND plant_num = ? AND fecha = ? ORDER BY id DESC LIMIT 1'
+    );
+    $stmt->execute([$owner, $plantNum, $fechaSql]);
+    $log = $stmt->fetch();
+    if (!$log || empty($log['old_value'])) {
+        app_json_response(['error' => 'No se encontró el cambio para deshacer.'], 404);
     }
 
-    // Restaurar el campo
-    $field = null;
-    switch ($log['accion']) {
-        case 'Cambio de nombre': $field = 'identificacion'; break;
-        case 'Descripción': $field = 'descripcion'; break;
-        case 'Estado': $field = 'estado'; break;
-        case 'Riego': $field = 'riego'; break;
-        case 'Sistema de riego': $field = 'sistema_riego'; break;
-        // Permitir también deshacer de "Deshacer ..." (cadenas que empiezan por "Deshacer ")
-        default:
-            if (strpos($log['accion'], 'Deshacer ') === 0) {
-                $accionBase = trim(str_replace('Deshacer', '', $log['accion']));
-                if ($accionBase === 'Cambio de nombre') $field = 'identificacion';
-                elseif ($accionBase === 'Descripción') $field = 'descripcion';
-                elseif ($accionBase === 'Estado') $field = 'estado';
-                elseif ($accionBase === 'Riego') $field = 'riego';
-                elseif ($accionBase === 'Sistema de riego') $field = 'sistema_riego';
-            }
-    }
+    $field = match ($log['accion']) {
+        'Cambio de nombre' => 'identificacion',
+        'Descripción' => 'descripcion',
+        'Estado' => 'estado',
+        'Riego' => 'riego',
+        'Sistema de riego' => 'sistema_riego',
+        default => null,
+    };
+
     if (!$field) {
-        echo json_encode(["error" => "Campo no permitido para deshacer."]);
-        exit;
+        app_json_response(['error' => 'Campo no permitido para deshacer.'], 400);
     }
-    $restored = false;
-    foreach ($plants as &$planta) {
-        if ($planta['num'] == $plant_num) {
-            $planta[$field] = $log['old_value'];
-            $restored = true;
-            break;
-        }
-    }
-    if (!$restored) {
-        echo json_encode(["error" => "No se pudo restaurar el valor anterior."]);
-        exit;
-    }
-    // Guardar el cambio en plants.json
-    file_put_contents($jsonFile, json_encode($plants, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 
-    // Registrar el deshacer en el historial
-    $history[] = [
-        "plant_num" => $plant_num,
-        "fecha" => date("Y-m-d H:i:s"),
-        "usuario" => $_SESSION['user'],
-        "accion" => "Deshacer " . $log['accion'],
-        "detalles" => "Restaurado a: '" . resumen($log['old_value']) . "'",
-        "old_value" => $log['new_value'],
-        "new_value" => $log['old_value']
-    ];
-    file_put_contents($historyFile, json_encode($history, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    if (!app_update_plant_field($owner, $plantNum, $field, (string) $log['old_value'])) {
+        app_json_response(['error' => 'No se pudo restaurar el valor anterior.'], 404);
+    }
 
-    // Devolver el valor restaurado y el campo para que el frontend lo actualice
-    echo json_encode([
-        "success" => true,
-        "restored_field" => $field,
-        "restored_value" => $log['old_value']
+    app_add_history(
+        $owner,
+        $plantNum,
+        (string) $_SESSION['user'],
+        'Deshacer ' . $log['accion'],
+        "Restaurado a: '" . app_summary((string) $log['old_value']) . "'",
+        isset($log['new_value']) ? (string) $log['new_value'] : null,
+        (string) $log['old_value']
+    );
+
+    app_json_response([
+        'success' => true,
+        'restored_field' => $field,
+        'restored_value' => $log['old_value'],
     ]);
-} else {
-    http_response_code(400);
-    echo json_encode(["error" => "Solicitud inválida."]);
+} catch (Throwable $e) {
+    app_json_response(['error' => $e->getMessage()], 500);
 }
-
-function resumen($txt) {
-    $txt = trim(str_replace(["\n","\r"], " ", $txt));
-    return mb_strlen($txt) > 60 ? mb_substr($txt,0,57).'…' : $txt;
-}
-?>

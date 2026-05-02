@@ -1,5 +1,5 @@
 <?php
-session_start();
+require_once __DIR__ . '/includes/app.php';
 header('Content-Type: application/json');
 
 if (!isset($_SESSION['user'])) {
@@ -7,22 +7,6 @@ if (!isset($_SESSION['user'])) {
     echo json_encode(['error' => 'No autorizado']);
     exit;
 }
-
-// Function to get user-specific plants file
-function getUserPlantsFileChat() {
-    if (isset($_SESSION['user'])) {
-        $user = preg_replace('/[^a-zA-Z0-9_\-]/', '', $_SESSION['user']);
-        $file = __DIR__ . "/plants_$user.json";
-        if (file_exists($file)) return $file;
-        // Fallback or copy logic if needed, similar to other files
-        if (file_exists(__DIR__ . "/plants.json")) {
-             // Optionally copy or just use as a read-only fallback if appropriate
-            return __DIR__ . "/plants.json";
-        }
-    }
-    return __DIR__ . "/plants.json"; // Default fallback
-}
-
 
 $msg = trim($_POST['message'] ?? '');
 $plant_num = trim($_POST['plant_num'] ?? '');
@@ -38,21 +22,14 @@ $image_path = '';
 $plant_name = 'esta planta';
 
 if ($plant_num) {
-    $userPlantsFile = getUserPlantsFileChat();
-    if (file_exists($userPlantsFile)) {
-        $plants_data = json_decode(file_get_contents($userPlantsFile), true);
-        if (is_array($plants_data)) {
-            foreach ($plants_data as $p) {
-                if (isset($p['num']) && $p['num'] == $plant_num) {
-                    if (!empty($p['imagenes']) && file_exists($p['imagenes'][0])) {
-                        $image_path = $p['imagenes'][0];
-                    }
-                    if (!empty($p['identificacion'])) {
-                        $plant_name = explode("\n", $p['identificacion'])[0]; // Get common name
-                    }
-                    break;
-                }
-            }
+    $owner = app_current_user();
+    $p = $owner ? app_fetch_plant($owner, (int) $plant_num) : null;
+    if ($p) {
+        if (!empty($p['imagenes']) && file_exists($p['imagenes'][0])) {
+            $image_path = $p['imagenes'][0];
+        }
+        if (!empty($p['identificacion'])) {
+            $plant_name = explode("\n", $p['identificacion'])[0];
         }
     }
 }
@@ -148,7 +125,10 @@ function cropAndResizeImage($sourcePath, $targetPath, $size = 512) {
 }
 
 function sendToOpenAI($userMessage, $imagePath = null, $plantName = 'esta planta', $chatHistory = []) {
-    $api_key = "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"; // User's API key
+    $api_key = app_env('OPENAI_API_KEY');
+    if (!$api_key || str_starts_with($api_key, 'PON_AQUI')) {
+        throw new Exception('Configura OPENAI_API_KEY en .env');
+    }
 
     $messages = [];
 

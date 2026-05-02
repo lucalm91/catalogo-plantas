@@ -1,0 +1,4 @@
+.env
+*.log
+images/ai_temp_*.webp
+images/ai_chat_temp_*.webp

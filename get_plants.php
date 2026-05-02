@@ -1,24 +1,12 @@
 <?php
-// filepath: \\synology_ds220\web\home-dashboard\plantas\get_plants.php
-session_start();
-header('Content-Type: application/json');
+require_once __DIR__ . '/includes/app.php';
 
-function getUserPlantsFile() {
-    if (isset($_SESSION['user'])) {
-        $user = preg_replace('/[^a-zA-Z0-9_\-]/', '', $_SESSION['user']);
-        $file = "plants_$user.json";
-        if (file_exists($file)) return $file;
-        if (file_exists("plants.json")) return "plants.json";
+try {
+    $owner = app_current_user();
+    if (!$owner) {
+        app_json_response([]);
     }
-    return "plants.json";
+    app_json_response(app_fetch_plants($owner));
+} catch (Throwable $e) {
+    app_json_response(['error' => $e->getMessage()], 500);
 }
-
-$jsonFile = getUserPlantsFile();
-if (!file_exists($jsonFile)) {
-    echo json_encode([]);
-    exit;
-}
-
-$data = file_get_contents($jsonFile);
-echo $data !== false ? $data : '[]';
-?>

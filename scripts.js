@@ -926,6 +926,7 @@ function displayCurrentImage() {
 function updateField(plantNum, field, value, force = false) {
   // No registrar en historial si el valor no cambia
   if (!force && originalFieldValues[field] === value) return;
+  const previousValue = originalFieldValues[field];
 
   fetch('update_field.php', {
     method: 'POST',
@@ -938,8 +939,6 @@ function updateField(plantNum, field, value, force = false) {
       alert("Error: " + data.error);
       return;
     }
-
-    originalFieldValues[field] = value;
 
     document.querySelectorAll(`.plant-card[data-plant-num="${plantNum}"]`).forEach(card => {
       switch(field) {
@@ -978,7 +977,7 @@ function updateField(plantNum, field, value, force = false) {
 
     // Log changes with old and new values for specific fields
     if (['identificacion', 'estado', 'descripcion'].includes(field)) {
-      logPlantChange(plantNum, field, "", originalFieldValues[field], value);
+      logPlantChange(plantNum, field, "", previousValue, value);
     } else {
       logPlantChange(plantNum, field, value);
     }

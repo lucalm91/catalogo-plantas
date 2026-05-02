@@ -6,7 +6,7 @@ set_error_handler(function($severity, $message, $file, $line) {
     throw new ErrorException($message, 0, $severity, $file, $line);
 });
 
-session_start();
+require_once __DIR__ . '/includes/app.php';
 header('Content-Type: application/json');
 
 // Check if upload exceeded PHP limits (empty $_FILES and $_POST)
@@ -16,24 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && empty($_FILES) && empty($_POST)) {
     exit;
 }
 
-if (!isset($_SESSION['user'])) {
-    http_response_code(403);
-    echo json_encode(["error" => "Acceso denegado."]);
-    exit;
-}
-
-// --- NUEVO: archivo de plantas por usuario ---
-$user = preg_replace('/[^a-zA-Z0-9_\-]/', '', $_SESSION['user']);
-$jsonFile = "plants_$user.json";
-if (!file_exists($jsonFile)) {
-    if (file_exists("plants.json")) {
-        copy("plants.json", $jsonFile);
-    } else {
-        http_response_code(404);
-        echo json_encode(["error" => "No se encuentra el archivo de plantas"]);
-        exit;
-    }
-}
+$user = app_require_user_json();
 
 if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["nueva_imagen"]) && isset($_POST["plant_num"])) {
 
@@ -141,19 +124,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["nueva_imagen"]) && i
         }
     }
 
-    $data = json_decode(file_get_contents($jsonFile), true);
-    $found = false;
-    foreach ($data as &$planta) {
-        if ($planta['num'] == $plant_num) {
-            if (!isset($planta['imagenes']) || !is_array($planta['imagenes'])) $planta['imagenes'] = [];
-            array_unshift($planta['imagenes'], $targetFile);
-            $found = true;
-            break;
-        }
-    }
-
-    if ($found) {
-        file_put_contents($jsonFile, json_encode($data, JSON_PRETTY_PRINT));
+    if (app_add_plant_image($user, $plant_num, $targetFile)) {
         // Solo mover original si GD procesó la imagen (si no, ya se movió antes)
         if ($hasGD) {
             $originalName = "plant_{$plant_num}_{$timestamp}." . $imageFileType;
